@@ -68,8 +68,8 @@ MAKEINFO = @MAKEINFO@
 PACKAGE = @PACKAGE@
 VERSION = @VERSION@
 
-HTKLIB  = HTKLib
-HLMLIB  = HLMLib
+HTKLIB = HTKLib
+HLMLIB = HLMLib
 HTKTOOLS = HTKTools
 HLMTOOLS = HLMTools
 LVREC = HTKLVRec
@@ -94,15 +94,15 @@ GZIP_ENV = --best
 all: htktools hlmtools
 $(HTKLIB)/HTKLib.a:
 	(cd $(HTKLIB) && $(MAKE) HTKLib.a) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
 htklib: $(HTKLIB)/HTKLib.a
 $(HTKLIB)/HTKLiblv.a:
 	(cd $(HTKLIB) && $(MAKE) HTKLiblv.a) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
 htkliblv: $(HTKLIB)/HTKLiblv.a
 $(HLMLIB)/HLMLib.a:
 	(cd $(HLMLIB) && $(MAKE) all) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
 hlmlib: $(HLMLIB)/HLMLib.a
 htktools: $(HTKLIB)/HTKLib.a
 	(cd $(HTKTOOLS) && $(MAKE) all) \
@@ -134,14 +134,14 @@ install-book: book
 clean:
 	/bin/rm -f *~
 	@for dir in $(SUBDIRS); do \
-	  (cd $$dir && $(MAKE) clean) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac; \
+	(cd $$dir && $(MAKE) clean) \
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac; \
 	done && test -z "$$fail"
 distclean: clean
 	/bin/rm -f Makefile config.h config.status config.cache config.log
 	@for dir in $(SUBDIRS); do \
-	  (cd $$dir && $(MAKE) distclean) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac; \
+	(cd $$dir && $(MAKE) distclean) \
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac; \
 	done && test -z "$$fail"
 
 install: install-htktools install-hlmtools

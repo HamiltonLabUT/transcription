@@ -32,14 +32,15 @@ def compare_text(text_file1, text_file2):
 		arr1 = list(map(str.split, f))
 		t1 = list(itertools.chain.from_iterable(arr1)) 
 		print("Getting rid of punctuation and setting all words to uppercase")
-		t1 = [t.upper().translate(t.maketrans('','',string.punctuation)) for t in t1 if t!='{NS}' and t!='{BR}']
+		t1 = [t.upper().translate(t.maketrans('','', [string.punctuation,'’'])) for t in t1 if t!='{NS}' and t!='{BR}']
 
 	with open(text_file2) as f:
 		print("Loading data from %s"%(text_file2))
 		arr2 = list(map(str.split, f))
 		t2 = list(itertools.chain.from_iterable(arr2))
 		print("Getting rid of punctuation and setting all words to uppercase")
-		t2 = [t.upper().translate(t.maketrans('','', string.punctuation)) for t in t2 if t!='{NS}' and t!='{BR}']
+		t2 = [t.upper().translate(t.maketrans('','', [string.punctuation, '’'])) for t in t2 if t!='{NS}' and t!='{BR}']
+                
 
 	# Find the maximum length of the longest word in file1
 	len1=0

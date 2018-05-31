@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd htk
-./configure
+./configure --prefix=$HOME
 
 make all
 make install

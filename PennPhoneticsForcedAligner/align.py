@@ -235,10 +235,9 @@ def getopt2(name, opts, default = None) :
     return value[0]
 
 if __name__ == '__main__':
-    
-    try:
-        opts, args = getopt.getopt(sys.argv[1:], "r:s:e:", ["model="])
-        
+    opts, args = getopt.getopt(sys.argv[1:], "r:s:e:", ["model="])
+
+    try:   
         # get the three mandatory arguments
         if len(args) != 3 :
             raise ValueError("Specify wavefile, a transcript file, and an output file!")
@@ -314,4 +313,3 @@ if __name__ == '__main__':
 
     # output the alignment as a Praat TextGrid
     writeTextGrid(outfile, readAlignedMLF(output_mlf, SR, float(wave_start)))
-

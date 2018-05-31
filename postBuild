@@ -4,4 +4,6 @@ cd htk
 ./configure --prefix=$HOME
 
 make all
+
+awk 'FNR>=77 && FNR<=78' Makefile
 make install

@@ -234,9 +234,47 @@ def getopt2(name, opts, default = None) :
         return default
     return value[0]
 
+def main(wavfile,  trsfile, outfile, mypath, word_dictionary="./tmp/dict", sr_override=None, input_mlf='./tmp/tmp.mlf', output_mlf='./tmp/aligned.mlf', wave_start="0.0", wave_end=None, surround_token="sp", between_token="sp", hmmsubdir="FROM-SR"):
+    
+    print(mypath)
+    # create working directory
+    prep_working_directory()
+    
+    # create ./tmp/dict by concatening our dict with a local one
+    if os.path.exists("dict.local"):
+        os.system("cat " + mypath + "/dict dict.local > " + word_dictionary)
+    else:
+        os.system("cat " + mypath + "/dict > " + word_dictionary)
+    
+    #prepare wavefile: do a resampling if necessary
+    tmpwav = "./tmp/sound.wav"
+    SR = prep_wav(wavfile, tmpwav, sr_override, wave_start, wave_end)
+    
+    if hmmsubdir == "FROM-SR" :
+        hmmsubdir = "/" + str(SR)
+    
+    #prepare mlfile
+    prep_mlf(trsfile, input_mlf, word_dictionary, surround_token, between_token)
+ 
+    #prepare scp files
+    prep_scp(tmpwav)
+    
+    # generate the plp file using a given configuration file for HCopy
+    create_plp(mypath + hmmsubdir + '/config')
+    
+    # run Verterbi decoding
+    #print "Running HVite..."
+    mpfile = mypath + '/monophones'
+    if not os.path.exists(mpfile) :
+        mpfile = mypath + '/hmmnames'
+    viterbi(input_mlf, word_dictionary, output_mlf, mpfile, mypath + hmmsubdir)
+
+    # output the alignment as a Praat TextGrid
+    writeTextGrid(outfile, readAlignedMLF(output_mlf, SR, float(wave_start)))
+
+sr_models = [8000, 11025, 16000]
 if __name__ == '__main__':
     opts, args = getopt.getopt(sys.argv[1:], "r:s:e:", ["model="])
-
     try:   
         # get the three mandatory arguments
         if len(args) != 3 :
@@ -272,44 +310,12 @@ if __name__ == '__main__':
         # the signal must be resampled to one of these rates.
         sr_models = [8000, 11025, 16000]
     
+    print(hmmsubdir)
     if sr_override != None and sr_models != None and not sr_override in sr_models :
         raise ValueError("invalid sample rate: not an acoustic model available")
         
     word_dictionary = "./tmp/dict"
     input_mlf = './tmp/tmp.mlf'
     output_mlf = './tmp/aligned.mlf'
-    
-    # create working directory
-    prep_working_directory()
-    
-    # create ./tmp/dict by concatening our dict with a local one
-    if os.path.exists("dict.local"):
-        os.system("cat " + mypath + "/dict dict.local > " + word_dictionary)
-    else:
-        os.system("cat " + mypath + "/dict > " + word_dictionary)
-    
-    #prepare wavefile: do a resampling if necessary
-    tmpwav = "./tmp/sound.wav"
-    SR = prep_wav(wavfile, tmpwav, sr_override, wave_start, wave_end)
-    
-    if hmmsubdir == "FROM-SR" :
-        hmmsubdir = "/" + str(SR)
-    
-    #prepare mlfile
-    prep_mlf(trsfile, input_mlf, word_dictionary, surround_token, between_token)
- 
-    #prepare scp files
-    prep_scp(tmpwav)
-    
-    # generate the plp file using a given configuration file for HCopy
-    create_plp(mypath + hmmsubdir + '/config')
-    
-    # run Verterbi decoding
-    #print "Running HVite..."
-    mpfile = mypath + '/monophones'
-    if not os.path.exists(mpfile) :
-        mpfile = mypath + '/hmmnames'
-    viterbi(input_mlf, word_dictionary, output_mlf, mpfile, mypath + hmmsubdir)
 
-    # output the alignment as a Praat TextGrid
-    writeTextGrid(outfile, readAlignedMLF(output_mlf, SR, float(wave_start)))
+    main(wavfile, trsfile, outfile, mypath, word_dictionary, sr_override, input_mlf, output_mlf, wave_start, wave_end, surround_token, between_token, hmmsubdir)

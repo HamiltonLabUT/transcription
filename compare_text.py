@@ -40,14 +40,19 @@ def compare_text(text_file1, text_file2):
 		t2 = list(itertools.chain.from_iterable(arr2))
 		print("Getting rid of punctuation and setting all words to uppercase")
 		t2 = [t.upper().translate(t.maketrans('','', string.punctuation+'’')) for t in t2 if t!='{NS}' and t!='{BR}']
-                
-
+				
+	print("\n")
 	# Find the maximum length of the longest word in file1
 	len1=0
 	for t in t1:
 		if len(t)>len1:
 			len1 = len(t)
-	
+	offset = " "*(len1 - len(text_file1[-6:]))
+	print(text_file1[-6:] + offset + "\t|\t" + text_file2[-6:])
+	print("----------------------------------")
+
+	# Initialize non-matches
+	non_match = 0.
 
 	# If the left side of the table is going to be longer than the right
 	if len(t1)>len(t2):
@@ -55,6 +60,7 @@ def compare_text(text_file1, text_file2):
 			if idx<len(t2):
 				if line1 != t2[idx]: # If the lines don't match
 					print("***", end='')
+					non_match += 1
 				if len(line1)<len1:
 					# Add offset spaces so that left columns are the same width
 					offset = " "*(len1-len(line1))
@@ -63,12 +69,16 @@ def compare_text(text_file1, text_file2):
 				print(line1 + offset + "\t|\t", t2[idx])
 			else:
 				print(line1 + offset + "\t|\t")
+		max_len = np.float(len(t1))
+
 	# If the right side is longer, or if they're equal
 	else:
 		for idx, line2 in enumerate(t2):
 			if idx<len(t1):
 				if t1[idx] != line2: # If the lines don't match
 					print("***", end='')
+					non_match += 1
+
 				if len(t1[idx])<len1:
 					# Add offset spaces so that left columns are the same width
 					offset = " "*(len1-len(t1[idx]))
@@ -78,6 +88,11 @@ def compare_text(text_file1, text_file2):
 			else:
 				offset = " "*len1
 				print(offset + "\t|\t", line2)
+		max_len = np.float(len(t2))
+
+	percent_overlap = 1. - (non_match/max_len)
+
+	return percent_overlap, max_len, non_match
 
 
 if __name__ == "__main__":

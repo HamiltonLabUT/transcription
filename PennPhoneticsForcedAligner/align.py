@@ -234,9 +234,10 @@ def getopt2(name, opts, default = None) :
         return default
     return value[0]
 
-def main(wavfile,  trsfile, outfile, mypath, word_dictionary="./tmp/dict", sr_override=None, input_mlf='./tmp/tmp.mlf', output_mlf='./tmp/aligned.mlf', wave_start="0.0", wave_end=None, surround_token="sp", between_token="sp", hmmsubdir="FROM-SR"):
+def main(wavfile,  trsfile, outfile, mypath=None, word_dictionary="./tmp/dict", sr_override=None, input_mlf='./tmp/tmp.mlf', output_mlf='./tmp/aligned.mlf', wave_start="0.0", wave_end=None, surround_token="sp", between_token="sp", hmmsubdir="FROM-SR"):
     
-    print(mypath)
+    if mypath == None:
+        mypath = os.getcwd() + "/model"
     # create working directory
     prep_working_directory()
     
@@ -270,6 +271,7 @@ def main(wavfile,  trsfile, outfile, mypath, word_dictionary="./tmp/dict", sr_ov
     viterbi(input_mlf, word_dictionary, output_mlf, mpfile, mypath + hmmsubdir)
 
     # output the alignment as a Praat TextGrid
+    print(outfile)
     writeTextGrid(outfile, readAlignedMLF(output_mlf, SR, float(wave_start)))
 
 sr_models = [8000, 11025, 16000]

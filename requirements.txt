@@ -1,4 +1,3 @@
 numpy
 wave
 matplotlib
-htk==3.4.1

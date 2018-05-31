@@ -23,7 +23,7 @@ def prep_wav(orig_wav, out_wav, sr_override, wave_start, wave_end):
         f = wave.open(out_wav, 'r')
         SR = f.getframerate()
         f.close()
-        print "Already re-sampled the wav file to " + str(SR)
+        print("Already re-sampled the wav file to " + str(SR))
         return SR
 
     f = wave.open(orig_wav, 'r')
@@ -41,7 +41,7 @@ def prep_wav(orig_wav, out_wav, sr_override, wave_start, wave_end):
     	if sr_override != None :
     		new_sr = sr_override
     	
-        print "Resampling wav file from " + str(SR) + " to " + str(new_sr) + soxopts + "..."
+        print("Resampling wav file from " + str(SR) + " to " + str(new_sr) + soxopts + "...")
         SR = new_sr
         os.system("sox " + orig_wav + " -r " + str(SR) + " " + out_wav + " polyphase" + soxopts)
     else:
@@ -98,7 +98,7 @@ def prep_mlf(trsfile, mlffile, word_dictionary, surround, between):
                 if between != None:
                     words.append(between)
             else:
-                print "SKIPPING WORD", wrd
+                print("SKIPPING WORD", wrd)
 
         i += 1
 
@@ -258,9 +258,9 @@ if __name__ == '__main__':
 		
 		mypath = getopt2("--model", opts, None)
 	except :
-		print __doc__
+		print(__doc__)
 		(type, value, traceback) = sys.exc_info()
-		print value
+		print(value)
 		sys.exit(0)
 	
 	# If no model directory was said explicitly, get directory containing this script.

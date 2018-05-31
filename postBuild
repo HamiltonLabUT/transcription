@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd htk
+./configure
+
+make all
+make install

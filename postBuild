@@ -7,4 +7,4 @@ awk 'FNR>=77 && FNR<=78' Makefile
 make all
 
 awk 'FNR>=77 && FNR<=78' Makefile
-#make install
+make install

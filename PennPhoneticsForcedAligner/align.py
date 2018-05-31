@@ -274,7 +274,7 @@ if __name__ == '__main__':
         sr_models = [8000, 11025, 16000]
     
     if sr_override != None and sr_models != None and not sr_override in sr_models :
-        raise ValueError, "invalid sample rate: not an acoustic model available"
+        raise ValueError("invalid sample rate: not an acoustic model available")
         
     word_dictionary = "./tmp/dict"
     input_mlf = './tmp/tmp.mlf'

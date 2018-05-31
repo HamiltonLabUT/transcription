@@ -225,8 +225,8 @@ def prep_scp(wavfile) :
 def create_plp(hcopy_config) :
     os.system('HCopy -T 1 -C ' + hcopy_config + ' -S ./tmp/codetr.scp')
     
-def viterbi(input_mlf, word_dictionary, output_mlf, phoneset, hmmdir) :
-    os.system('HVite -T 1 -a -m -I ' + input_mlf + ' -H ' + hmmdir + '/macros -H ' + hmmdir + '/hmmdefs  -S ./tmp/test.scp -i ' + output_mlf + ' -p 0.0 -s 5.0 ' + word_dictionary + ' ' + phoneset + ' > ./tmp/aligned.results')
+def viterbi(input_mlf, word_dictionary, output_mlf, phoneset, hmmdir, htk_path) :
+    os.system(htk_path + '/HVite -T 1 -a -m -I ' + input_mlf + ' -H ' + hmmdir + '/macros -H ' + hmmdir + '/hmmdefs  -S ./tmp/test.scp -i ' + output_mlf + ' -p 0.0 -s 5.0 ' + word_dictionary + ' ' + phoneset + ' > ./tmp/aligned.results')
     
 def getopt2(name, opts, default = None) :
     value = [v for n,v in opts if n==name]
@@ -234,7 +234,7 @@ def getopt2(name, opts, default = None) :
         return default
     return value[0]
 
-def main(wavfile,  trsfile, outfile, mypath=None, word_dictionary="./tmp/dict", sr_override=None, input_mlf='./tmp/tmp.mlf', output_mlf='./tmp/aligned.mlf', wave_start="0.0", wave_end=None, surround_token="sp", between_token="sp", hmmsubdir="FROM-SR"):
+def main(wavfile,  trsfile, outfile, mypath=None, word_dictionary="./tmp/dict", sr_override=None, input_mlf='./tmp/tmp.mlf', output_mlf='./tmp/aligned.mlf', wave_start="0.0", wave_end=None, surround_token="sp", between_token="sp", hmmsubdir="FROM-SR", htk_path=""):
     
     if mypath == None:
         mypath = os.getcwd() + "/model"
@@ -268,7 +268,7 @@ def main(wavfile,  trsfile, outfile, mypath=None, word_dictionary="./tmp/dict", 
     mpfile = mypath + '/monophones'
     if not os.path.exists(mpfile) :
         mpfile = mypath + '/hmmnames'
-    viterbi(input_mlf, word_dictionary, output_mlf, mpfile, mypath + hmmsubdir)
+    viterbi(input_mlf, word_dictionary, output_mlf, mpfile, mypath + hmmsubdir, htk_path)
 
     # output the alignment as a Praat TextGrid
     print(outfile)

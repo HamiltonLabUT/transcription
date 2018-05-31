@@ -106,16 +106,16 @@ $(HLMLIB)/HLMLib.a:
 hlmlib: $(HLMLIB)/HLMLib.a
 htktools: $(HTKLIB)/HTKLib.a
 	(cd $(HTKTOOLS) && $(MAKE) all) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
 hlmtools: $(HLMLIB)/HLMLib.a
 	(cd $(HLMTOOLS) && $(MAKE) all) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
 hdecode: $(HTKLIB)/HTKLiblv.a
 	(cd $(LVREC) && $(MAKE) all) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
 book: 
 	(cd $(HTKBOOK) && $(MAKE) all) \
-	  || case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
+	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;
 
 # installation
 install-htktools: htktools

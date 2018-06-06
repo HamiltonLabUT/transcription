@@ -350,7 +350,7 @@ def check_arguments(args):
                     print(error)
                     sys.exit(parser.print_usage())
                 else:
-                    raise Exception, error               
+                    raise Exception(error)
         else:  ## this should not happen
             error = "Something weird is going on here!!!"
             errorhandler(error)
@@ -360,7 +360,7 @@ def check_arguments(args):
             print(error)
             sys.exit(parser.print_usage())
         else:
-            raise Exception, error
+            raise Exception(error)
 
     return (wavfile, trsfile, tgfile)
 
@@ -570,7 +570,7 @@ def check_transcription_format(line):
                         sys.exit("Undecided user.  Exiting program.")
                 else:
                     error = "Incorrect format of transcription file: %i entries per line in line %s." % (len(entries), line.rstrip())
-                    raise Exception, error
+                    raise Exception(error)
         else:
             return entries, None
     ## empty line
@@ -791,7 +791,7 @@ def errorhandler(errormessage):
     if __name__ == "__main__":  ## file run as standalone program
         sys.exit(errormessage)
     else:  ## run as imported module from somewhere else -> propagate exception
-        raise Exception, errormessage
+        raise Exception(errormessage)
     
 
 def format_option_text(text):

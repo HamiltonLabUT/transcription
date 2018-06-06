@@ -1144,7 +1144,7 @@ def read_dict(f):
     ## OUTPUT:  dict cmudict = dictionary of word - (list of) transcription(s) pairs
     ## (where each transcription consists of a list of phones)
     
-    dictfile = io.open(f, 'rU')
+    dictfile = io.open(f, 'rU', encoding='windows-1252') # Was rU
     lines = dictfile.readlines()
     cmudict = {}
     pat = re.compile('  *')                ## two spaces separating CMU dict entries
@@ -1319,8 +1319,8 @@ def write_dict(f, dictionary="cmudict", mode='w'):
 #        print("dictionary is cmudict")
     out = io.open(f, mode)
     ## sort dictionary before writing to file
-    s = dictionary.keys()
-    s.sort()
+    s = sorted(dictionary.keys())
+    
     for w in s:
         ## make a separate entry for each pronunciation in case of alternative entries
         for t in dictionary[w]:

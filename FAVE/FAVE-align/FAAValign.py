@@ -69,6 +69,7 @@ Options:
 ################################################################################
 
 import os
+import io
 import sys
 import shutil
 import re
@@ -959,7 +960,7 @@ def merge_textgrids(main_textgrid, new_textgrid, speaker, chunkname_textgrid):
         else:
             main_textgrid.append(tier)
     if options.verbose:
-        print("\tSuccessfully added", chunkname_textgrid, "to main TextGrid.")
+        print("\tSuccessfully added "+chunkname_textgrid+" to main TextGrid.")
         
     return main_textgrid
 
@@ -1172,18 +1173,18 @@ def read_transcription_file(trsfile):
     """reads the transcription file in either ASCII or UTF-16 encoding, returns a list of lines in the file"""
 
     try:  ## try UTF-16 encoding first
-        t = codecs.open(trsfile, 'rU', encoding='utf-16')
+        t = io.open(trsfile, 'rU', encoding='utf-16')
         print("Encoding is UTF-16!")
         lines = t.readlines()
     except UnicodeError:
         try:  ## then UTF-8...
-            t = codecs.open(trsfile, 'rU', encoding='utf-8')
+            t = io.open(trsfile, 'rU', encoding='utf-8')
             print("Encoding is UTF-8!")
             lines = t.readlines()
             lines = replace_smart_quotes(lines)
         except UnicodeError:
             try:  ## then Windows encoding...
-                t = codecs.open(trsfile, 'rU', encoding='windows-1252')
+                t = io.open(trsfile, 'rU', encoding='windows-1252')
                 print("Encoding is Windows-1252!")
                 lines = t.readlines()
             except UnicodeError:
@@ -1447,7 +1448,7 @@ def write_unknown_words(unknown):
         out = open(options.check, 'w')
         write_words(out, unknown)
     except UnicodeEncodeError:  ## encountered some non-ASCII characters
-        out = codecs.open(options.check, 'w', 'utf-16')
+        out = io.open(options.check, 'w', 'utf-16')
         write_words(out, unknown)
 
 

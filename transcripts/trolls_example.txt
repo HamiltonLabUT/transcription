@@ -1,0 +1,13 @@
+music		26.795	28.565	Everybody
+music		28.72	31.56	move your hair and feel united
+music		31.63	33.53	oh oh oh
+music		34.72	36.57	Everybody
+speech		9.0	11.36	My name is Branch, and I'm a troll.
+speech		15.1	17.6	Why do I live in a heavily fortified survival bunker?
+speech		18.68	21.21	Because right outside my door lurks a nightmare.
+speech		22.785	24.115	Named Poppy.
+speech		24.66	26.21	A five six seven eight
+speech		29.2	34.12	Poppy is the leader of the trolls, and it's not her fault  she's so insanely happy.
+speech		34.72	36.4	She's just never faced a real problem.
+speech		37.825	38.615	until now.
+speech		40.97	41.59	Cupcake?

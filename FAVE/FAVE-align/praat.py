@@ -66,7 +66,7 @@ class Formant:
     elif len(line) == 1 and line[0] != '':               ## line reads "xxx.xxxxx"
       format = "short"
     else:
-      print "WARNING!!!  Unknown format for Formant file!"
+      print("WARNING!!!  Unknown format for Formant file!")
 
     if format == "short":  ## SHORT FORMANT FORMAT
       self.__xmin = float(line[0])                        ## start time
@@ -323,7 +323,7 @@ class TextGrid:
         elif len(line) == 1 and line[0] != '':              ## line reads "xxx.xxxxx"
             format = "short"
         else:
-            print "WARNING!!!  Unknown format for Formant file!"
+            print("WARNING!!!  Unknown format for Formant file!")
 
         if format == "short":  ## SHORT TEXTGRID FORMAT
             self.__xmin = round(float(line[0]), 3)     ## round to 3 digits; line reads "xxx.xxxxx"
@@ -355,7 +355,7 @@ class TextGrid:
                         jmrk = text.readline().rstrip()[1:-1]
                         itier.append(Point(jtim, jmrk))
                     self.append(itier)
-            if self.__n != m:  print "In TextGrid.IntervalTier.read:  Error in number of tiers!"
+            if self.__n != m:  print("In TextGrid.IntervalTier.read:  Error in number of tiers!")
             text.close()
         elif format == "long":  ## LONG TEXTGRID FORMAT
             self.__xmin = round(float(line[2]), 3)                                  ## line reads "xmin = xxx.xxxxx"
@@ -390,7 +390,7 @@ class TextGrid:
                         jmrk = text.readline().strip().split(' = ')[1][1:-1]  
                         itier.append(Point(jtim, jmrk))
                     self.append(itier)
-            if self.__n != m:  print "In TextGrid.IntervalTier.read:  Error in number of tiers!"
+            if self.__n != m:  print("In TextGrid.IntervalTier.read:  Error in number of tiers!")
             text.close()
 
     def write(self, text):  
@@ -517,12 +517,12 @@ class IntervalTier:
 
     def extend(self, newmin, newmax):
         if newmin > self.__xmin:
-            print "newmin:  ", newmin
-            print "self.__xmin", self.__xmin
+            print("newmin:  ", newmin)
+            print("self.__xmin", self.__xmin)
             sys.exit("Error!  New minimum of tier exceeds old minimum.")
         if newmax < self.__xmax:
-            print "newmax:  ", newmax
-            print "self.__xmax:  ", self.__xmax
+            print("newmax:  ", newmax)
+            print("self.__xmax:  ", self.__xmax)
             sys.exit("Error!  New maximum of tier is less than old maximum.")
         self.__xmin = newmin
         self.__xmax = newmax
@@ -551,7 +551,7 @@ class IntervalTier:
                     end = len(self.__intervals) - 1
                 else:   ## overlapping interval boundaries
                     overlaps.append((i, self.__intervals[z+1], self.__name))
-                    print "WARNING!!!  Overlapping intervals %s and %s on tier %s!!!" % (i, self.__intervals[z+1], self.__name)
+                    print("WARNING!!!  Overlapping intervals %s and %s on tier %s!!!" % (i, self.__intervals[z+1], self.__name))
             z += 1
         return overlaps
 

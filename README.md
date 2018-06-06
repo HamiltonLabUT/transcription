@@ -1,7 +1,7 @@
 # transcription
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/HamiltonLabUT/transcription/master)
 
-For transcribing auditory stimuli using the Penn Forced aligner.  Also has scripts to change inter-rater reliability.
+For transcribing auditory stimuli using FAVE align, a flavor of the Penn Forced aligner.  The FAVE aligner scripts have been edited to be compatible with python 3. This repo also has scripts to change inter-rater reliability.
 
 Important notes on [editing textgrids](http://www.fon.hum.uva.nl/praat/manual/TextGridEditor.html).
 

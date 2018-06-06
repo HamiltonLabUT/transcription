@@ -233,7 +233,7 @@ def aligned_to_TextGrid(infile, outfile, SR):
     phons = []
     wrds = []
 ##    try:
-    while (lines[j] <> '.\n'):
+    while (lines[j] != '.\n'):
         ph = lines[j].split()[2]  ## phone
         if (SR == 11025):  ## adjust rounding error for 11,025 Hz sampling rate
             ## convert time stamps from 100ns units to seconds
@@ -243,7 +243,7 @@ def aligned_to_TextGrid(infile, outfile, SR):
         else:
             st = round(round(float(lines[j].split()[0])/10.0, 0)/1000000.0 + 0.0125, 3)
             en = round(round(float(lines[j].split()[1])/10.0, 0)/1000000.0 + 0.0125, 3)
-        if (st <> en):  ## 'sp' states between words can have zero duration
+        if (st != en):  ## 'sp' states between words can have zero duration
             phons.append([ph, st, en])  ## list of phones with start and end times in seconds
 
         if (len(lines[j].split()) == 5):  ## entry on word tier
@@ -254,7 +254,7 @@ def aligned_to_TextGrid(infile, outfile, SR):
             else:
                 st = round(round(float(lines[j].split()[0])/10.0, 0)/1000000.0 + 0.0125, 3)
                 en = round(round(float(lines[j].split()[1])/10.0, 0)/1000000.0 + 0.0125, 3)
-            if (st <> en):
+            if (st != en):
                 wrds.append([wrd, st, en])
 
         j += 1

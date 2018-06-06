@@ -1380,12 +1380,13 @@ def write_log(filename, wavfile, duration):
     f.write("\n\n")
     f.write("Alignment statistics for file %s:\n\n" % os.path.basename(wavfile))
 
-    try:
+    '''try:
         check_version = subprocess.Popen(["git","describe", "--tags"], stdout = subprocess.PIPE)
         version,err = check_version.communicate()
         version = version.rstrip()
     except OSError:
-        version = None
+        version = None'''
+    version = None
 
     if version:
         f.write("version info from Git: %s"%version)

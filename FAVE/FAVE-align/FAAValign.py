@@ -141,7 +141,7 @@ def add_dictionary_entries(infile, FADIR):
                     add_dict[word] = [t]
 
     if options.verbose:
-        print "Added all entries in file %s to CMU dictionary." % os.path.basename(infile)
+        print("Added all entries in file %s to CMU dictionary." % os.path.basename(infile))
 
     ## add new entries to the file for additional transcription entries
     ## (merge with the existing DICT_ADDITIONS file to avoid duplicates)
@@ -152,7 +152,7 @@ def add_dictionary_entries(infile, FADIR):
         new_dict = add_dict
     write_dict(os.path.join(FADIR, DICT_ADDITIONS), dictionary=new_dict, mode='w')
     if options.verbose:
-        print "Added new entries from file %s to file %s." % (os.path.basename(infile), DICT_ADDITIONS)
+        print("Added new entries from file %s to file %s." % (os.path.basename(infile), DICT_ADDITIONS))
 
 
 ## This was the main body of Jiahong Yuan's original align.py
@@ -208,7 +208,7 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
         ## write result of alignment to TextGrid file
         aligned_to_TextGrid('./tmp' + identifier + '/aligned' + identifier + '.mlf', outfile, SR)
         if options.verbose:
-            print "\tForced alignment called successfully for file %s." % os.path.basename(wavfile)
+            print("\tForced alignment called successfully for file %s." % os.path.basename(wavfile))
     except Exception, e:
         FA_error = "Error in aligning file %s:  %s." % (os.path.basename(wavfile), e)
         ## clean up temporary alignment files
@@ -347,7 +347,7 @@ def check_arguments(args):
             else:
                 error = "ERROR!  Transcription file needed for unknown words check."
                 if __name__ == "__main__":
-                    print error
+                    print(error)
                     sys.exit(parser.print_usage())
                 else:
                     raise Exception, error               
@@ -357,7 +357,7 @@ def check_arguments(args):
     else:  ## no sound file, and not checking unknown words
         error = "ERROR!  First argument to program must be sound file."
         if __name__ == "__main__":
-            print error
+            print(error)
             sys.exit(parser.print_usage())
         else:
             raise Exception, error
@@ -413,10 +413,10 @@ def check_dictionary_entries(lines, wavfile):
     if not options.check:
         global temp_dict
         temp_dict = os.path.join(os.path.dirname(wavfile), '_'.join(os.path.basename(wavfile).split('_')[:2]) + "_" + "dict")
-        print "temp_dict is %s." % temp_dict
+        print("temp_dict is %s." % temp_dict)
         write_dict(temp_dict)
         if options.verbose:
-            print "Written updated temporary version of CMU dictionary."
+            print("Written updated temporary version of CMU dictionary.")
         ## forced alignment must use updated cmudict, not original one
         options.dict = temp_dict
 
@@ -424,7 +424,7 @@ def check_dictionary_entries(lines, wavfile):
     ## write list of unknown words and suggested transcriptions for truncated words to file
     if options.check:
         write_unknown_words(unknown)            
-        print "Written list of unknown words in transcription to file %s." % options.check
+        print("Written list of unknown words in transcription to file %s." % options.check)
         if __name__ == "__main__":
             sys.exit()
             
@@ -441,8 +441,8 @@ def check_file(path):
         return path
     else:
         if __name__ == "__main__":
-            print "ERROR!  File %s could not be found!" % path
-            print "Current working directory is %s." % os.getcwd()
+            print("ERROR!  File %s could not be found!" % path)
+            print("Current working directory is %s." % os.getcwd())
             newpath = raw_input("Please enter correct name or path for file, or type [q] to quit:  ")
             ## emergency exit from recursion loop:
             if newpath in ['q', 'Q']:
@@ -469,10 +469,10 @@ def check_phone(p, w, i):
         ## check whether transcriber didn't simply forget the stress coding for vowels:
         if __name__ == "__main__":
             if len(p) == 2 and p in VOWELS:
-                print "You forgot to enter the stress digit for vowel %s (at position %i) in word %s!\n" % (p, i+1, w)
+                print("You forgot to enter the stress digit for vowel %s (at position %i) in word %s!\n" % (p, i+1, w))
                 new_p = raw_input("Please re-enter vowel transcription, or type [q] to quit:  ")
             else:
-                print "Unknown phone %s (at position %i) in word %s!\n" % (p, i+1, w)
+                print("Unknown phone %s (at position %i) in word %s!\n" % (p, i+1, w))
                 new_p = raw_input("Please correct your transcription for this phone, or type [q] to quit:  ")
             ## EMERGENCY EXIT:
             ## (to get out of the loop without having to kill the terminal) 
@@ -498,8 +498,8 @@ def check_transcription(w):
     ## check that phones are separated by spaces
     ## (len(w) > 3:  transcription could just consist of a single phone!)
     if len(w) > 3 and len(phones) < 2:
-        print "Something is wrong with your transcription:  %s.\n" % w
-        print "Did you forget to enter spaces between individual phones?\n"
+        print("Something is wrong with your transcription:  %s.\n" % w)
+        print("Did you forget to enter spaces between individual phones?\n")
         new_trans = raw_input("Please enter new transcription:  ")
         final_trans = check_transcription(new_trans)
     else:
@@ -553,18 +553,18 @@ def check_transcription_format(line):
             ## which is not worth aborting the program, so continue
             if len(entries) == 4:
                 if options.verbose:
-                    print "\tWARNING!  Empty annotation unit:  %s" % line.strip()
+                    print("\tWARNING!  Empty annotation unit:  %s" % line.strip())
                 return None, line
             else:
                 if __name__ == "__main__":
-                    print "WARNING:  Incorrect format of input file: %i entries per line." % len(entries)
+                    print("WARNING:  Incorrect format of input file: %i entries per line." % len(entries))
                     for i in range(len(entries)):
-                        print i, "\t", entries[i]
+                        print(i, "\t", entries[i])
                     stop_program = raw_input("Stop program?  [y/n]")
                     if stop_program == "y":
                         sys.exit("Exiting program.")
                     elif stop_program == "n":
-                        print "Continuing program."
+                        print("Continuing program.")
                         return None, line
                     else:
                         sys.exit("Undecided user.  Exiting program.")
@@ -610,9 +610,9 @@ def check_word(word, next_word='', unknown={}, line=''):
             ## assume that truncated words are taken care of by the user if an import file is specified
             ## also, do not prompt user if "noprompt" option is selected
             if not (options.importfile or options.noprompt):
-                print "Dictionary entry for truncated word %s is %s." % (word, cmudict[word])
+                print("Dictionary entry for truncated word %s is %s." % (word, cmudict[word]))
                 if clue:
-                    print "Following word is %s." % next_word
+                    print("Following word is %s." % next_word)
                 correct = raw_input("Is this correct?  [y/n]")
                 if correct != "y":
                     transcription = prompt_user(word, clue) 
@@ -669,7 +669,7 @@ def check_word(word, next_word='', unknown={}, line=''):
             else:
                 unknown[word] = ("", "", line)
             if options.verbose:
-                print "\tUnknown word %s : %s." % (word.encode('ascii', 'replace'), line.encode('ascii', 'replace'))
+                print("\tUnknown word %s : %s." % (word.encode('ascii', 'replace'), line.encode('ascii', 'replace')))
 
         ## otherwise, promput user for Arpabet transcription of missing word
         elif not options.noprompt:
@@ -693,7 +693,7 @@ def cut_chunk(wavfile, outfile, start, dur, SOXPATH):
     try:
         os.system(command_cut_sound)
         if options.verbose:
-            print "\tSound chunk %s successfully extracted." % (outfile) #os.path.basename(outfile)
+            print("\tSound chunk %s successfully extracted." % (outfile)) #os.path.basename(outfile))
     except Exception, e:
         sound_error = "Error in extracting sound chunk %s:  %s." % (os.path.basename(outfile), e)
         errorhandler(sound_error)
@@ -757,8 +757,8 @@ def define_options_and_arguments():
 def delete_empty_lines(delete_lines, all_input):
     """deletes empty lines from the original input (this is important to match up the original and processed transcriptions later)"""
 
-    #print "Lines to be deleted (%s):  %s" % (len(delete_lines), delete_lines)
-    #print "Original input is %d lines long." % len(all_input)
+    #print("Lines to be deleted (%s):  %s" % (len(delete_lines), delete_lines))
+    #print("Original input is %d lines long." % len(all_input))
     p = 0  ## use pointer to mark current position in original input (to speed things up a little)
     for dline in delete_lines:
         d = dline.split('\t')
@@ -778,9 +778,9 @@ def delete_empty_lines(delete_lines, all_input):
                 break
             p += 1
 
-    #print "Input is now %d lines long." % len(all_input)
+    #print("Input is now %d lines long." % len(all_input))
     if options.verbose:
-        print "Deleted empty lines from original transcription file."
+        print("Deleted empty lines from original transcription file.")
 
     return all_input
         
@@ -881,8 +881,8 @@ def is_TextGrid(f):
 #     if os.path.isdir(tempdir):
 #         contents = os.listdir(tempdir)
 #         if len(contents) != 0 and not options.noprompt:
-#             print "WARNING!  Directory %s already exists and is non-empty!" % tempdir
-#             print "(Files in directory:  %s )" % contents
+#             print("WARNING!  Directory %s already exists and is non-empty!" % tempdir)
+#             print("(Files in directory:  %s )" % contents)
 #             overwrite = raw_input("Overwrite and continue?  [y/n]")
 #             if overwrite == "y":
 #                 ## delete contents of tempdir
@@ -904,8 +904,8 @@ def check_tempdir(tempdir):
     if os.path.isdir(tempdir):
         contents = os.listdir(tempdir)
         if len(contents) != 0 and not options.noprompt:
-            print "WARNING!  Directory %s is non-empty!" % tempdir
-            print "(Files in directory:  %s )" % contents
+            print("WARNING!  Directory %s is non-empty!" % tempdir)
+            print("(Files in directory:  %s )" % contents)
             overwrite = raw_input("Overwrite and continue?  [y/n]")
             if overwrite == "y":
                 ## delete contents of tempdir
@@ -959,7 +959,7 @@ def merge_textgrids(main_textgrid, new_textgrid, speaker, chunkname_textgrid):
         else:
             main_textgrid.append(tier)
     if options.verbose:
-        print "\tSuccessfully added", chunkname_textgrid, "to main TextGrid."
+        print("\tSuccessfully added", chunkname_textgrid, "to main TextGrid.")
         
     return main_textgrid
 
@@ -1064,7 +1064,7 @@ def prep_mlf(transcription, mlffile, identifier):
                 global count_words
                 count_words += 1
             else:
-                print "\tWarning!  Word %s not in CMU dict!!!" % word.encode('ascii', 'replace')
+                print("\tWarning!  Word %s not in CMU dict!!!" % word.encode('ascii', 'replace'))
     fw.write('.\n')
     fw.close()
 
@@ -1100,7 +1100,7 @@ def process_style_tier(entries, style_tier=None):
     if not style_tier:
         style_tier = praat.IntervalTier(name="style", xmin=0, xmax=0)
         if options.verbose:
-            print "Processing style tier."
+            print("Processing style tier.")
     ## add new interval on style tier
     beg = round(float(entries[2]), 3)
     end = round(float(entries[3]), 3)
@@ -1123,10 +1123,10 @@ def prompt_user(word, clue=''):
     ## OUTPUT:
     ## list checked_trans = transcription in Arpabet format (list of phones)
     
-    print "Please enter the Arpabet transcription of word %s, or enter [s] to skip." % word
+    print("Please enter the Arpabet transcription of word %s, or enter [s] to skip." % word)
     if clue:
-        print "(Following word is %s.)" % clue
-    print "\n"
+        print("(Following word is %s.)" % clue)
+    print("\n")
     trans = raw_input()
     if trans != "s":
         checked_trans = check_transcription(trans)
@@ -1161,9 +1161,9 @@ def read_dict(f):
     
     ## check that cmudict has entries
     if len(cmudict) == 0:
-        print "WARNING!  Dictionary is empty."
+        print("WARNING!  Dictionary is empty.")
     if options.verbose:
-        print "Read dictionary from file %s." % f
+        print("Read dictionary from file %s." % f)
         
     return cmudict
 
@@ -1173,22 +1173,22 @@ def read_transcription_file(trsfile):
 
     try:  ## try UTF-16 encoding first
         t = codecs.open(trsfile, 'rU', encoding='utf-16')
-        print "Encoding is UTF-16!"
+        print("Encoding is UTF-16!")
         lines = t.readlines()
     except UnicodeError:
         try:  ## then UTF-8...
             t = codecs.open(trsfile, 'rU', encoding='utf-8')
-            print "Encoding is UTF-8!"
+            print("Encoding is UTF-8!")
             lines = t.readlines()
             lines = replace_smart_quotes(lines)
         except UnicodeError:
             try:  ## then Windows encoding...
                 t = codecs.open(trsfile, 'rU', encoding='windows-1252')
-                print "Encoding is Windows-1252!"
+                print("Encoding is Windows-1252!")
                 lines = t.readlines()
             except UnicodeError:
                 t = open(trsfile, 'rU')
-                print "Encoding is ASCII!"
+                print("Encoding is ASCII!")
                 lines = t.readlines()
 
     return lines
@@ -1209,8 +1209,8 @@ def reinsert_uncertain(tg, text):
     for (n, interval) in enumerate(tg[1]):  ## word tier
         if interval.mark() not in ["sp", "SP"]:
             tgwords.append((interval.mark(), n))
-##    print "\t\ttgwords:  ", tgwords
-##    print "\t\ttext:  ", text
+##    print("\t\ttgwords:  ", tgwords)
+##    print("\t\ttext:  ", text)
 
     ## for all "real" (non-"sp") words in transcription:
     for (n, entry) in enumerate(tgwords):
@@ -1299,10 +1299,10 @@ def tidyup(tg, beg, end, tgfile):
             for oo in oops:
                 overlaps.append(oo)
         if options.verbose:
-            print "Finished tidying up %s." % t
+            print("Finished tidying up %s." % t)
     ## write errorlog if overlapping intervals detected
     if len(overlaps) != 0:
-        print "WARNING!  Overlapping intervals detected!"
+        print("WARNING!  Overlapping intervals detected!")
         write_errorlog(overlaps, tgfile)
         
     return tg
@@ -1315,7 +1315,7 @@ def write_dict(f, dictionary="cmudict", mode='w'):
     ## but other dictionaries or parts of dictionaries can also be written/appended
     if dictionary == "cmudict":
         dictionary = cmudict
-#        print "dictionary is cmudict"
+#        print("dictionary is cmudict")
     out = open(f, mode)
     ## sort dictionary before writing to file
     s = dictionary.keys()
@@ -1330,7 +1330,7 @@ def write_dict(f, dictionary="cmudict", mode='w'):
                 out.write('\n')         ## end of entry line
     out.close()
 #    if options.verbose:
-#        print "Written pronunciation dictionary to file."
+#        print("Written pronunciation dictionary to file.")
    
 
 def write_errorlog(overlaps, tgfile):
@@ -1343,14 +1343,14 @@ def write_errorlog(overlaps, tgfile):
     for o in overlaps:
         errorlog.write("Interval %s and interval %s on tier %s.\n" % (o[0], o[1], o[2]))
     errorlog.close()
-    print "Error messages saved to file %s." % logname
+    print("Error messages saved to file %s." % logname)
 
 
 def write_alignment_errors_to_log(tgfile, failed_alignment):
     """appends the list of alignment failures to the error log"""
 
     ## warn user that alignment failed for some parts of the TextGrid
-    print "WARNING!  Alignment failed for some annotation units!"
+    print("WARNING!  Alignment failed for some annotation units!")
 
     logname = os.path.splitext(tgfile)[0] + ".errorlog"
     ## check whether errorlog file exists
@@ -1368,7 +1368,7 @@ def write_alignment_errors_to_log(tgfile, failed_alignment):
 #            errorlog.write('\t'.join(f))
         errorlog.write('\n')
     errorlog.close()
-    print "Alignment errors saved to file %s." % logname
+    print("Alignment errors saved to file %s." % logname)
     
 
 def write_log(filename, wavfile, duration):
@@ -1510,7 +1510,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
     ## read transcription file
     all_input = read_transcription_file(trsfile)
     if options.verbose:
-        print "Read transcription file %s." % os.path.basename(trsfile)
+        print("Read transcription file %s." % os.path.basename(trsfile))
 
     ## initialize counters
     global count_chunks
@@ -1531,7 +1531,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
     ## check correct format of input file; get list of transcription lines
     ## (this function skips empty annotation units -> lines to be deleted)
     if options.verbose:  
-        print "Checking format of input transcription file..."
+        print("Checking format of input transcription file...")
     trans_lines, delete_lines = check_transcription_file(all_input)
 
     ## check that all words in the transcription columen of trsfile are in the CMU dictionary
@@ -1540,7 +1540,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
     ##          the list of unknown words will be output to file
     ##          -> END OF PROGRAM!!!
     if options.verbose:  
-        print "Checking dictionary entries for all words in the input transcription..."
+        print("Checking dictionary entries for all words in the input transcription...")
     trans_lines = check_dictionary_entries(trans_lines, wavfile)
     if not trans_lines and not __name__ == "__main__":
         return
@@ -1549,15 +1549,15 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
     #make_tempdir(tempdir)
     check_tempdir(tempdir)
     #if options.verbose:  
-    #    print "Checked temporary directory %s." % tempdir
+    #    print("Checked temporary directory %s." % tempdir)
 
     ## generate main TextGrid and get overall duration of main sound file
     main_textgrid = praat.TextGrid()
     if options.verbose:  
-        print "Generated main TextGrid."
+        print("Generated main TextGrid.")
     duration = get_duration(wavfile, FADIR)
     if options.verbose:  
-        print "Duration of sound file:  %f seconds." % duration
+        print("Duration of sound file:  %f seconds." % duration)
 
     ## delete empty lines from array of original transcription lines
     all_input2 = delete_empty_lines(delete_lines, all_input)
@@ -1589,13 +1589,13 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
         dur = round(end - beg, 3)
         if options.verbose:
             try:
-                print "Processing %s -- chunk %i:  %s" % (speaker, count_chunks, " ".join(text))
+                print("Processing %s -- chunk %i:  %s" % (speaker, count_chunks, " ".join(text)))
             except (UnicodeDecodeError, UnicodeEncodeError):  ## I will never get these encoding issues...  %-(
-                print "Processing %s -- chunk %i:  %s" % (speaker, count_chunks, " ".join(text).encode('ascii', 'replace'))
+                print("Processing %s -- chunk %i:  %s" % (speaker, count_chunks, " ".join(text).encode('ascii', 'replace')))
 
         if dur < 0.05:
-            print "\tWARNING!  Annotation unit too short (%s s) - no alignment possible." % dur
-            print "\tSkipping alignment for annotation unit ", " ".join(text).encode('ascii', 'replace')
+            print("\tWARNING!  Annotation unit too short (%s s) - no alignment possible." % dur)
+            print("\tSkipping alignment for annotation unit ", " ".join(text).encode('ascii', 'replace'))
             continue
             
         ## call SoX to cut the corresponding chunk out of the sound file
@@ -1609,11 +1609,11 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
             align(os.path.join(tempdir, chunkname_sound), [text], os.path.join(tempdir, chunkname_textgrid), FADIR, SOXPATH, HTKTOOLSPATH)
         except Exception, e:
             try:
-                print "\tERROR!  Alignment failed for chunk %i (speaker %s, text %s)." % (count_chunks, speaker, " ".join(text))
+                print("\tERROR!  Alignment failed for chunk %i (speaker %s, text %s)." % (count_chunks, speaker, " ".join(text)))
             except (UnicodeDecodeError, UnicodeEncodeError): 
-                print "\tERROR!  Alignment failed for chunk %i (speaker %s, text %s)." % (count_chunks, speaker, " ".join(text).encode('ascii', 'replace'))
-            print "\n", traceback.format_exc(), "\n"
-            print "\tContinuing alignment..."
+                print("\tERROR!  Alignment failed for chunk %i (speaker %s, text %s)." % (count_chunks, speaker, " ".join(text).encode('ascii', 'replace')))
+            print("\n", traceback.format_exc(), "\n")
+            print("\tContinuing alignment...")
             failed_alignment.append([str(count_chunks), str(beg), str(end), speaker, " ".join(text)])
             ## remove temp files
             os.remove(os.path.join(tempdir, chunkname_sound))
@@ -1628,7 +1628,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
         ## change time offset of chunk
         new_textgrid.change_offset(beg)
         if options.verbose:
-            print "\tOffset changed by %s seconds." % beg
+            print("\tOffset changed by %s seconds." % beg)
 
         ## add TextGrid for new chunk to main TextGrid
         main_textgrid = merge_textgrids(main_textgrid, new_textgrid, speaker, chunkname_textgrid)
@@ -1653,7 +1653,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
     ## write main TextGrid to file
     main_textgrid.write(tgfile)
     if options.verbose:
-        print "Successfully written TextGrid %s to file." % os.path.basename(tgfile)
+        print("Successfully written TextGrid %s to file." % os.path.basename(tgfile))
 
     ## delete temporary transcription files and "chunk" sound file/temp directory
     #remove_tempdir(tempdir)
@@ -1665,12 +1665,12 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
     ## remove temporary CMU dictionary
     os.remove(temp_dict)
     if options.verbose:
-        print "Deleted temporary copy of the CMU dictionary."
+        print("Deleted temporary copy of the CMU dictionary.")
     
     ## write log file
     t_stamp = write_log(os.path.splitext(wavfile)[0] + ".FAAVlog", wavfile, duration)
     if options.verbose:
-        print "Written log file %s." % os.path.basename(os.path.splitext(wavfile)[0] + ".FAAVlog")
+        print("Written log file %s." % os.path.basename(os.path.splitext(wavfile)[0] + ".FAAVlog"))
 
 
 ################################################################################

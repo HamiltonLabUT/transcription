@@ -213,12 +213,12 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
     except Exception as e:
         FA_error = "Error in aligning file %s:  %s." % (os.path.basename(wavfile), e)
         ## clean up temporary alignment files
-        shutil.rmtree("./tmp/" + identifier)
+        shutil.rmtree("./tmp" + identifier)
         raise Exception(FA_error)
         ##errorhandler(FA_error)
 
     ## remove tmp directory and all files        
-    shutil.rmtree("./tmp/" + identifier)
+    shutil.rmtree("./tmp" + identifier)
     
 
 ## This function is from Jiahong Yuan's align.py

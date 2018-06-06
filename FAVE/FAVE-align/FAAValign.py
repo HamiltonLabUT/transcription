@@ -209,11 +209,11 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
         aligned_to_TextGrid('./tmp' + identifier + '/aligned' + identifier + '.mlf', outfile, SR)
         if options.verbose:
             print("\tForced alignment called successfully for file %s." % os.path.basename(wavfile))
-    except Exception, e:
+    except Exception as e:
         FA_error = "Error in aligning file %s:  %s." % (os.path.basename(wavfile), e)
         ## clean up temporary alignment files
         shutil.rmtree("./tmp" + identifier)
-        raise Exception, FA_error
+        raise Exception(FA_error)
         ##errorhandler(FA_error)
 
     ## remove tmp directory and all files        
@@ -694,7 +694,7 @@ def cut_chunk(wavfile, outfile, start, dur, SOXPATH):
         os.system(command_cut_sound)
         if options.verbose:
             print("\tSound chunk %s successfully extracted." % (outfile)) #os.path.basename(outfile))
-    except Exception, e:
+    except Exception as e:
         sound_error = "Error in extracting sound chunk %s:  %s." % (os.path.basename(outfile), e)
         errorhandler(sound_error)
 
@@ -1607,7 +1607,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
         ## align chunk
         try:
             align(os.path.join(tempdir, chunkname_sound), [text], os.path.join(tempdir, chunkname_textgrid), FADIR, SOXPATH, HTKTOOLSPATH)
-        except Exception, e:
+        except Exception as e:
             try:
                 print("\tERROR!  Alignment failed for chunk %i (speaker %s, text %s)." % (count_chunks, speaker, " ".join(text)))
             except (UnicodeDecodeError, UnicodeEncodeError): 

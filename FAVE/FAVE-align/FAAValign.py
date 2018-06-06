@@ -114,7 +114,7 @@ def add_dictionary_entries(infile, FADIR):
     ## OUTPUT:  none, but modifies CMU dictionary (cmudict)
 
     ## read import file
-    i = open(infile, 'rU')
+    i = io.open(infile, 'rU')
     lines = i.readlines()
     i.close()
 
@@ -188,10 +188,10 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
     prep_mlf(trs_input, './tmp' + identifier + '/tmp' + identifier + '.mlf', identifier)
  
     # prepare scp files
-    fw = open('./tmp' + identifier + '/codetr' + identifier + '.scp', 'w')
+    fw = io.open('./tmp' + identifier + '/codetr' + identifier + '.scp', 'w')
     fw.write('./tmp' + identifier + '/tmp' + identifier + '.wav ./tmp' + identifier + '/tmp'+ identifier + '.plp\n')
     fw.close()
-    fw = open('./tmp' + identifier + '/test' + identifier + '.scp', 'w')
+    fw = io.open('./tmp' + identifier + '/test' + identifier + '.scp', 'w')
     fw.write('./tmp' + identifier +'/tmp' + identifier + '.plp\n')
     fw.close()
 
@@ -226,10 +226,10 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
 def aligned_to_TextGrid(infile, outfile, SR):
     """writes the results of the forced alignment (file "aligned.mlf") to file as a Praat TextGrid file"""
     
-    f = open(infile, 'rU')
+    f = io.open(infile, 'rU')
     lines = f.readlines()
     f.close()
-    fw = open(outfile, 'w')
+    fw = io.open(outfile, 'w')
     j = 2
     phons = []
     wrds = []
@@ -1038,7 +1038,7 @@ def prep_mlf(transcription, mlffile, identifier):
     ## OUTPUT:
     ## none, but writes master label file to disk
     
-    fw = open(mlffile, 'w')
+    fw = io.open(mlffile, 'w')
     fw.write('#!MLF!#\n')
     fw.write('"*/tmp' + identifier + '.lab"\n')
     fw.write('sp\n')
@@ -1144,7 +1144,7 @@ def read_dict(f):
     ## OUTPUT:  dict cmudict = dictionary of word - (list of) transcription(s) pairs
     ## (where each transcription consists of a list of phones)
     
-    dictfile = open(f, 'rU')
+    dictfile = io.open(f, 'rU')
     lines = dictfile.readlines()
     cmudict = {}
     pat = re.compile('  *')                ## two spaces separating CMU dict entries
@@ -1188,7 +1188,7 @@ def read_transcription_file(trsfile):
                 print("Encoding is Windows-1252!")
                 lines = t.readlines()
             except UnicodeError:
-                t = open(trsfile, 'rU')
+                t = io.open(trsfile, 'rU')
                 print("Encoding is ASCII!")
                 lines = t.readlines()
 
@@ -1317,7 +1317,7 @@ def write_dict(f, dictionary="cmudict", mode='w'):
     if dictionary == "cmudict":
         dictionary = cmudict
 #        print("dictionary is cmudict")
-    out = open(f, mode)
+    out = io.open(f, mode)
     ## sort dictionary before writing to file
     s = dictionary.keys()
     s.sort()
@@ -1339,7 +1339,7 @@ def write_errorlog(overlaps, tgfile):
     
     ## write log file for overlapping intervals from FA
     logname = os.path.splitext(tgfile)[0] + ".errorlog"
-    errorlog = open(logname, 'w')
+    errorlog = io.open(logname, 'w')
     errorlog.write("Overlapping intervals in file %s:  \n" % tgfile)
     for o in overlaps:
         errorlog.write("Interval %s and interval %s on tier %s.\n" % (o[0], o[1], o[2]))
@@ -1356,10 +1356,10 @@ def write_alignment_errors_to_log(tgfile, failed_alignment):
     logname = os.path.splitext(tgfile)[0] + ".errorlog"
     ## check whether errorlog file exists
     if os.path.exists(logname) and os.path.isfile(logname):
-        errorlog = open(logname, 'a')
+        errorlog = io.open(logname, 'a')
         errorlog.write('\n')
     else:
-        errorlog = open(logname, 'w')
+        errorlog = io.open(logname, 'w')
     errorlog.write("Alignment failed for the following annotation units:  \n")
     errorlog.write("#\tbeginning\tend\tspeaker\ttext\n")
     for f in failed_alignment:
@@ -1375,7 +1375,7 @@ def write_alignment_errors_to_log(tgfile, failed_alignment):
 def write_log(filename, wavfile, duration):
     """writes a log file on alignment statistics"""
     
-    f = open(filename, 'w')
+    f = io.open(filename, 'w')
     t_stamp = time.asctime()
     f.write(t_stamp)
     f.write("\n\n")
@@ -1445,7 +1445,7 @@ def write_unknown_words(unknown):
     """writes the list of unknown words to file"""
         ## try ASCII output first:
     try:
-        out = open(options.check, 'w')
+        out = io.open(options.check, 'w')
         write_words(out, unknown)
     except UnicodeEncodeError:  ## encountered some non-ASCII characters
         out = io.open(options.check, 'w', 'utf-16')

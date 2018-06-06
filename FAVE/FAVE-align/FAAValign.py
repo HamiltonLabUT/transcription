@@ -1407,7 +1407,7 @@ def write_log(filename, wavfile, duration):
 
     if changes:
         f.write("Uncommitted changes when run:\n")
-        f.write(changes)
+        f.write(changes.decode('utf-8'))
         
     f.write("\n")
     f.write("Total number of words:\t\t\t%i\n" % count_words)
@@ -1582,7 +1582,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
             continue
 
         ## normal tiers:
-        speaker = entries[1].strip().encode('ascii', 'ignore').replace('/', ' ')  ## eventually replace all \W!
+        speaker = entries[1].strip()#.encode('ascii', 'ignore').replace('/', ' ')  ## eventually replace all \W!
         if not speaker:  ## some people forget to enter the speaker name into the second field, try the first one (speaker ID) instead
             speaker = entries[0].strip()
         beg = round(float(entries[2]), 3)

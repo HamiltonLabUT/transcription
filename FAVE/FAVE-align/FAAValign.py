@@ -226,7 +226,11 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
 def aligned_to_TextGrid(infile, outfile, SR):
     """writes the results of the forced alignment (file "aligned.mlf") to file as a Praat TextGrid file"""
     
-    f = io.open(infile, 'rU')
+    new_path = os.path.dirname(infile)
+    if not os.path.isdir(new_path):
+        print("Making directory %s"%(new_path))
+        os.mkdir(new_path)
+    f = io.open(infile, 'rU', encoding='UTF-8')
     lines = f.readlines()
     f.close()
     fw = io.open(outfile, 'w')

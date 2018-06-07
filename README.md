@@ -3,6 +3,8 @@
 
 For transcribing auditory stimuli using FAVE align, a flavor of the Penn Forced aligner.  The FAVE aligner scripts have been edited to be compatible with python 3. This repo also has scripts to change inter-rater reliability.
 
+The binder link will install Sox and HTK, which are prerequisites for running FAVE.
+
 Important notes on [editing textgrids](http://www.fon.hum.uva.nl/praat/manual/TextGridEditor.html).
 
 Steps:

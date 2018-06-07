@@ -193,7 +193,7 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
  
     # prepare scp files
     fw = io.open(os.getcwd()+'/tmp' + identifier + '/codetr' + identifier + '.scp', 'w')
-    fw.write(os_getcwd()+'/tmp' + identifier + '/tmp' + identifier + '.wav ' + os.getcwd() +'/tmp' + identifier + '/tmp'+ identifier + '.plp\n')
+    fw.write(os.getcwd()+'/tmp' + identifier + '/tmp' + identifier + '.wav ' + os.getcwd() +'/tmp' + identifier + '/tmp'+ identifier + '.plp\n')
     fw.close()
     fw = io.open(os.getcwd()+'/tmp' + identifier + '/test' + identifier + '.scp', 'w')
     fw.write(os.getcwd()+'/tmp' + identifier +'/tmp' + identifier + '.plp\n')

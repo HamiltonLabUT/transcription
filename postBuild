@@ -7,3 +7,11 @@ make all
 make install
 
 export PATH="$PWD/htk:$PATH"
+
+cd ../sox-14.4.2
+./configure --prefix=$HOME
+
+make -s
+make install
+
+export PATH="$PWD/sox-14.4.2:$PATH"

@@ -1492,6 +1492,7 @@ def FAAValign(opts, args, FADIR='', SOXPATH=''):
     """runs the forced aligner for the arguments given"""
 
     tempdir = os.path.join(FADIR, TEMPDIR)
+    print('Temp dir is %s'%tempdir)
 
     ## need to make options global (now this is no longer the main program...)
     global options

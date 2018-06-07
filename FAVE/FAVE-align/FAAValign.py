@@ -184,6 +184,7 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
     print("Making tmp directory")
     os.mkdir("./tmp" + identifier)
     os.listdir(os.getcwd()+'/tmp'+identifier)
+    os.listdir('./tmp'+identifier)
     # prepare wavefile
     SR = prep_wav(wavfile, './tmp' + identifier + '/tmp' + identifier + '.wav', SOXPATH)
 

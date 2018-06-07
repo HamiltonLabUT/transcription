@@ -186,43 +186,43 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
     #os.listdir(os.getcwd()+'/tmp'+identifier)
     #os.listdir('./tmp'+identifier)
     # prepare wavefile
-    SR = prep_wav(wavfile, './tmp' + identifier + '/tmp' + identifier + '.wav', SOXPATH)
+    SR = prep_wav(wavfile, os.getcwd()+'/tmp' + identifier + '/tmp' + identifier + '.wav', SOXPATH)
 
     # prepare mlfile
-    prep_mlf(trs_input, './tmp' + identifier + '/tmp' + identifier + '.mlf', identifier)
+    prep_mlf(trs_input, os.getcwd()+'/tmp' + identifier + '/tmp' + identifier + '.mlf', identifier)
  
     # prepare scp files
-    fw = io.open('./tmp' + identifier + '/codetr' + identifier + '.scp', 'w')
-    fw.write('./tmp' + identifier + '/tmp' + identifier + '.wav ./tmp' + identifier + '/tmp'+ identifier + '.plp\n')
+    fw = io.open(os.getcwd()+'/tmp' + identifier + '/codetr' + identifier + '.scp', 'w')
+    fw.write(os_getcwd()+'/tmp' + identifier + '/tmp' + identifier + '.wav ' + os.getcwd() +'/tmp' + identifier + '/tmp'+ identifier + '.plp\n')
     fw.close()
-    fw = io.open('./tmp' + identifier + '/test' + identifier + '.scp', 'w')
-    fw.write('./tmp' + identifier +'/tmp' + identifier + '.plp\n')
+    fw = io.open(os.getcwd()+'/tmp' + identifier + '/test' + identifier + '.scp', 'w')
+    fw.write(os.getcwd()+'/tmp' + identifier +'/tmp' + identifier + '.plp\n')
     fw.close()
 
     try:
         # call plp.sh and align.sh
         if HTKTOOLSPATH:  ## if absolute path to HTK Toolkit is given
-            os.system(os.path.join(HTKTOOLSPATH, 'HCopy') + ' -T 1 -C ./model/' + str(SR) + '/config -S ./tmp' + identifier + '/codetr' + identifier + '.scp >> ./tmp' + identifier + '/blubbeldiblubb.txt')
-            os.system(os.path.join(HTKTOOLSPATH, 'HVite') + ' -T 1 -a -m -I ./tmp' + identifier + '/tmp' + identifier +'.mlf -H ./model/' + str(SR) + '/macros -H ./model/' + str(SR) + '/hmmdefs  -S ./tmp' + identifier + '/test' + identifier+ '.scp -i ./tmp' + identifier + '/aligned' + identifier + '.mlf -p 0.0 -s 5.0 ' + options.dict + ' ./model/monophones > ./tmp' + identifier + '/aligned' + identifier + '.results')
+            os.system(os.path.join(HTKTOOLSPATH, 'HCopy') + ' -T 1 -C ./model/' + str(SR) + '/config -S '+os.getcwd()+'/tmp' + identifier + '/codetr' + identifier + '.scp >> ' + os.getcwd() + '/tmp' + identifier + '/blubbeldiblubb.txt')
+            os.system(os.path.join(HTKTOOLSPATH, 'HVite') + ' -T 1 -a -m -I '+ os.getcwd()+ '/tmp' + identifier + '/tmp' + identifier +'.mlf -H ./model/' + str(SR) + '/macros -H ./model/' + str(SR) + '/hmmdefs  -S '+os.getcwd() + '/tmp' + identifier + '/test' + identifier+ '.scp -i ' + os.getcwd() +'/tmp' + identifier + '/aligned' + identifier + '.mlf -p 0.0 -s 5.0 ' + options.dict + ' ./model/monophones > '+os.getcwd() + '/tmp' + identifier + '/aligned' + identifier + '.results')
         else:  ## find path via shell
             #os.system('HCopy -T 1 -C ./model/' + str(SR) + '/config -S ./tmp/codetr.scp >> blubbeldiblubb.txt')
             #os.system('HVite -T 1 -a -m -I ./tmp/tmp.mlf -H ./model/' + str(SR) + '/macros -H ./model/' + str(SR) + '/hmmdefs  -S ./tmp/test.scp -i ./tmp/aligned.mlf -p 0.0 -s 5.0 ' + options.dict + ' ./model/monophones > ./tmp/aligned.results')
-            os.system('HCopy -T 1 -C ./model/' + str(SR) + '/config -S ./tmp' + identifier + '/codetr' + identifier + '.scp >> ./tmp' + identifier + '/blubbeldiblubb.txt')
-            os.system('HVite -T 1 -a -m -I ./tmp' + identifier + '/tmp' + identifier +'.mlf -H ./model/' + str(SR) + '/macros -H ./model/' + str(SR) + '/hmmdefs  -S ./tmp' + identifier + '/test' + identifier+ '.scp -i ./tmp' + identifier + '/aligned' + identifier + '.mlf -p 0.0 -s 5.0 ' + options.dict + ' ./model/monophones > ./tmp' + identifier + '/aligned' + identifier + '.results')
+            os.system('HCopy -T 1 -C ./model/' + str(SR) + '/config -S ' os.getcwd() + '/tmp' + identifier + '/codetr' + identifier + '.scp >> ' + os.getcwd() + '/tmp' + identifier + '/blubbeldiblubb.txt')
+            os.system('HVite -T 1 -a -m -I ' + os.getcwd() + '/tmp' + identifier + '/tmp' + identifier +'.mlf -H ./model/' + str(SR) + '/macros -H ./model/' + str(SR) + '/hmmdefs  -S ' + os.getcwd() + '/tmp' + identifier + '/test' + identifier+ '.scp -i ' + os.getcwd() + '/tmp' + identifier + '/aligned' + identifier + '.mlf -p 0.0 -s 5.0 ' + options.dict + ' ./model/monophones > ' + os.getcwd() + '/tmp' + identifier + '/aligned' + identifier + '.results')
 
         ## write result of alignment to TextGrid file
-        aligned_to_TextGrid('./tmp' + identifier + '/aligned' + identifier + '.mlf', outfile, SR)
+        aligned_to_TextGrid(os.getcwd() + '/tmp' + identifier + '/aligned' + identifier + '.mlf', outfile, SR)
         if options.verbose:
             print("\tForced alignment called successfully for file %s." % os.path.basename(wavfile))
     except Exception as e:
         FA_error = "Error in aligning file %s:  %s." % (os.path.basename(wavfile), e)
         ## clean up temporary alignment files
-        shutil.rmtree("./tmp" + identifier)
+        shutil.rmtree(os.getcwd()+"/tmp" + identifier)
         raise Exception(FA_error)
         ##errorhandler(FA_error)
 
     ## remove tmp directory and all files        
-    shutil.rmtree("./tmp" + identifier)
+    shutil.rmtree(os.getcwd()+"/tmp" + identifier)
     
 
 ## This function is from Jiahong Yuan's align.py

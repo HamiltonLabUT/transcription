@@ -1,17 +1,17 @@
 #!/bin/bash
 
-cd htk
-./configure --prefix=$HOME
+#cd htk
+#./configure --prefix=$HOME
 
-make all
-make install
+#make all
+#make install
 
-export PATH="$PWD/htk:$PATH"
+#export PATH="$PWD/htk:$PATH"
 
-cd ../sox-14.4.2
-./configure --prefix=$HOME
+#cd ../sox-14.4.2
+#./configure --prefix=$HOME
 
-make 
-make install
+#make 
+#make install
 
-export PATH="$PWD/sox-14.4.2:$PATH"
+#export PATH="$PWD/sox-14.4.2:$PATH"

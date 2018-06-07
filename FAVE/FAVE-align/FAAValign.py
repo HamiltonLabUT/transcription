@@ -207,7 +207,7 @@ def align(wavfile, trs_input, outfile, FADIR='', SOXPATH='', HTKTOOLSPATH=''):
         else:  ## find path via shell
             #os.system('HCopy -T 1 -C ./model/' + str(SR) + '/config -S ./tmp/codetr.scp >> blubbeldiblubb.txt')
             #os.system('HVite -T 1 -a -m -I ./tmp/tmp.mlf -H ./model/' + str(SR) + '/macros -H ./model/' + str(SR) + '/hmmdefs  -S ./tmp/test.scp -i ./tmp/aligned.mlf -p 0.0 -s 5.0 ' + options.dict + ' ./model/monophones > ./tmp/aligned.results')
-            os.system('HCopy -T 1 -C ./model/' + str(SR) + '/config -S ' os.getcwd() + '/tmp' + identifier + '/codetr' + identifier + '.scp >> ' + os.getcwd() + '/tmp' + identifier + '/blubbeldiblubb.txt')
+            os.system('HCopy -T 1 -C ./model/' + str(SR) + '/config -S '+ os.getcwd() + '/tmp' + identifier + '/codetr' + identifier + '.scp >> ' + os.getcwd() + '/tmp' + identifier + '/blubbeldiblubb.txt')
             os.system('HVite -T 1 -a -m -I ' + os.getcwd() + '/tmp' + identifier + '/tmp' + identifier +'.mlf -H ./model/' + str(SR) + '/macros -H ./model/' + str(SR) + '/hmmdefs  -S ' + os.getcwd() + '/tmp' + identifier + '/test' + identifier+ '.scp -i ' + os.getcwd() + '/tmp' + identifier + '/aligned' + identifier + '.mlf -p 0.0 -s 5.0 ' + options.dict + ' ./model/monophones > ' + os.getcwd() + '/tmp' + identifier + '/aligned' + identifier + '.results')
 
         ## write result of alignment to TextGrid file

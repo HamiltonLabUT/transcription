@@ -3,6 +3,7 @@
 cd htk
 ./configure --prefix=$HOME/htk --disable-hslab
 
+make clean
 make all
 make install
 

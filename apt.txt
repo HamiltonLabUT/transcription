@@ -1,2 +1,5 @@
 gcc-multilib
+libc6-dev-i386
+libx11-dev
+gawk
 sox

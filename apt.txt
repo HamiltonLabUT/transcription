@@ -1,5 +1,6 @@
 apt-utils
 gcc-multilib
+ia32-libs
 libc6-dev-i386
 libx11-dev
 gawk

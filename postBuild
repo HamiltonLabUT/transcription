@@ -1,5 +1,6 @@
 #!/bin/bash
 
+linux32 bash
 cd htk
 ./configure --prefix=$HOME/htk --disable-hslab
 

@@ -50,7 +50,7 @@ PROGS   =	Cluster HLMCopy LAdapt LBuild LFoF \
 		LGCopy LGList LGPrep LLink LMerge \
 		LNewMap LNorm LPlex LSubset 
 
-all:  $(PROGS)
+all:	$(PROGS)
 
 # build $(PROGS)
 %: %.c $(HLIBS)

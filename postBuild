@@ -1,8 +1,9 @@
 #!/bin/bash
 
 linux32 bash
+export CPPFLAGS=-UPHNALG
 cd htk
-./configure --prefix=$HOME/htk --disable-hslab
+./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools
 
 make clean
 make all

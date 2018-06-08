@@ -4,7 +4,7 @@ cd htk
 ./configure --prefix=$HOME/htk
 
 make all
-#make install
+make install
 
 export PATH="$PWD/htk:$PWD/htk/bin:$PATH"
 

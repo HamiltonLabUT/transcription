@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd htk
-./configure --prefix=$HOME/htk
+./configure --prefix=$HOME/htk --disable-hslab
 
 make all
 make install

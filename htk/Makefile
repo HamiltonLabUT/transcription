@@ -1,5 +1,5 @@
 # ----------------------------------------------------------- 
-#                                                             
+#                                                            
 #                          ___                                
 #                       |_| | |_/   SPEECH                    
 #                       | | | | \   RECOGNITION               
@@ -24,7 +24,7 @@ SHELL = /bin/sh
 srcdir = .
 top_srcdir = .
 
-prefix = /usr/local
+prefix = /Users/liberty/Documents/Austin/code/transcription/htk
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -74,7 +74,7 @@ HTKTOOLS = HTKTools
 HLMTOOLS = HLMTools
 LVREC = HTKLVRec
 HTKBOOK = HTKBook
-SUBDIRS = ($(HTKLIB) $(HLMLIB) $(HTKTOOLS) $(HLMTOOLS) $(LVREC) $(BOOK))
+SUBDIRS = ($(HTKLIB) $(HLMLIB) $(HTKTOOLS) $(HLMTOOLS) $(LVREC) $(HTKBOOK))
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
 CONFIG_CLEAN_FILES = 
@@ -91,7 +91,7 @@ GZIP_ENV = --best
 .SUFFIXES:
 
 # build rules
-all: htktools hlmtools
+all:	htktools hlmtools
 $(HTKLIB)/HTKLib.a:
 	(cd $(HTKLIB) && $(MAKE) HTKLib.a) \
 	|| case "$(MFLAGS)" in *k*) fail=yes;; *) exit 1;; esac;

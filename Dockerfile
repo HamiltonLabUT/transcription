@@ -10,7 +10,7 @@
 FROM ubuntu:16.04
 
 # working directory
-#ENV HOME /root
+ENV HOME /home/joyvan
 WORKDIR $HOME
 
 # packages list
@@ -30,7 +30,7 @@ RUN pip install --upgrade pip
 RUN mkdir $HOME/htk
 COPY . $HOME/htk/
 WORKDIR $HOME/htk/
-RUN ./configure --disable-hslab && \
+RUN ./configure --disable-hslab --prefix=$HOME/htk && \
     make all && \
     make install
 

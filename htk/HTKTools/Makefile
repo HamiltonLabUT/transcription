@@ -26,7 +26,7 @@ HTKLIB = $(inc)/HTKLib.a
 srcdir = .
 top_srcdir = ..
 
-prefix = /usr/local
+prefix = ${HOME}/htk
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -45,7 +45,7 @@ CC      = 	gcc
 CFLAGS  = 	-ansi -g -O2 -DNO_AUDIO -D'ARCH="darwin"' -I/usr/include/malloc -Wall -Wno-switch -g -O2 -I$(inc) -DPHNALG
 LDFLAGS = 	-L/usr/X11R6/lib  -lm
 INSTALL = 	/usr/bin/install -c
-PROGS   = 	HSLab HBuild HCompV HCopy HDMan \
+PROGS   = 	 HBuild HCompV HCopy HDMan \
 		HERest HHEd HInit HLEd 	HList \
 		HLRescore HLStats HMMIRest HParse \
 		HQuant HRest HResults HSGen HSmooth \

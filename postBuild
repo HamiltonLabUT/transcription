@@ -1,6 +1,7 @@
 #!/bin/bash
 
-linux32 bash
+dpkg --add-architecture i386
+#linux32 bash
 export CPPFLAGS=-UPHNALG
 cd htk
 ./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools --build=x86_64-linux-gnu

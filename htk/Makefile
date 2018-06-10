@@ -24,7 +24,7 @@ SHELL = /bin/sh
 srcdir = .
 top_srcdir = .
 
-prefix = /Users/liberty/Documents/Austin/code/transcription/htk
+prefix = ./htk
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -40,7 +40,7 @@ includedir = ${prefix}/include
 oldincludedir = /usr/include
 
 CC = gcc
-CPPFLAGS = 
+CPPFLAGS = -UPHNALG
 CFLAGS = $(CPPFLAGS) -ansi -g -O2 -DNO_AUDIO -D'ARCH="darwin"' -I/usr/include/malloc -Wall -Wno-switch -g -O2
 LDFLAGS = -L/usr/X11R6/lib 
 LIBS = -lm 

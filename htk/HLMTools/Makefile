@@ -25,7 +25,7 @@ inc     = 	../HTKLib
 srcdir = .
 top_srcdir = ..
 
-prefix = /usr/local
+prefix = ./htk
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -50,7 +50,7 @@ PROGS   =	Cluster HLMCopy LAdapt LBuild LFoF \
 		LGCopy LGList LGPrep LLink LMerge \
 		LNewMap LNorm LPlex LSubset 
 
-all:  $(PROGS)
+all:	$(PROGS)
 
 # build $(PROGS)
 %: %.c $(HLIBS)

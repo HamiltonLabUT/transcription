@@ -1,10 +1,10 @@
 #!/bin/bash
 
-dpkg --add-architecture i386
 linux32 bash
 export CPPFLAGS=-UPHNALG
+export CFLAGS="-m32 -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH=\"$host_cpu\"' $CFLAGS"
 cd htk
-./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools --build=x86_64-linux-gnu
+./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools $CFLAGS
 
 make clean
 make all

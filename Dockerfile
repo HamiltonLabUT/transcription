@@ -27,9 +27,8 @@ RUN \
 # pip
 RUN pip install --upgrade pip
 
-RUN mkdir $HOME/htk
-COPY . $HOME/htk/
 WORKDIR $HOME/htk/
+RUN echo 'home is $HOME/htk'
 RUN ./configure --disable-hslab --prefix=$HOME/htk && \
     make all && \
     make install

@@ -10,7 +10,7 @@
 FROM ubuntu:16.04
 
 # working directory
-ENV HOME /home/joyvan
+ENV HOME $PWD
 WORKDIR $HOME
 
 # packages list

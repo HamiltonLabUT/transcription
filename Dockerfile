@@ -10,7 +10,7 @@
 FROM ubuntu:16.04
 
 # working directory
-ENV HOME $PWD
+ENV HOME /root
 WORKDIR $HOME
 
 # packages list

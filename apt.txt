@@ -1,4 +1,6 @@
 apt-utils
+gcc-3.4 
+g++-3.4
 gcc-multilib
 lib32stdc++6
 libc6-dev-i386

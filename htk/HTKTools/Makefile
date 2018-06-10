@@ -41,8 +41,8 @@ mandir = ${prefix}/share/man
 includedir = ${prefix}/include
 oldincludedir = /usr/include
 
-CC      = 	gcc
-CFLAGS  = 	-ansi -g -O2 -DNO_AUDIO -D'ARCH="darwin"' -I/usr/include/malloc -Wall -Wno-switch -g -O2 -I$(inc) -DPHNALG
+CC      = 	gcc34
+CFLAGS =	-m32 -ansi -g -O2 -DNO_AUDIO -D'ARCH="$host_cpu"' -I/usr/include/malloc -Wall -Wno-switch -g -O2
 LDFLAGS = 	-L/usr/X11R6/lib  -lm
 INSTALL = 	/usr/bin/install -c
 PROGS   = 	 HBuild HCompV HCopy HDMan \

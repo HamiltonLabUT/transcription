@@ -25,9 +25,8 @@ CMD ["/bin/bash"]
 ENTRYPOINT ["linux32", "--"]
 
 RUN mkdir /usr/local/htk
-COPY . /usr/local/htk
+COPY . /usr/local/htk/
 WORKDIR /usr/local/htk
-RUN cd /usr/local/htk
 RUN ./configure --prefix=/usr/local/htk --disable-hslab --disable-hlmtools --without-x
 RUN make all
 RUN make install

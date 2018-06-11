@@ -22,14 +22,16 @@ RUN \
     python-dev \
     python-pip \
     curl \
-    git
+    git \
+    sox
 
 # pip
 RUN pip install --upgrade pip
 
+RUN mkdir $HOME/htk
+COPY . $HOME/htk/
 WORKDIR $HOME/htk/
-RUN echo $HOME
-RUN $HOME/htk/configure --disable-hslab --prefix=${HOME}/htk && \
+RUN ./configure --disable-hslab --prefix=${HOME}/htk && \
     make all && \
     make install
 

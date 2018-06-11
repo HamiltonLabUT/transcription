@@ -11,3 +11,5 @@ export CPPFLAGS=-UPHNALG
 #./configure CC=gcc-3.4 --prefix=$HOME/htk --disable-hslab --disable-hlmtools
 ./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools
 
+make all
+make install

@@ -6,7 +6,7 @@ cd htk
 #export CFLAGS="-m32 -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH=\"$host_cpu\"' $CFLAGS"
 #make clean
 export CPPFLAGS=-UPHNALG
-export CFLAGS="-m64 -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH=\"$host_cpu\"' $CFLAGS"
+export CFLAGS="-m32 -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH=\"$host_cpu\"' $CFLAGS"
 ./configure CC=gcc-3.4 --prefix=$HOME/htk --disable-hslab --disable-hlmtools
 #./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools
 

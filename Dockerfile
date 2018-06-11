@@ -17,7 +17,6 @@ MAINTAINER Uned Technolegau Iaith, Prifysgol Bangor
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 ADD HTK-3.4.1.tar.gz /usr/local/src
-ADD HTK-samples-3.4.1.tar.gz /usr/local/src/htk/
 
 RUN dpkg --add-architecture i386
 RUN apt-get update --fix-missing && apt-get upgrade -y

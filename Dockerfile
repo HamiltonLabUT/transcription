@@ -21,12 +21,13 @@ RUN sed -i 's/^#\s*\(deb.*universe\)$/\1/g' /etc/apt/sources.list
 RUN apt-get update && apt-get -y upgrade && apt-get autoremove && apt-get clean
 RUN apt-get install -y libx11-dev sox gawk
 # overwrite this with 'CMD []' in a dependent Dockerfile
-CMD ["/bin/bash"]
-ENTRYPOINT ["linux32", "--"]
 
 RUN mkdir /usr/local/htk
 COPY . /usr/local/htk/
 WORKDIR /usr/local/htk
-RUN ./configure --prefix=/usr/local/htk --disable-hslab --disable-hlmtools --without-x
+RUN /usr/local/htk/configure --prefix=/usr/local/htk --disable-hslab --disable-hlmtools --without-x
 RUN make all
 RUN make install
+
+CMD ["/bin/bash"]
+ENTRYPOINT ["linux32", "--"]

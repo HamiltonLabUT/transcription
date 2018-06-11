@@ -1,14 +1,11 @@
 apt-utils
 build-essential
 libc6-i386
-libx11-dev-i386
 libc6-dev-i386
 xorg-dev
 libx11-xcb-dev
 lib32z1 
 lib32ncurses5 
-gcc-3.4 
-g++-3.4
 gcc-multilib
 lib32stdc++6
 libx11-dev

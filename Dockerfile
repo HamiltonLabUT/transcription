@@ -24,8 +24,8 @@ RUN apt-get install -y libx11-dev sox gawk
 CMD ["/bin/bash"]
 ENTRYPOINT ["linux32", "--"]
 
-WORKDIR $HOME/htk
-RUN cd $HOME/htk
-RUN ./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools --without-x
+WORKDIR ./htk
+RUN cd htk
+RUN ./configure --prefix=~/htk --disable-hslab --disable-hlmtools --without-x
 RUN make all
 RUN make install

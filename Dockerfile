@@ -19,6 +19,12 @@ RUN echo '#!/bin/sh' > /usr/sbin/policy-rc.d \
 # enable the universe
 RUN sed -i 's/^#\s*\(deb.*universe\)$/\1/g' /etc/apt/sources.list
 RUN apt-get update && apt-get -y upgrade && apt-get autoremove && apt-get clean
+RUN apt-get install sox gawk
 # overwrite this with 'CMD []' in a dependent Dockerfile
 CMD ["/bin/bash"]
 ENTRYPOINT ["linux32", "--"]
+
+RUN cd $HOME/htk
+RUN ./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools --without-x
+RUN make all
+RUN make install

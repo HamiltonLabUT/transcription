@@ -1,33 +1,41 @@
-FROM ioft/i386-ubuntu_core
-RUN echo '#!/bin/sh' > /usr/sbin/policy-rc.d \
-&& echo 'exit 101' >> /usr/sbin/policy-rc.d \
-&& chmod +x /usr/sbin/policy-rc.d \
-\
-&& dpkg-divert --local --rename --add /sbin/initctl \
-&& cp -a /usr/sbin/policy-rc.d /sbin/initctl \
-&& sed -i 's/^exit.*/exit 0/' /sbin/initctl \
-\
-&& echo 'force-unsafe-io' > /etc/dpkg/dpkg.cfg.d/docker-apt-speedup \
-\
-&& echo 'DPkg::Post-Invoke { "rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true"; };' > /etc/apt/apt.conf.d/docker-clean \
-&& echo 'APT::Update::Post-Invoke { "rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true"; };' >> /etc/apt/apt.conf.d/docker-clean \
-&& echo 'Dir::Cache::pkgcache ""; Dir::Cache::srcpkgcache "";' >> /etc/apt/apt.conf.d/docker-clean \
-\
-&& echo 'Acquire::Languages "none";' > /etc/apt/apt.conf.d/docker-no-languages \
-\
-&& echo 'Acquire::GzipIndexes "true"; Acquire::CompressionTypes::Order:: "gz";' > /etc/apt/apt.conf.d/docker-gzip-indexes
-# enable the universe
-RUN sed -i 's/^#\s*\(deb.*universe\)$/\1/g' /etc/apt/sources.list
-RUN apt-get update && apt-get -y upgrade && apt-get autoremove && apt-get clean
-RUN apt-get install -y libx11-dev sox gawk
-# overwrite this with 'CMD []' in a dependent Dockerfile
+# Copyright 2016 Prifysgol Bangor University
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+FROM ubuntu:14.04
+MAINTAINER Uned Technolegau Iaith, Prifysgol Bangor
 
-RUN mkdir /usr/local/htk
-COPY . /usr/local/htk/
-WORKDIR /usr/local/htk
-RUN /usr/local/htk/configure --prefix=/usr/local/htk --disable-hslab --disable-hlmtools --without-x
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
+ADD HTK-3.4.1.tar.gz /usr/local/src
+ADD HTK-samples-3.4.1.tar.gz /usr/local/src/htk/
+
+RUN dpkg --add-architecture i386
+RUN apt-get update --fix-missing && apt-get upgrade -y
+
+RUN apt-get install -q -y curl build-essential gcc-multilib libx11-dev:i386 \
+	python python3 \
+	perl wget zip unzip sox sqlite curl \
+	zlib1g-dev libtool autotools-dev automake
+
+RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash \
+	&& apt-get update && apt-get install -y git-lfs \
+	&& apt-get clean \
+	&& git lfs install \
+ 	&& rm -rf /var/lib/apt/lists/* 
+
+# Install HTK
+WORKDIR /usr/local/src/htk
+
+RUN ./configure
 RUN make all
 RUN make install
-
-CMD ["/bin/bash"]
-ENTRYPOINT ["linux32", "--"]

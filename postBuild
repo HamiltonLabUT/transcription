@@ -7,18 +7,6 @@ cd htk
 #make clean
 export CPPFLAGS=-UPHNALG
 export CFLAGS="-m64 -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH=\"$host_cpu\"' $CFLAGS"
-#./configure CC=gcc-3.4 --prefix=$HOME/htk --disable-hslab --disable-hlmtools
-./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools
+./configure CC=gcc-3.4 --prefix=$HOME/htk --disable-hslab --disable-hlmtools
+#./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools
 
-#make all
-#make install
-
-#export PATH="$PWD/htk:$PWD/htk/bin:$PATH"
-
-#cd ../sox-14.4.2
-#./configure --prefix=$HOME
-
-#make 
-#make install
-
-#export PATH="$PWD/sox-14.4.2:$PATH"

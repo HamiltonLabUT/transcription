@@ -1,0 +1,86 @@
+Speech	CV	7.28	9.4	2.12	Summer in the city of Arendale.
+Speech	CV	10.29	11.66	1.37	It couldn't be warmer.
+Speech	CV	12.065	13.365	1.3	It couldn't be sunnier.
+Speech	CV	13.78	15.59	1.81	But that's about to change,
+Speech	CV	16.015	16.895	0.88	Forever.
+Speech	CV	18.715	19.555	0.84	Arendale.
+Speech	CV	19.695	21.275	1.58	It's completely frozen. 
+Speech	CV	21.595	24.425	2.83	Cold, cold cold cold cold cold cold cold cold cold cold cold cold!
+Speech	CV	24.79	26.58	1.79	A real howler in July, yeah?
+Speech	CV	27.308	30.138	2.83	The land's covered in eternal snow.
+Speech	CV	31.383	32.233	0.85	Whoa! Oh!
+Speech	CV	32.698	33.408	0.71	Really?!
+Speech	CV	34.693	37.283	2.59	If we don't do something soon we'll all freeze to death!
+Speech	CV	37.908	40.558	2.65	You wanna talk about a problem? I sell ice for a living.
+Speech	CV	40.563	42.563	2.0	oh, that's a rough business to be in right now.
+Speech	CV	42.563	43.313	0.75	{LG} I mean,
+Speech	CV	43.328	46.028	2.7	{BR} that is really, mm, that's unfortunate.
+Speech	CV	46.908	47.518	0.61	My lady.
+Speech	CV	48.253	48.863	0.61	Woah woah!
+Speech	CV	48.918	49.038	0.12	Ha.
+Speech	CV	49.198	52.808	3.61	his is awkward. {LG} Not you're awkward, but just 'cause we're, I'm awkward.
+Speech	CV	52.808	53.678	0.87	{BR} You're gorgeous.
+Speech	CV	53.863	54.333	0.47	Wait, what?
+Speech	CV	55.158	56.058	0.9	Hi everyone.
+Speech	CV	56.178	56.828	0.65	I'm Olaf.
+Speech	CV	56.893	58.003	1.11	Ah!
+Speech	CV	58.288	58.878	0.59	Hi!
+Speech	CV	58.883	59.443	0.56	You're creepy.
+Speech	CV	59.563	59.978	0.415	Whoa!
+Speech	CV	59.978	62.608	2.63	I don't want it! Whoa. No! Alright we got off to a bad start.
+Speech	CV	63.683	65.133	1.45	I know how to stop this winter.
+Speech	CV	65.198	65.668	0.47	Yah!
+Speech	CV	65.983	66.623	0.64	Hang on!
+Speech	CV	66.703	67.693	0.99	I like fast!
+Speech	CV	67.708	68.808	1.1	Whoa! Whoa whoa whoa whoa whoa
+Speech	CV	68.908	72.308	3.4	Get your feet down. This is fresh lacquer. Seriously, were you raised in a barn?
+Speech	CV	72.908	73.318	0.41	Eh.
+Speech	CV	74.273	77.543	3.27	Let's go bring back summer!
+Speech	CV	77.738	78.418	0.68	Oh.
+Speech	CV	78.708	80.108	1.4	Eh, man am I out of shape.
+Speech	CV	81.898	82.448	0.55	Wolves.
+Speech	CV	82.463	82.983	0.52	Duck!
+Speech	CV	83.893	85.043	1.15	Whoa, Whoa!
+Speech	CV	85.098	85.938	0.84	Are you okay?
+Speech	CV	85.948	88.058	2.11	I've got a thick skull. I don't have a skull.
+Speech	CV	89.373	90.943	1.57	Oh! Woo! Head rush! 
+Speech	CV	91.168	94.468	3.3	So cute, it's like a little bitty unicorn.
+Speech	CV	95.278	97.908	2.63	Now we just have to survive this blizzard.
+Speech	CV	97.913	99.113	1.2	That's no blizzard!
+Speech	CV	99.953	100.603	0.65	Scorcery.
+Speech	CV	100.698	101.898	1.2	That's my sister.
+Speech	CV	102.298	103.778	1.48	That would have been nice to know!
+Speech	CV	104.098	104.718	0.62	Heads up!
+Speech	CV	104.728	105.088	0.36	Oh!
+Speech	CV	105.418	108.808	3.39	It is not nice to throw snow people!
+Speech	CV	108.808	110.018	1.21	Whoa, whoa whoa whoa whoa feisty pants. Uh, let me go.
+Speech	CV	110.023	111.393	1.37	Just let the snowman be. I'm calm. 
+Speech	CV	111.408	112.098	0.69	I'm calm.
+Speech	CV	112.183	112.803	0.62	Great.
+Speech	CV	113.263	114.163	0.9	Oh, come on.
+Speech	CV	115.623	116.133	0.51	Whoa!
+Speech	CV	117.808	119.198	1.39	Olaf, you're melting!
+Speech	CV	119.203	121.113	1.91	Some people are worth melting for.
+Speech	CV	121.588	123.213	1.625	ut just maybe not right this second.
+Speech	CV	123.213	124.303	1.09	Whoa! Ah!
+Speech	CV	126.108	127.028	0.92	Whoa!
+Speech	CV	127.028	128.158	1.13	Come on buddy faster!
+Speech	CV	128.323	129.303	0.98	No!
+Speech	CV	129.893	130.608	0.715	Ah!
+Speech	CV	130.608	131.338	0.73	Olaf!
+Speech	CV	131.643	133.053	1.41	Hang in there guys!
+Speech	CV	135.918	137.018	1.1	Whoa!
+Speech	CV	137.018	139.588	2.57	I can't feel my legs. I can't feel my legs! 
+Speech	CV	140.003	142.343	2.34	{CG} {BR} Those are my legs. 
+Speech	CV	142.347	144.397	2.05	Ooh. Hey, do me a favor, grab my butt. Mm.
+Speech	CV	144.592	146.412	1.82	uh. Oh that feels better. 
+Music	CV	29.982	30.232	0.25	Go.
+Music	CV	33.477	33.737	0.26	
+Music	CV	37.132	49.347	12.215	Oh, oh oh oh oh oh. Oh oh oh oh oh oh. Oh oh oh oh oh oh. Oh oh oh oh oh oh. Oh oh oh oh oh oh. Oh oh oh oh oh oh.
+Music	CV	54.207	55.048	0.841	Hey.
+Music	CV	58.293	59.541	1.248	Freeze.
+Music	CV	62.517	63.686	1.169	Freeze.
+Music	CV	74.069	78.045	3.976	Go. Go go. Hey. Go go. Go go. Hey. Go.
+Music	CV	113.997	127.529	13.532	When it gets soft, I shake it up. Sh-sh-shake it like a bad girl up in Harlem. When it gets soft, I shake it up. Oh like I look at that girl up in
+Music	CV	133.243	139.314	6.071	Go go. Hey. Go. Go go. Hey. Go, go go. Hey. Go, go go. Hey. Go go.
+Music	CV	146.3	148.444	2.144	Go, go go, hey!  

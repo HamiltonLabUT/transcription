@@ -1,0 +1,33 @@
+Speech	CV	11.99	12.25	0.26	{NS}
+Speech	CV	30.57	36.01	5.44	One of these pampered cubs, is about to be chosen for the mission of a lifetime.
+Speech	CV	37.685	38.545	0.86	Her objective
+Speech	CV	39.29	42.54	3.25	Help expand the wild panda population
+Speech	CV	53.6	55.67	2.07	Chen Chen was born in captivity,
+Speech	CV	56.91	59.7	2.79	So learning to thrive in the wild won't be easy.
+Speech	CV	63.89	66.98	3.09	She'll need help, from some unexpected places.
+Speech	CV	67.21	70.01	2.8	To discover her own inner bear.
+Speech	CV	70.025	70.695	0.67	Come on guys
+Speech	CV	71.315	73.805	2.49	I don't teach bears how to be bears,
+Speech	CV	74.995	77.195	2.2	The knowledg is already inside them.
+Speech	CV	81.1	84.5	3.4	Join the team of Chinese and American scientists,
+Speech	CV	84.705	88.325	3.62	working together to help Chen Chen prepare for the wild.
+Speech	CV	92.095	93.515	1.42	C'mon let's go
+Speech	CV	94.0	94.58	0.58	Let's go
+Speech	CV	96.395	99.895	3.5	Warner Brothers pictures and I MAX invite you to share
+Speech	CV	102.0	103.7	1.7	A journey of friendship
+Speech	CV	107.16	108.83	1.67	A struggle for survival
+Speech	CV	112.11	113.82	1.71	and a story of hope
+Speech	CV	137.59	138.42	0.83	Pandas
+Speech	CV	139.19	140.42	1.23	Narrated by Kristen Bell
+Speech	CV	140.99	141.6	0.61	Hey that's me
+Speech	CV	143.58	145.72	2.14	Experience it in I MAX
+music	CV	94.705	107.015	12.31	And if the sun's upset and the sky goes cold, then if the clouds get heavy and start to fall. I really need somebody to call my own, I wanna be somebody to someone.
+music	CV	107.195	110.155	2.96	Someone to you
+music	CV	110.29	113.31	3.02	Someone to you
+music	CV	113.595	116.615	3.02	Someone to you
+music	CV	116.79	118.83	2.04	Someone to you
+music	CV	119.915	123.005	3.09	Someone to you
+music	CV	123.105	126.115	3.01	Someone to you
+music	CV	126.315	129.345	3.03	Someone to you
+music	CV	129.505	131.705	2.2	Someone to you
+music	CV	132.69	134.99	2.3	Someone to you

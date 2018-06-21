@@ -1,0 +1,62 @@
+Speech	CV	7.49	9.87	2.38	You're gonna be a Werth academy graduate!
+Speech	CV	10.105	11.305	1.2	Because I've designed a plan,
+Speech	CV	11.88	13.13	1.25	Your life plan.
+Speech	CV	13.27	17.64	4.37	The hour of the day, the day of the week, the week of the month, the month of the year, the year of your life!
+Speech	CV	17.65	18.07	0.42	Wow.
+Speech	CV	21.605	23.695	2.09	We're not leaving anything to chance.
+Speech	CV	25.405	27.235	1.83	Oh here I am uh up here!
+Speech	CV	29.405	31.605	2.2	You are going to make a wonderful grown up.
+Speech	CV	32.8	33.6	0.8	Thank you mom.
+Speech	CV	37.295	39.555	2.26	I just wanted to give your drawing back.
+Speech	CV	39.81	40.69	0.88	You didn't like it?
+Speech	CV	40.89	41.91	1.02	No, I did!
+Speech	CV	42.495	48.595	6.1	Once upon a time there was a little prince who lived on a planet that was scarcely bigger than himself.
+Speech	CV	51.67	54.89	3.22	I thought I'd never find anyone who wanted to hear my story.
+Speech	CV	56.695	58.405	1.71	If you please draw me a sheep.
+Speech	CV	62.095	66.395	4.3	What was a kid doing there in the desert, there was no mention of life on any other planets.
+Speech	CV	66.61	69.3	2.69	An asteroid, asteroid B six one two.
+Speech	CV	71.49	72.01	0.52	Wow.
+Speech	CV	72.205	73.205	1.0	And the little prince,
+Speech	CV	74.62	76.58	1.96	he was very fond of sunsets.
+Speech	CV	77.875	78.525	0.65	Wow.
+Speech	CV	79.195	81.695	2.5	{LG}
+Speech	CV	81.87	83.04	1.17	Did you finish your study work?
+Speech	CV	83.05	85.03	1.98	Not exactly.
+Speech	CV	85.055	86.045	0.99	I made a friend.
+Speech	CV	86.065	89.695	3.63	If you study hard, and you stay completely on track with the plan.
+Speech	CV	90.305	92.085	1.78	You can spend some time with your new friend.
+Speech	CV	92.6	93.22	0.62	Next summer.
+Speech	CV	94.295	95.145	0.85	Look at that,
+Speech	CV	95.315	96.705	1.39	the stars are out.
+Speech	CV	99.785	101.415	1.63	Hey, come and play with me.
+Speech	CV	101.785	102.765	0.98	I cannot play with you,
+Speech	CV	103.3	104.2	0.9	I'm not tamed.
+Speech	CV	106.295	107.125	0.83	But if you tame  me,
+Speech	CV	107.45	108.43	0.98	((Woo a fighter))
+Speech	CV	108.43	109.42	0.99	we shall need each other
+Speech	CV	109.505	110.445	0.94	Wah!
+Speech	CV	110.605	111.325	0.72	{LG}
+Speech	CV	111.335	113.735	2.4	To me you will be unique in all the world.
+Speech	CV	115.785	118.465	2.68	What is essential is invisible to the eye.
+Speech	CV	118.885	119.855	0.97	{LG}
+Speech	CV	122.1	124.62	2.52	When the moment does come for me to leave,
+Speech	CV	125.0	126.25	1.25	I have to go alone.
+Speech	CV	129.495	131.155	1.66	Do you know how to fly a plane?
+Speech	CV	131.795	132.525	0.73	Buckle up!
+Speech	CV	134.49	136.34	1.85	Woo hoo!
+Speech	CV	140.305	142.305	2.0	I'm not so sure I wanna grow up anymore
+Speech	CV	142.69	145.88	3.19	Growing up is not the problem, forgetting is. 
+Speech	CV	148.995	151.815	2.82	You're gonna make a wonderful grown up.
+Music	CV	69.57	71.8	2.23	You are the avalan
+Music	CV	73.106	74.916	1.81	One world away
+Music	CV	76.581	79.001	2.42	I'm make believin'
+Music	CV	80.005	82.065	2.06	While I'm wide away
+Music	CV	83.69	85.63	1.94	Just a trick of light
+Music	CV	96.86	100.52	3.66	Oh.
+Music	CV	104.3	109.8	5.5	My, my.
+Music	CV	112.685	117.405	4.72	Oh whoa.
+Music	CV	119.772	124.266	4.494	Oh whoa.
+Music	CV	127.003	132.696	5.693	Oh.
+Music	CV	144.841	146.415	1.574	Oh.
+Music	CV	152.186	155.813	3.627	My, my.
+Speech 2	CV	109.775	110.135	0.36	Woo!

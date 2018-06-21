@@ -1,0 +1,12 @@
+Speech	JH	4.58	10.01	There's a wonderful story hidden in these walls and I'm going to find it.
+Speech	JH	10.49	12.36	Lee, be careful.
+Speech	JH	14.58	17.509	Forever is the song and the light.
+Speech	JH	19.409	21.569	Ah!
+Speech	JH	29.15	30.17	No!
+Speech	JH	34.66	36.96	Whoa uh. Thanks.
+Music	JH	30.62	33.98	Hey, living in the light
+Music	JH	34.695	37.695	Fighting the good fight
+Music	JH	38.045	40.235	Hallelujah, hey.
+Music	JH	40.325	45.975	We're living in the light
+Music	JH	45.975	50.425	Whoa
+Music	JH	50.435	53.845	Oh

@@ -1,63 +1,64 @@
-Speech	JH	7.65	11.21	This is the first test of my robotics project.
-Speech	JH	12.705	15.469	Stop stop stop stop stop. The seventh test
-Speech	JH	17.002	19.142	This is Tadashi, my older brother.
-Speech	JH	19.142	20.637	Thirty third test
-Speech	JH	21.154	23.444	Wait, wait wait stop. This is the eighty fourth test.
-Speech	JH	23.444	25.254	Hello, I am Baymax.
-Speech	JH	25.254	27.764	It works! Oh, this is amazing.
-Speech	JH	27.764	29.344	He wanted to help a lot of people.
-Speech	JH	32.179	36.969	People keep saying Tadashi's not really gone as long as we remember him.
-Speech	JH	42.74	47.78	Hello, I am Baymax. Tadashi programmed me to heal the sick and injured.
-Speech	JH	53.48	56.38	You will be alright. There, there.
-Speech	JH	57.74	63.31	I would like to help. Scan complete. You are experiencing mood swings. Diagnosis, puberty.
-Speech	JH	63.31	64.14	Whoa, what?
-Speech	JH	64.14	66.96	It's like spooning a warm marshmallow.
-Speech	JH	66.965	67.815	Ah
-Speech	JH	67.815	70.645	Reports are flooding in about a major catastrophe
-Speech	JH	70.645	72.565	We're under attack from a super villain, people
-Speech	JH	73.67	74.77	I am not fast
-Speech	JH	75.82	80.35	So a man in a kabuki mask attacked you and balloon man
-Speech	JH	87.37	88.96	We gotta catch him
-Speech	JH	88.96	91.07	We can't go against that guy, we're nerds.
-Speech	JH	91.07	95.95	Trust me, I know about robotics. We can be way more.
-Speech	JH	95.955	97.615	Anybody else's suit riding up on 'em
-Speech	JH	98.4	99.48	Come on
-Speech	JH	99.765	100.615	Kick it down
-Speech	JH	101.575	102.515	Then punch it
-Speech	JH	102.97	103.75	Dah
-Speech	JH	103.755	106.625	Why is Baymax wearing carbon fiber underpants?
-Speech	JH	106.626	109.809	This may undermine my non threatening, huggable design
-Speech	JH	111.425	113.015	He's glorious
-Speech	JH	119.584	122.124	If I wasn't terrified of heights, I'd probably love this
-Speech	JH	122.125	124.121	But I'm terrified of heights so I don't love it
-Speech	JH	124.121	125.163	What's wrong with you?
-Speech	JH	125.163	126.826	Low battery
-Speech	JH	126.829	128.233	Hairy baby
-Speech	JH	129.975	130.679	Baymax
-Speech	JH	136.91	138.538	That was amazing!
-Speech	JH	138.538	140.119	You gave me a heart attack
-Speech	JH	140.119	140.515	Clear
-Speech	JH	141.271	142.847	It's just an expression
-Speech	JH	142.937	144.26	What do you say buddy?
-Speech	JH	144.505	146.264	Wee
-Speech	JH	147.973	150.259	Okay, let's get you back in your luggage
-Music	JH	55.745	59.525	On top of the world, on top of it all
-Music	JH	59.525	62.975	Trying to feel invincible
-Music	JH	63.135	66.105	Yeah oh
-Music	JH	112.556	116.362	On top of the world, on top of it all
-Music	JH	116.362	120.26	Trying to feel invincible
-Music	JH	120.262	123.11	Yeah oh
-Music	JH	123.295	126.432	Yeah oh
-Music	JH	126.874	128.84	On top of the world
-Music	JH	128.84	130.669	On top of it all
-Music	JH	130.669	134.362	Trying to feel invincible
-Music	JH	134.362	137.129	Yeah oh
-Music	JH	137.384	140.465	Yeah oh
-Music	JH	144.314	147.129	On top of the world
-Music	JH	148.106	151.051	Yeah oh
-Music	JH	151.403	154.899	Yeah oh
-Speech 2	JH	69.515	70.545	Huh
-Speech 2	JH	72.41	73.76	Come on, go go go go
-Speech 2	JH	74.61	75.82	Yeah no kidding
-Speech 2	JH	94.605	95.335	Whoa
-Speech 2	JH	140.355	141.271	Stop, stop stop stop
+Speech	Speech	7.65	11.21	This is the first test of my robotics project.
+Speech	Speech	12.705	15.469	Stop stop stop stop stop. The seventh test
+Speech	Speech	17.002	19.142	This is Tadashi, my older brother.
+Speech	Speech	19.142	20.637	Thirty third test
+Speech	Speech	21.154	23.444	Wait, wait wait stop. This is the eighty fourth test.
+Speech	Speech	23.444	25.254	Hello, I am Baymax.
+Speech	Speech	25.254	27.764	It works! Oh, this is amazing.
+Speech	Speech	27.764	29.344	He wanted to help a lot of people.
+Speech	Speech	32.179	36.969	People keep saying Tadashi's not really gone as long as we remember him.
+Speech	Speech	42.74	47.78	Hello, I am Baymax. Tadashi programmed me to heal the sick and injured.
+Speech	Speech	53.48	56.38	You will be alright. There, there.
+Speech	Speech	57.74	63.31	I would like to help. Scan complete. You are experiencing mood swings. Diagnosis, puberty.
+Speech	Speech	63.31	64.14	Whoa, what?
+Speech	Speech	64.14	66.96	It's like spooning a warm marshmallow.
+Speech	Speech	66.965	67.815	Ah
+Speech	Speech	67.815	70.645	Reports are flooding in about a major catastrophe
+Speech	Speech	70.645	72.565	We're under attack from a super villain, people
+Speech	Speech	73.67	74.77	I am not fast
+Speech	Speech	75.82	80.35	So a man in a kabuki mask attacked you and balloon man
+Speech	Speech	87.37	88.96	We gotta catch him
+Speech	Speech	88.96	91.07	We can't go against that guy, we're nerds.
+Speech	Speech	91.07	95.95	Trust me, I know about robotics. We can be way more.
+Speech	Speech	95.955	97.615	Anybody else's suit riding up on 'em
+Speech	Speech	98.4	99.48	Come on
+Speech	Speech	99.765	100.615	Kick it down
+Speech	Speech	101.575	102.515	Then punch it
+Speech	Speech	102.97	103.75	Dah
+Speech	Speech	103.755	106.625	Why is Baymax wearing carbon fiber underpants?
+Speech	Speech	106.626	109.809	This may undermine my non threatening, huggable design
+Speech	Speech	111.425	113.015	He's glorious
+Speech	Speech	119.584	122.124	If I wasn't terrified of heights, I'd probably love this
+Speech	Speech	122.125	124.121	But I'm terrified of heights so I don't love it
+Speech	Speech	124.121	125.163	What's wrong with you?
+Speech	Speech	125.163	126.826	Low battery
+Speech	Speech	126.829	128.233	Hairy baby
+Speech	Speech	129.975	130.679	Baymax
+Speech	Speech	136.91	138.538	That was amazing!
+Speech	Speech	138.538	140.119	You gave me a heart attack
+Speech	Speech	140.119	140.515	Clear
+Speech	Speech	141.271	142.847	It's just an expression
+Speech	Speech	142.937	144.26	What do you say buddy?
+Speech	Speech	144.505	146.264	Wee
+Speech	Speech	147.973	150.259	Okay, let's get you back in your luggage
+Music	Music	55.745	59.525	On top of the world, on top of it all
+Music	Music	59.525	62.975	Trying to feel invincible
+Music	Music	63.135	66.105	Yeah oh
+Music	Music	112.556	116.362	On top of the world, on top of it all
+Music	Music	116.362	120.26	Trying to feel invincible
+Music	Music	120.262	123.11	Yeah oh
+Music	Music	123.295	126.432	Yeah oh
+Music	Music	126.874	128.84	On top of the world
+Music	Music	128.84	130.669	On top of it all
+Music	Music	130.669	134.362	Trying to feel invincible
+Music	Music	134.362	137.129	Yeah oh
+Music	Music	137.384	140.465	Yeah oh
+Music	Music	144.314	147.129	On top of the world
+Music	Music	148.106	151.051	Yeah oh
+Music	Music	151.403	154.899	Yeah oh
+Speech 2	Speech 2	69.515	70.545	Huh
+Speech 2	Speech 2	72.41	73.76	Come on, go go go go
+Speech 2	Speech 2	74.61	75.82	Yeah no kidding
+Speech 2	Speech 2	94.605	95.335	Whoa
+Speech 2	Speech 2	140.355	141.271	Stop, stop stop stop
+

@@ -41,7 +41,7 @@ oldincludedir = /usr/include
 
 CC = gcc34
 CPPFLAGS = -UPHNALG
-CFLAGS = $(CPPFLAGS) -m32 -ansi -g -O2 -DNO_AUDIO -D'ARCH="$host_cpu"' -I/usr/include/malloc -Wall -Wno-switch -g -O2
+CFLAGS = $(CPPFLAGS) -m64 -ansi -g -O2 -DNO_AUDIO -D'ARCH="$host_cpu"' -I/usr/include/malloc -Wall -Wno-switch -g -O2
 LDFLAGS = -L/usr/X11R6/lib 
 LIBS = -lm 
 INSTALL = /usr/bin/install -c

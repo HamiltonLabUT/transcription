@@ -11,5 +11,4 @@ lib32stdc++6
 libx11-dev
 gawk
 sox
-libgcc1-i386
-libz1-i386
+libstdc++6:i386

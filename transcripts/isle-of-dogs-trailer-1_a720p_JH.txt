@@ -1,50 +1,50 @@
-Speech 1	JH	9.98	13.43	The Japanese archipelago, twenty years in the future.
-Speech 1	JH	15.66	19.43	Canine saturation has reached epidemic proportions.
-Speech 1	JH	19.43	23.08	An outbreak of dog flu rips through the city of Megasaki.
-Speech 1	JH	24.22	26.94	Mayor Kobayashi issues emergency orders.
-Speech 1	JH	27.385	29.645	Calling for a hasty quarantine.
-Speech 1	JH	29.645	32.14	Trash Island becomes an exile colony.
-Speech 1	JH	33.518	35.343	The Isle of Dogs.
-Speech 1	JH	36.402	38.72	I don't think I can stomach any more of this garbage.
-Speech 1	JH	39.132	40.101	Exactly.
-Speech 1	JH	43.066	46.825	Nobody's giving up around here and don't you forget it ever.
-Speech 1	JH	46.825	51.743	You're Rex. You're King. You're Duke. You're Boss. I'm Chief.
-Speech 1	JH	51.751	55.006	We're a pack of scary, indestructible alpha dogs.
-Speech 1	JH	56.083	61.733	Atari Kobayashi, you heroically hijacked a junior turbo prop X J seven fifty
-Speech 1	JH	61.733	62.671	Mayday, mayday
-Speech 1	JH	62.671	65.986	and flew it to the island because of your dog
-Speech 1	JH	66.993	68.755	Ikuzo!
-Speech 1	JH	68.755	69.77	Darn it.
-Speech 1	JH	71.05	72.404	I've got a crush on you.
-Speech 1	JH	75.145	76.712	Spotsu, Spotsu.
-Speech 1	JH	76.712	81.068	We get the idea, you're looking for your lost dog, Spots. Does anybody know 'em?
-Speech 1	JH	82.118	82.874	Mm mm.
-Speech 1	JH	86.036	91.564	Spots, if he's alive, may very well be living even at this moment as a captive prisoner.
-Speech 1	JH	92.396	94.432	Somebody is up to something.
-Speech 1	JH	96.46	97.36	Will you help him?
-Speech 1	JH	97.38	98.724	Ah!
-Speech 1	JH	98.91	100.314	The little pilot.
-Speech 1	JH	103.324	103.992	Why should I?
-Speech 1	JH	103.992	107.548	Because he's a twelve year old boy. Dogs love those.
-Speech 1	JH	107.936	109.18	We'll find him.
-Speech 1	JH	110.508	112.697	Wherever he is. If he's alive
-Speech 1	JH	113.232	114.496	We'll find your dog.
-Speech 1	JH	115.744	116.764	Ah!
-Speech 1	JH	118.368	119.308	It's gonna be a fight.
-Speech 1	JH	132.516	133.852	I wish somebody spoke his language.
-Speech 1	JH	133.852	135.16	Ah!
-Speech 1	JH	141.032	141.88	Wow.
-Speech 1	JH	142.699	150.886	To the north, a long rickety causeway over a noxious sludge marsh leading to a radioactive landfill polluted by toxic chemical garbage. That's our destination.
-Speech 1	JH	150.886	151.324	Great.
-Speech 1	JH	151.329	152.234	Get ready to jump.
-Speech 2	JH	39.395	40.476	Same here.
-Speech 2	JH	81.264	82.048	Mm, no.
-Speech 2	JH	82.13	82.886	Uh uh.
-Speech 2	JH	150.948	151.365	Got it.
-Speech 3	JH	39.969	41.107	Words out of my mouth.
-Speech 3	JH	81.746	82.102	No.
-Music	JH	82.398	85.778	I've lost all my pride.
-Music	JH	86.288	91.26	I've been to paradise and out the other side
-Music	JH	93.212	96.488	With no one to guide me
-Music	JH	96.979	102.012	Torn apart by a fiery wheel inside me.
-Music	JH	104.573	107.941	I won't hurt you, I won't hurt you.
+Speech 1	Speech 1	9.98	13.43	"The Japanese archipelago, twenty years in the future."
+Speech 1	Speech 1	15.66	19.43	Canine saturation has reached epidemic proportions.
+Speech 1	Speech 1	19.43	23.08	An outbreak of dog flu rips through the city of Megasaki.
+Speech 1	Speech 1	24.22	26.94	Mayor Kobayashi issues emergency orders.
+Speech 1	Speech 1	27.385	29.645	Calling for a hasty quarantine.
+Speech 1	Speech 1	29.645	32.14	Trash Island becomes an exile colony.
+Speech 1	Speech 1	33.518	35.343	The Isle of Dogs.
+Speech 1	Speech 1	36.402	38.72	I don't think I can stomach any more of this garbage.
+Speech 1	Speech 1	39.132	40.101	Exactly.
+Speech 1	Speech 1	43.066	46.825	Nobody's giving up around here and don't you forget it ever.
+Speech 1	Speech 1	46.825	51.743	You're Rex. You're King. You're Duke. You're Boss. I'm Chief.
+Speech 1	Speech 1	51.751	55.006	"We're a pack of scary, indestructible alpha dogs."
+Speech 1	Speech 1	56.083	61.733	"Atari Kobayashi, you heroically hijacked a junior turbo prop X J seven fifty"
+Speech 1	Speech 1	61.733	62.671	"Mayday, mayday"
+Speech 1	Speech 1	62.671	65.986	and flew it to the island because of your dog
+Speech 1	Speech 1	66.993	68.755	Ikuzo!
+Speech 1	Speech 1	68.755	69.77	Darn it.
+Speech 1	Speech 1	71.05	72.404	I've got a crush on you.
+Speech 1	Speech 1	75.145	76.712	"Spotsu, Spotsu."
+Speech 1	Speech 1	76.712	81.068	"We get the idea, you're looking for your lost dog, Spots. Does anybody know 'em?"
+Speech 1	Speech 1	82.118	82.874	Mm mm.
+Speech 1	Speech 1	86.036	91.564	"Spots, if he's alive, may very well be living even at this moment as a captive prisoner."
+Speech 1	Speech 1	92.396	94.432	Somebody is up to something.
+Speech 1	Speech 1	96.46	97.36	Will you help him?
+Speech 1	Speech 1	97.38	98.724	Ah!
+Speech 1	Speech 1	98.91	100.314	The little pilot.
+Speech 1	Speech 1	103.324	103.992	Why should I?
+Speech 1	Speech 1	103.992	107.548	Because he's a twelve year old boy. Dogs love those.
+Speech 1	Speech 1	107.936	109.18	We'll find him.
+Speech 1	Speech 1	110.508	112.697	Wherever he is. If he's alive
+Speech 1	Speech 1	113.232	114.496	We'll find your dog.
+Speech 1	Speech 1	115.744	116.764	Ah!
+Speech 1	Speech 1	118.368	119.308	It's gonna be a fight.
+Speech 1	Speech 1	132.516	133.852	I wish somebody spoke his language.
+Speech 1	Speech 1	133.852	135.16	Ah!
+Speech 1	Speech 1	141.032	141.88	Wow.
+Speech 1	Speech 1	142.699	150.886	"To the north, a long rickety causeway over a noxious sludge marsh leading to a radioactive landfill polluted by toxic chemical garbage. That's our destination."
+Speech 1	Speech 1	150.886	151.324	Great.
+Speech 1	Speech 1	151.329	152.234	Get ready to jump.
+Speech 2	Speech 2	39.395	40.476	Same here.
+Speech 2	Speech 2	81.264	82.048	"Mm, no."
+Speech 2	Speech 2	82.13	82.886	Uh uh.
+Speech 2	Speech 2	150.948	151.365	Got it.
+Speech 3	Speech 3	39.969	41.107	Words out of my mouth.
+Speech 3	Speech 3	81.746	82.102	No.
+Music	Music	82.398	85.778	I've lost all my pride.
+Music	Music	86.288	91.26	I've been to paradise and out the other side
+Music	Music	93.212	96.488	With no one to guide me
+Music	Music	96.979	102.012	Torn apart by a fiery wheel inside me.
+Music	Music	104.573	107.941	"I won't hurt you, I won't hurt you."

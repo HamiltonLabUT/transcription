@@ -1,0 +1,90 @@
+speech	Speech	4.99	7.2	{NS}
+speech	Speech	7.2	8.2	My name is Tim
+speech	Speech	8.2	8.6	{NS}
+speech	Speech	8.605	10.5	I had the greatest parents ever
+speech	Speech	10.517	11.33	Rise and shine
+speech	Speech	11.337	12.67	It's take your kid to work day
+speech	Speech	12.67	13.24	 Really?
+speech	Speech	13.298	14.69	It was just the three of us\
+speech	Speech	14.69	15.37	The templetons
+speech	Speech	15.38	16.01	{NS}
+speech	Speech	16.025	17.025	Life was perfect
+speech	Speech	17.03	17.49	{NS}
+speech	Speech	17.5	19.185	Until that one fateful day
+speech	Speech	19.185	19.315	{NS}
+speech	Speech	19.32	19.695	Tim
+speech	Speech	19.695	20.705	Look who's here
+speech	Speech	20.715	21.495	{NS}
+speech	Speech	21.5	23	Meet your new baby
+speech	Speech	23	26.1	brother
+speech	Speech	26.1	34.41	{NS}
+speech	Speech	34.41	36.29	 He's taking over the whole house. 
+speech	Speech	36.29	36.7	{NS}
+speech	Speech	36.71	37.29	look at him
+speech	Speech	37.29	37.79	{NS}
+speech	Speech	37.805	39.185	He wears a suit
+speech	Speech	39.185	40.5	He's like a little man
+speech	Speech	40.5	42.3	He carries a briefcase
+speech	Speech	42.3	42.79	{NS}
+speech	Speech	42.805	44.51	Does no one else think that's 
+speech	Speech	44.51	44.8	oh
+speech	Speech	44.8	45.5	 I don't know
+speech	Speech	45.56	46.9	A little freaky
+speech	Speech	47.68	50.2	Well you carried lamb lamb around untill you were like
+speech	Speech	50.2	51.53	This is not about lamb lamb
+speech	Speech	51.54	53.3	{NS}
+speech	Speech	53.305	53.8	trust me
+speech	Speech	53.8	56.4	 One day you are gonna love him with all of your heart
+speech	Speech	56.4	57	{NS}
+speech	Speech	57	57.97	never
+speech	Speech	57.97	65.8	{NS}
+speech	Speech	65.8	68.3	I'm making great progress with the parents already
+speech	Speech	68.31	69.71	{NS}
+speech	Speech	69.71	72.225	Oh the usual procedures sleep deprivation 
+speech	Speech	72.23	72.71	{NS}
+speech	Speech	72.71	73.61	hunger strikes
+speech	Speech	73.625	74.685	{NS}
+speech	Speech	74.69	76.2	They're very disoriented
+speech	Speech	76.2	77.32	{NS}
+speech	Speech	77.32	78.76	 But I think the kid might be onto me
+speech	Speech	78.76	79.43	{NS}
+speech	Speech	79.43	80.14	Hands up baby
+speech	Speech	80.21	81.2	Ahh Poop duty
+speech	Speech	81.31	84.7	Ahh {NS} Uhh {NS} Uhh {NS} oo {NS} yeah {NS} ooh {BR}
+speech	Speech	84.7	86.36	{NS} I gotta deal with the K I D
+speech	Speech	86.4	86.935	You can talk
+speech	Speech	86.935	88	{NS} uhh
+speech	Speech	88	89.2	Goo Goo Gah Gah
+speech	Speech	89.2	90.7	{NS} No you can really talk
+speech	Speech	90.7	91.09	{NS}
+speech	Speech	91.09	92	Fine 
+speech	Speech	92.01	93	I can talk
+speech	Speech	93.21	94.41	Now lets see if you can
+speech	Speech	94.425	94.59	{NS}
+speech	Speech	94.59	100.4	Get me a double espresso and see if there's some place around here with decent sushi I'd kill for a spicy tuna roll right about 
+speech	Speech	100.4	100.81	now
+speech	Speech	100.81	101.39	{NS}
+speech	Speech	101.39	102.5	Get yourself a little something
+speech	Speech	102.5	108.83	{NS}
+speech	Speech	108.84	109.93	who are you?
+speech	Speech	109.94	111	Let's just say
+speech	Speech	111	111.19	{NS}
+speech	Speech	111.2	112.19	I'm the boss
+speech	Speech	112.2	112.6	{NS}
+speech	Speech	112.6	114.7	Just wait till mom and dad find out about this
+speech	Speech	114.7	116.39	{NS} {BR}
+speech	Speech	116.4	117.9	Power nap uh
+speech	Speech	117.915	118.865	You were saying
+Music	Music	30.62	33.42	Guess I'm stuck in the middle with you
+Music	Music	46.9	49.3	wee
+Music	Music	60.46	63.01	Here I am stuck in the middle {NS} with you
+Music	Music	102.505	104.2	{NS} It's your thing
+Music	Music	104.205	105.025	{NS}
+Music	Music	105.03	107.01	do whatcha wanna do
+Music	Music	108.83	110.2	I can't tell ya
+Music	Music	111	112.2	who to sock it to
+Music	Music	113	114.19	It's your thing
+Music	Music	115.4	116.4	do whatcha wanna do
+Music	Music	118.85	119.5	Oh 
+Music	Music	119.5	121.6	It's yo thang 
+Music	Music	121.605	123.105	{NS} do whatcha wanna do

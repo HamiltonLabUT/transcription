@@ -1,36 +1,36 @@
-Speech	CV	21.36	23.7	2.34	{NS} {LG} Garmadon!
-Speech	CV	27.505	29.015	1.51	{NS}
-Speech	CV	30.505	32.415	1.91	You ready for me to conquer Ninjago?!
-Speech	CV	33.395	34.755	1.36	Oh I'll be waiting! 
-Speech	CV	37.48	38.21	0.73	Dad.
-Speech	CV	41.01	41.41	0.4	Sorry?
-Speech	CV	41.485	42.915	1.43	Wh-what was that last thing you said?
-Speech	CV	43.315	44.065	0.75	What?
-Speech	CV	44.385	45.505	1.12	That last part, I didn't catch it. 
-Speech	CV	45.62	49.3	3.68	Wha I-I-I didn't say anything what do you mean I didn't, wha I-I said I'll be waiting and then I stopped talking.
-Speech	CV	50.545	51.335	0.79	Dad.
-Speech	CV	52.295	53.245	0.95	Luh Lloyd?
-Speech	CV	53.315	56.125	2.81	That's right! Your son! And it's Lloyd
-Speech	CV	56.395	60.025	3.63	No, L L O Y D, I named you
-Speech	CV	60.115	61.235	1.12	You ruined my life!
-Speech	CV	61.7	65.51	3.81	That's not true! I haven't even been a part of your life, how could I ruin it? I wasn't even there!
-Speech	CV	75.4	78.9	3.5	I've taken a solemn oath to form the secret ninja force.
-Speech	CV	80.595	83.595	3.0	re you ready to risk your life, for Ninjago? 
-Speech	CV	84.0	87.0	3.0	Yes I am on it! Let's do it! Yes! Yup! I, maybe!
-Speech	CV	88.995	90.405	1.41	Ah! Garmadon!
-Speech	CV	90.705	92.275	1.57	Garmadon! Garmadon!
-Speech	CV	92.505	93.195	0.69	Garmadon!
-Speech	CV	94.005	94.495	0.49	Run!
-Speech	CV	94.965	95.715	0.75	I'm stuck!
-Speech	CV	95.945	98.285	2.34	I know you want me to save myself, so I'll go now!
-Speech	CV	98.79	100.71	1.92	I promise I'll never forget you!
-Speech	CV	100.745	103.125	2.38	I didn't ask you to promise that, come back!
-Speech	CV	110.76	116.91	6.15	Hello? Who is this? Lloyd Garmadon, your son. Mm, I must of but dialed you. 
-Speech	CV	131.1	133.79	2.69	It's okay Lloyd, nobody's parents are perfect.
-Speech	CV	133.865	140.125	6.26	I mean my mom is weird, and collects sea shells. Your dad levels cities and attacks innocent people,
-Speech	CV	140.5	143.09	2.59	so they've all got their quirks ya know?  
-Music	CV	66.6	72.19	5.59	Baby now we got bad blood, you know it used to be mad love. Hey!
-Music	CV	72.69	80.5	7.81	Now we got problems, you made a really deep cut. And baby now we got bad blood, hey!
-Music	CV	103.45	108.34	4.89	Now we got problems, and I don't think we can solve 'em.
-Music	CV	118.2	124.49	6.29	Blood runs cold. Cause baby now we've got bad blood, ya know it used to be mad love.
-Music	CV	143.37	146.33	2.96	Now we got bad blood, hey!
+Speech	Speech	21.36	23.7		{NS} {LG} Garmadon!
+Speech	Speech	27.505	29.015		{NS}
+Speech	Speech	30.505	32.415		You ready for me to conquer Ninjago?!
+Speech	Speech	33.395	34.755		Oh I'll be waiting! 
+Speech	Speech	37.48	38.21		Dad.
+Speech	Speech	41.01	41.41		Sorry?
+Speech	Speech	41.485	42.915		Wh-what was that last thing you said?
+Speech	Speech	43.315	44.065		What?
+Speech	Speech	44.385	45.505		"That last part, I didn't catch it. "
+Speech	Speech	45.62	49.3		"Wha I-I-I didn't say anything what do you mean I didn't, wha I-I said I'll be waiting and then I stopped talking."
+Speech	Speech	50.545	51.335		Dad.
+Speech	Speech	52.295	53.245		Luh Lloyd?
+Speech	Speech	53.315	56.125		That's right! Your son! And it's Lloyd
+Speech	Speech	56.395	60.025		"No, L L O Y D, I named you"
+Speech	Speech	60.115	61.235		You ruined my life!
+Speech	Speech	61.7	65.51		"That's not true! I haven't even been a part of your life, how could I ruin it? I wasn't even there!"
+Speech	Speech	75.4	78.9		I've taken a solemn oath to form the secret ninja force.
+Speech	Speech	80.595	83.595		"re you ready to risk your life, for Ninjago? "
+Speech	Speech	84	87		"Yes I am on it! Let's do it! Yes! Yup! I, maybe!"
+Speech	Speech	88.995	90.405		Ah! Garmadon!
+Speech	Speech	90.705	92.275		Garmadon! Garmadon!
+Speech	Speech	92.505	93.195		Garmadon!
+Speech	Speech	94.005	94.495		Run!
+Speech	Speech	94.965	95.715		I'm stuck!
+Speech	Speech	95.945	98.285		"I know you want me to save myself, so I'll go now!"
+Speech	Speech	98.79	100.71		I promise I'll never forget you!
+Speech	Speech	100.745	103.125		"I didn't ask you to promise that, come back!"
+Speech	Speech	110.76	116.91		"Hello? Who is this? Lloyd Garmadon, your son. Mm, I must of but dialed you. "
+Speech	Speech	131.1	133.79		"It's okay Lloyd, nobody's parents are perfect."
+Speech	Speech	133.865	140.125		"I mean my mom is weird, and collects sea shells. Your dad levels cities and attacks innocent people,"
+Speech	Speech	140.5	143.09		so they've all got their quirks ya know?  
+Music	Music	66.6	72.19		"Baby now we got bad blood, you know it used to be mad love. Hey!"
+Music	Music	72.69	80.5		"Now we got problems, you made a really deep cut. And baby now we got bad blood, hey!"
+Music	Music	103.45	108.34		"Now we got problems, and I don't think we can solve 'em."
+Music	Music	118.2	124.49		"Blood runs cold. Cause baby now we've got bad blood, ya know it used to be mad love."
+Music	Music	143.37	146.33		"Now we got bad blood, hey!"

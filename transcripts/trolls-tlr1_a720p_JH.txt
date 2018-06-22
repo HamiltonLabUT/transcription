@@ -1,50 +1,50 @@
-Speech	JH	9.04	11.42	My name is Branch, and I'm a troll
-Speech	JH	14.78	17.874	Why do I live in a heavily fortified survival bunker?
-Speech	JH	18.267	21.336	Because right outside my door lurks a nightmare
-Speech	JH	22.797	24.447	Named Poppy.
-Speech	JH	24.693	26.375	A five, six, seven, eight
-Speech	JH	29.335	34.253	Poppy is the leader of the trolls and it's not her fault she's so insanely happy
-Speech	JH	34.553	36.915	She's just never faced a real problem
-Speech	JH	37.855	38.812	Until now
-Speech	JH	40.961	41.861	Cupcake?
-Speech	JH	42.907	45.15	Branch, we just got attacked by a bergen
-Speech	JH	45.15	46.093	A bergen
-Speech	JH	46.093	47.156	It took everybody
-Speech	JH	47.308	48.427	Dad!
-Speech	JH	49.757	50.521	What's your plan?
-Speech	JH	50.521	52.1	To rescue everyone and make it home safely
-Speech	JH	52.1	53.859	We did it!
-Speech	JH	53.859	56.296	So you're going to scrapbook them to freedom
-Speech	JH	56.873	58.098	Solid burn, branch
-Speech	JH	63.438	64.276	Hang on
-Speech	JH	65.086	66.773	Ah, yah! Yah!
-Speech	JH	72.779	74.341	Fist bump
-Speech	JH	74.394	75.319	Woo, gear shift
-Speech	JH	80.6	81.894	Yah
-Speech	JH	101.265	102.315	Yes!
-Speech	JH	112.401	113.339	May I?
-Speech	JH	117.461	119.142	Oh snap
-Speech	JH	120.237	122.5	Dream works trolls
-Music	JH	26.696	33.483	Everybody, move your hair and feel united, oh oh oh
-Music	JH	33.899	36.611	Ooh, everybody
-Music	JH	58.038	61.681	I got this feelin' inside my bones
-Music	JH	61.811	65.574	It goes electric baby when I turn it on
-Music	JH	65.688	70.775	I got that sunshine in my pocket. Got that good soul in my feet
-Music	JH	70.78	74.311	I feel that hot blood in my body. When it drops.
-Music	JH	82.136	91.856	Nothin I can see but you when you dance, dance, dance, feelin' good good creepin' up on you so just dance dance dance can't stop the feelin'
-Music	JH	91.961	96.43	so just dance, dance, dance. I can't stop the feelin'
-Music	JH	96.43	100.716	so just dance, dance, dance. I can't stop the feelin'
-Music	JH	100.716	104.859	so just dance, dance, dance. I can't stop the feelin'
-Music	JH	106.452	108.939	I can't stop the feelin'
-Music	JH	109.335	110.841	So keep dancin'
-Music	JH	119.041	120.891	Can't stop the feelin'
-Music	JH	123.244	125.463	I can't stop the feelin'
-Music	JH	125.956	127.474	Oh no
-Music	JH	127.474	129.043	I can't stop the feelin'
-Speech 2	JH	81.093	82.686	That's right you better
-Speech 3	JH	81.229	81.948	Branch!
-Music 2	JH	99.769	100.757	Woo
-Music 2	JH	103.68	107.018	got this feelin' in my body
-Music 2	JH	115.265	116.152	Oh
-Music 2	JH	120.233	123.464	Got this feelin' in my body
-Music 2	JH	124.487	127.693	Got this feelin' in my body
+Speech	Speech	9.04	11.42	"My name is Branch, and I'm a troll"
+Speech	Speech	14.78	17.874	Why do I live in a heavily fortified survival bunker?
+Speech	Speech	18.267	21.336	Because right outside my door lurks a nightmare
+Speech	Speech	22.797	24.447	Named Poppy.
+Speech	Speech	24.693	26.375	"A five, six, seven, eight"
+Speech	Speech	29.335	34.253	Poppy is the leader of the trolls and it's not her fault she's so insanely happy
+Speech	Speech	34.553	36.915	She's just never faced a real problem
+Speech	Speech	37.855	38.812	Until now
+Speech	Speech	40.961	41.861	Cupcake?
+Speech	Speech	42.907	45.15	"Branch, we just got attacked by a bergen"
+Speech	Speech	45.15	46.093	A bergen
+Speech	Speech	46.093	47.156	It took everybody
+Speech	Speech	47.308	48.427	Dad!
+Speech	Speech	49.757	50.521	What's your plan?
+Speech	Speech	50.521	52.1	To rescue everyone and make it home safely
+Speech	Speech	52.1	53.859	We did it!
+Speech	Speech	53.859	56.296	So you're going to scrapbook them to freedom
+Speech	Speech	56.873	58.098	"Solid burn, branch"
+Speech	Speech	63.438	64.276	Hang on
+Speech	Speech	65.086	66.773	"Ah, yah! Yah!"
+Speech	Speech	72.779	74.341	Fist bump
+Speech	Speech	74.394	75.319	"Woo, gear shift"
+Speech	Speech	80.6	81.894	Yah
+Speech	Speech	101.265	102.315	Yes!
+Speech	Speech	112.401	113.339	May I?
+Speech	Speech	117.461	119.142	Oh snap
+Speech	Speech	120.237	122.5	Dream works trolls
+Music	Music	26.696	33.483	"Everybody, move your hair and feel united, oh oh oh"
+Music	Music	33.899	36.611	"Ooh, everybody"
+Music	Music	58.038	61.681	I got this feelin' inside my bones
+Music	Music	61.811	65.574	It goes electric baby when I turn it on
+Music	Music	65.688	70.775	I got that sunshine in my pocket. Got that good soul in my feet
+Music	Music	70.78	74.311	I feel that hot blood in my body. When it drops.
+Music	Music	82.136	91.856	"Nothin I can see but you when you dance, dance, dance, feelin' good good creepin' up on you so just dance dance dance can't stop the feelin'"
+Music	Music	91.961	96.43	"so just dance, dance, dance. I can't stop the feelin'"
+Music	Music	96.43	100.716	"so just dance, dance, dance. I can't stop the feelin'"
+Music	Music	100.716	104.859	"so just dance, dance, dance. I can't stop the feelin'"
+Music	Music	106.452	108.939	I can't stop the feelin'
+Music	Music	109.335	110.841	So keep dancin'
+Music	Music	119.041	120.891	Can't stop the feelin'
+Music	Music	123.244	125.463	I can't stop the feelin'
+Music	Music	125.956	127.474	Oh no
+Music	Music	127.474	129.043	I can't stop the feelin'
+Speech 2	Speech 2	81.093	82.686	That's right you better
+Speech 3	Speech 3	81.229	81.948	Branch!
+Music 2	Music 2	99.769	100.757	Woo
+Music 2	Music 2	103.68	107.018	got this feelin' in my body
+Music 2	Music 2	115.265	116.152	Oh
+Music 2	Music 2	120.233	123.464	Got this feelin' in my body
+Music 2	Music 2	124.487	127.693	Got this feelin' in my body

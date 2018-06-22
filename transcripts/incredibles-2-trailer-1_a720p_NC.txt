@@ -1,71 +1,71 @@
-speech	Natalie Clark	6.132	7.01	{NS}
-speech	Natalie Clark	7.01	9.95	Behold the underminer!
-speech	Natalie Clark	9.96	10.99	{NS}
-speech	Natalie Clark	11.0	12.0	 Watch after Jack Jack!
-speech	Natalie Clark	12.0	12.99	but I thought we were gonna go with.
-speech	Natalie Clark	12.99	14.0	You heard your mother!
-speech	Natalie Clark	14.01	14.78	Trampoline me!
-speech	Natalie Clark	14.79	15.96	{NS}
-speech	Natalie Clark	16.1	16.9	We meet aga, 
-speech	Natalie Clark	17.095	17.585	ah!
-speech	Natalie Clark	17.585	18.125	{NS}
-speech	Natalie Clark	18.125	19.1	Super heroes
-speech	Natalie Clark	19.117	20.267	 are illegal.
-speech	Natalie Clark	20.287	21.777	We wanna fight bad guys!
-speech	Natalie Clark	21.777	22.7	{NS}
-speech	Natalie Clark	22.7	24.337	 It defines who I am.
-speech	Natalie Clark	24.344	25.938	We're not saying ya have,
-speech	Natalie Clark	25.938	26.649	what?
-speech	Natalie Clark	26.655	28.23	Someone on T V said it.
-speech	Natalie Clark	28.235	28.805	{NS}
-speech	Natalie Clark	28.805	31.267	I was approached by this Tycoon
-speech	Natalie Clark	31.277	32.125	wants to talk  
-speech	Natalie Clark	32.157	33.471	about hero stuff.
-speech	Natalie Clark	33.471	33.693	{NS}
-speech	Natalie Clark	33.7	36.2	Help me bring supers back into the sunlight.
-speech	Natalie Clark	36.205	37.0	We need.
-speech	Natalie Clark	37.017	37.7	 elastigirl
-speech	Natalie Clark	37.7	38.985	{NS}
-speech	Natalie Clark	38.985	39.39	Bye sweetie.
-speech	Natalie Clark	39.39	40.3	{NS}
-speech	Natalie Clark	40.3	41.3	I'll watch the kids, 
-speech	Natalie Clark	41.305	42.0	no problem.
-speech	Natalie Clark	42.0	43.59	{NS}
-speech	Natalie Clark	43.59	44.3	That's .
-speech	Natalie Clark	44.3	46.5	not the way you're supposed to do it dadM
-speech	Natalie Clark	46.7	48.68	They want us to do it this way. 
-speech	Natalie Clark	51.31	53.06	Uh it's okay dad.
-speech	Natalie Clark	53.063	53.843	{NS}
-speech	Natalie Clark	53.85	57.2	All over doozledorf doozles are dozing,
-speech	Natalie Clark	57.2	57.7	{NS}
-speech	Natalie Clark	57.7	61.13	eyelids so heavy they drooping mm.
-speech	Natalie Clark	61.61	63.21	{NS}
-speech	Natalie Clark	63.21	63.695	Closing! 
-speech	Natalie Clark	63.695	64.894	{NS}
-speech	Natalie Clark	64.894	67.228	I couldn't have done this if you hadn't taken over so well.
-speech	Natalie Clark	67.228	67.698	{NS}
-speech	Natalie Clark	67.7	70.74	I've got to succeed! So she can succeed! 
-speech	Natalie Clark	70.755	71.89	{NS} woo
-speech	Natalie Clark	71.89	73.0	{NS} elastigirl!
-speech	Natalie Clark	73.01	75.03	So we can succeed!
-speech	Natalie Clark	75.03	76.5	{NS}
-speech	Natalie Clark	76.5	77.365	What the?!
-speech	Natalie Clark	77.379	77.689	{NS}
-speech	Natalie Clark	77.689	78.52	That is freaky.
-speech	Natalie Clark	78.529	78.839	{NS}
-speech	Natalie Clark	78.84	80.799	But I can't keep givin' him cookies.
-speech	Natalie Clark	80.799	81.329	{NS}
-speech	Natalie Clark	81.335	82.535	Ho! He's freaky!
-speech	Natalie Clark	82.539	82.779	{NS}
-speech	Natalie Clark	82.779	84.36	No biting at daddy!
-speech	Natalie Clark	84.366	85.499	{NS}
-speech	Natalie Clark	85.5	88.805	Done properly, parenting is a heroic act.
-speech	Natalie Clark	88.805	91.305	{NS}
-speech	Natalie Clark	91.305	92.5	Done properly!
-speech	Natalie Clark	92.505	93.594	{LG}
-speech	Natalie Clark	93.599	96.21	{NS}
-speech 2	Natalie Clark	48.235	49.875	I don't know that way,  
-speech 2	Natalie Clark	49.88	51.55	why would they change math?!
-speech 2	Natalie Clark	51.56	53.63	Math is math! Math is math!
-speech 2	Natalie Clark	74.795	75.425	I get it Bob
-speech 2	Natalie Clark	83.185	84.495	He just, what?!
+speech	speech	6.132	7.01	{NS}
+speech	speech	7.01	9.95	Behold the underminer!
+speech	speech	9.96	10.99	{NS}
+speech	speech	11	12	 Watch after Jack Jack!
+speech	speech	12	12.99	but I thought we were gonna go with.
+speech	speech	12.99	14	You heard your mother!
+speech	speech	14.01	14.78	Trampoline me!
+speech	speech	14.79	15.96	{NS}
+speech	speech	16.1	16.9	"We meet aga, "
+speech	speech	17.095	17.585	ah!
+speech	speech	17.585	18.125	{NS}
+speech	speech	18.125	19.1	Super heroes
+speech	speech	19.117	20.267	 are illegal.
+speech	speech	20.287	21.777	We wanna fight bad guys!
+speech	speech	21.777	22.7	{NS}
+speech	speech	22.7	24.337	 It defines who I am.
+speech	speech	24.344	25.938	"We're not saying ya have,"
+speech	speech	25.938	26.649	what?
+speech	speech	26.655	28.23	Someone on T V said it.
+speech	speech	28.235	28.805	{NS}
+speech	speech	28.805	31.267	I was approached by this Tycoon
+speech	speech	31.277	32.125	wants to talk  
+speech	speech	32.157	33.471	about hero stuff.
+speech	speech	33.471	33.693	{NS}
+speech	speech	33.7	36.2	Help me bring supers back into the sunlight.
+speech	speech	36.205	37	We need.
+speech	speech	37.017	37.7	 elastigirl
+speech	speech	37.7	38.985	{NS}
+speech	speech	38.985	39.39	Bye sweetie.
+speech	speech	39.39	40.3	{NS}
+speech	speech	40.3	41.3	"I'll watch the kids, "
+speech	speech	41.305	42	no problem.
+speech	speech	42	43.59	{NS}
+speech	speech	43.59	44.3	That's .
+speech	speech	44.3	46.5	not the way you're supposed to do it dadM
+speech	speech	46.7	48.68	They want us to do it this way. 
+speech	speech	51.31	53.06	Uh it's okay dad.
+speech	speech	53.063	53.843	{NS}
+speech	speech	53.85	57.2	"All over doozledorf doozles are dozing,"
+speech	speech	57.2	57.7	{NS}
+speech	speech	57.7	61.13	eyelids so heavy they drooping mm.
+speech	speech	61.61	63.21	{NS}
+speech	speech	63.21	63.695	Closing! 
+speech	speech	63.695	64.894	{NS}
+speech	speech	64.894	67.228	I couldn't have done this if you hadn't taken over so well.
+speech	speech	67.228	67.698	{NS}
+speech	speech	67.7	70.74	I've got to succeed! So she can succeed! 
+speech	speech	70.755	71.89	{NS} woo
+speech	speech	71.89	73	{NS} elastigirl!
+speech	speech	73.01	75.03	So we can succeed!
+speech	speech	75.03	76.5	{NS}
+speech	speech	76.5	77.365	What the?!
+speech	speech	77.379	77.689	{NS}
+speech	speech	77.689	78.52	That is freaky.
+speech	speech	78.529	78.839	{NS}
+speech	speech	78.84	80.799	But I can't keep givin' him cookies.
+speech	speech	80.799	81.329	{NS}
+speech	speech	81.335	82.535	Ho! He's freaky!
+speech	speech	82.539	82.779	{NS}
+speech	speech	82.779	84.36	No biting at daddy!
+speech	speech	84.366	85.499	{NS}
+speech	speech	85.5	88.805	"Done properly, parenting is a heroic act."
+speech	speech	88.805	91.305	{NS}
+speech	speech	91.305	92.5	Done properly!
+speech	speech	92.505	93.594	{LG}
+speech	speech	93.599	96.21	{NS}
+speech 2	speech 2	48.235	49.875	"I don't know that way,  "
+speech 2	speech 2	49.88	51.55	why would they change math?!
+speech 2	speech 2	51.56	53.63	Math is math! Math is math!
+speech 2	speech 2	74.795	75.425	I get it Bob
+speech 2	speech 2	83.185	84.495	"He just, what?!"

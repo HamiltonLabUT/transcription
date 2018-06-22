@@ -1,44 +1,44 @@
-Speech	CV	7.1	8.21	1.11	My name is Tim
-Speech	CV	8.51	10.42	1.91	I had the greatest parents ever
-Speech	CV	10.59	12.6	2.01	Rise and shine, It's take your kid to work day
-Speech	CV	12.64	13.13	0.49	Really?
-Speech	CV	13.39	15.6	2.21	It was just the three of us, the Templetons.
-Speech	CV	16.1	19.22	3.12	Life was perfect, until that one fateful day.
-Speech	CV	19.295	20.835	1.54	Tim! Look who's here.
-Speech	CV	21.48	26.45	4.97	Meet your new baby brother.
-Speech	CV	34.39	36.21	1.82	He's taking over the whole house. 
-Speech	CV	36.695	39.275	2.58	Look at him! He wears a suit!
-Speech	CV	39.4	40.49	1.09	He's like a little man
-Speech	CV	40.6	42.61	2.01	He carries a briefcase!
-Speech	CV	42.79	46.8	4.01	Does no one else think that's, oh I don't know, A little freaky?!
-Speech	CV	47.4	51.67	4.27	Well you carried lamb lamb around until you were like- this is not about lamb lamb.
-Speech	CV	53.18	56.43	3.25	Trust me, one day you are gonna love him with all of your heart.
-Speech	CV	57.19	57.9	0.71	Never.
-Speech	CV	65.7	68.1	2.4	I'm making great progress with the parents already.
-Speech	CV	69.6	72.005	2.405	Oh the usual procedures sleep deprivation
-Speech	CV	72.685	73.635	0.95	hunger strikes.
-Speech	CV	74.605	76.615	2.01	They're very disoriented.
-Speech	CV	77.095	78.635	1.54	But I think the kid might be onto me.
-Speech	CV	79.39	80.19	0.8	Hands up baby!
-Speech	CV	80.205	81.315	1.11	Ah! Poop duty!
-Speech	CV	81.325	84.715	3.39	Ah! {NS} Uh {NS} Uh {NS} oo {NS} yeah {NS} oh {BR}
-Speech	CV	84.905	86.315	1.41	I've gotta deal with the K I D
-Speech	CV	86.385	87.055	0.67	You can talk!
-Speech	CV	87.095	89.095	2.0	uhh goo goo gah gah.
-Speech	CV	89.2	90.78	1.58	No you can really talk.
-Speech	CV	91.165	92.895	1.73	Fine, I can talk.
-Speech	CV	93.2	100.664	7.464	Now lets see if you can {NS} listen. Get me a double espresso and see if there's some place around here with decent sushi. I'd kill for a spicy tuna roll right about now
-Speech	CV	101.375	102.425	1.05	Get yourself a little something.
-Speech	CV	108.68	109.88	1.2	Who are you?
-Speech	CV	110.005	112.285	2.28	Let's just say {NS} I'm the boss.
-Speech	CV	112.58	114.67	2.09	Just wait till mom and dad find out about this.
-Speech	CV	116.59	118.7	2.11	Power nap! uh  {NS} you were saying.
-Music	CV	30.68	33.37	2.69	Guess I'm {NS} stuck in the middle with you
-Music	CV	60.225	63.185	2.96	Here I am stuck in the middle {NS} with you. 
-Music	CV	102.875	104.495	1.62	It's your thing.
-Music	CV	105.17	106.86	1.69	Do whatcha wanna do.
-Music	CV	108.775	110.085	1.31	I can't tell ya.
-Music	CV	111.005	112.375	1.37	who to sock it to.
-Music	CV	113.075	114.505	1.43	It's your thing.
-Music	CV	115.485	116.645	1.16	do whatcha wanna do.
-Music	CV	118.7	123.26	4.56	Oh It's yo thang {NS} do whatcha wanna do.
+Speech	Speech	7.1	8.21		My name is Tim
+Speech	Speech	8.51	10.42		I had the greatest parents ever
+Speech	Speech	10.59	12.6		"Rise and shine, It's take your kid to work day"
+Speech	Speech	12.64	13.13		Really?
+Speech	Speech	13.39	15.6		"It was just the three of us, the Templetons."
+Speech	Speech	16.1	19.22		"Life was perfect, until that one fateful day."
+Speech	Speech	19.295	20.835		Tim! Look who's here.
+Speech	Speech	21.48	26.45		Meet your new baby brother.
+Speech	Speech	34.39	36.21		He's taking over the whole house. 
+Speech	Speech	36.695	39.275		Look at him! He wears a suit!
+Speech	Speech	39.4	40.49		He's like a little man
+Speech	Speech	40.6	42.61		He carries a briefcase!
+Speech	Speech	42.79	46.8		"Does no one else think that's, oh I don't know, A little freaky?!"
+Speech	Speech	47.4	51.67		Well you carried lamb lamb around until you were like- this is not about lamb lamb.
+Speech	Speech	53.18	56.43		"Trust me, one day you are gonna love him with all of your heart."
+Speech	Speech	57.19	57.9		Never.
+Speech	Speech	65.7	68.1		I'm making great progress with the parents already.
+Speech	Speech	69.6	72.005		Oh the usual procedures sleep deprivation
+Speech	Speech	72.685	73.635		hunger strikes.
+Speech	Speech	74.605	76.615		They're very disoriented.
+Speech	Speech	77.095	78.635		But I think the kid might be onto me.
+Speech	Speech	79.39	80.19		Hands up baby!
+Speech	Speech	80.205	81.315		Ah! Poop duty!
+Speech	Speech	81.325	84.715		Ah! {NS} Uh {NS} Uh {NS} oo {NS} yeah {NS} oh {BR}
+Speech	Speech	84.905	86.315		I've gotta deal with the K I D
+Speech	Speech	86.385	87.055		You can talk!
+Speech	Speech	87.095	89.095		uhh goo goo gah gah.
+Speech	Speech	89.2	90.78		No you can really talk.
+Speech	Speech	91.165	92.895		"Fine, I can talk."
+Speech	Speech	93.2	100.664		Now lets see if you can {NS} listen. Get me a double espresso and see if there's some place around here with decent sushi. I'd kill for a spicy tuna roll right about now
+Speech	Speech	101.375	102.425		Get yourself a little something.
+Speech	Speech	108.68	109.88		Who are you?
+Speech	Speech	110.005	112.285		Let's just say {NS} I'm the boss.
+Speech	Speech	112.58	114.67		Just wait till mom and dad find out about this.
+Speech	Speech	116.59	118.7		Power nap! uh  {NS} you were saying.
+Music	Music	30.68	33.37		Guess I'm {NS} stuck in the middle with you
+Music	Music	60.225	63.185		Here I am stuck in the middle {NS} with you. 
+Music	Music	102.875	104.495		It's your thing.
+Music	Music	105.17	106.86		Do whatcha wanna do.
+Music	Music	108.775	110.085		I can't tell ya.
+Music	Music	111.005	112.375		who to sock it to.
+Music	Music	113.075	114.505		It's your thing.
+Music	Music	115.485	116.645		do whatcha wanna do.
+Music	Music	118.7	123.26		Oh It's yo thang {NS} do whatcha wanna do.

@@ -1,50 +1,50 @@
-Speech	CV	10.895	15.215	4.32	Hey mom, um, could we talk about dad? 
-Speech	CV	15.229	16.609	1.38	What's my name?!
-Speech	CV	17.994	19.564	1.57	Garmadon! Garmadon!
-Speech	CV	19.784	20.644	0.86	Garmadon!
-Speech	CV	20.9	26.939	6.039	So when you guys got together, was dad always an evil {LG} war lord?
-Speech	CV	27.009	28.279	1.27	Ok well, here it is.
-Speech	CV	28.909	30.129	1.22	I got swept up.
-Speech	CV	30.794	33.314	2.52	He had so many plans he was so ambitious. 
-Speech	CV	33.579	35.719	2.14	e said he wanted to conquer the world. 
-Speech	CV	38.049	39.539	1.49	I thought it was a figure of speech,
-Speech	CV	40.009	41.279	1.27	Ah
-Speech	CV	41.329	44.409	3.08	but if  I had never met Garmadon, I would have never had you!
-Speech	CV	47.374	48.424	1.05	Hey.
-Speech	CV	50.944	52.454	1.51	His dad ruins everything.
-Speech	CV	55.194	57.194	2.0	Uh oh! It's Garmadon!
-Speech	CV	58.184	59.594	1.41	Can I have a bathroom pass?
-Speech	CV	60.094	60.814	0.72	Coast is clear.
-Speech	CV	61.059	65.399	4.34	Students, a true ninja knows when to fight, and when to blend in the shadows.
-Speech	CV	66.484	68.394	1.91	Cuh caw, cuh caw.
-Speech	CV	68.564	69.824	1.26	Unbelievable.
-Speech	CV	70.439	73.199	2.76	All right guys, let's get Garmadon.
-Speech	CV	76.539	78.169	1.63	You can't catch me green ninja!
-Speech	CV	78.269	79.229	0.96	Watch this!
-Speech	CV	79.924	80.334	0.41	Ow!
-Speech	CV	80.544	81.614	1.07	Where'd that come from?
-Speech	CV	81.714	83.254	1.54	Hello, dad.
-Speech	CV	83.659	84.829	1.17	Luh Lloyd?
-Speech	CV	85.009	87.319	2.31	That's right, and it's Lloyd dad!
-Speech	CV	92.794	95.364	2.57	It's ok Lloyd, nobody's parents are perfect.
-Speech	CV	95.364	98.304	2.94	eah, but I feel like there's more to Garmadon that I need to know. 
-Speech	CV	98.789	103.109	4.32	To understand your future, you must go back to your ninja roots. Your dad
-Speech	CV	103.784	104.884	1.1	was a ninja too.
-Speech	CV	105.559	106.399	0.84	Ha! Oh!
-Speech	CV	108.984	113.064	4.08	Luh Lloyd, {NS} you hear that? {NS} We've awaken the unstoppable beast!
-Speech	CV	114.789	117.629	2.84	Meowthra! Aw!
-Speech	CV	119.029	120.529	1.5	ah!
-Speech	CV	121.644	123.904	2.26	Are you ready to risk your life for Ninjago?
-Speech	CV	123.994	125.194	1.2	Ninja go!
-Speech	CV	139.299	141.799	2.5	I haven't felt this good in a long ti- {NS} ah!
-Speech	CV	143.0	153.224	10.224	Luh Lloyd are you ok? Yeah yeah I think I think it was my arm. Is is it bad! Is it bad? Whoa! I don't wanna look! Scale of one to ten, how bad is it? Oh I'd say it's about a seven point arm ripped off. 
-Speech	CV	158.034	159.224	1.19	this film is not yet rated.
-Music	CV	0.0	8.44	8.44	Baby now we got bad blood, so take a look what you've done. Cause baby now we got bad blood, hey.
-Music	CV	35.854	37.9	2.046	It must've been love
-Music	CV	45.064	50.714	5.65	Whoa oh oh
-Music	CV	53.589	54.529	0.94	Doors on 'em
-Music	CV	73.204	76.524	3.32	History is ours tonight the people are chanten'.
-Music	CV	87.329	92.889	5.56	Cause baby now we got bad blood. Ya know it used to be mad love.
-Music	CV	98.494	103.994	5.5	Hey, now we got problems, and I don't think we can solve 'em.
-Music	CV	127.179	138.609	11.43	Hey ya I wanna go out, I wanna go out. I wanna-na, hey ya I wanna go out. Out of my mind. Hey ya I wanna go out.
-Music	CV	156.004	157.994	1.99	Step off of my cloud 
+Speech	Speech	10.895	15.215		"Hey mom, um, could we talk about dad? "
+Speech	Speech	15.229	16.609		What's my name?!
+Speech	Speech	17.994	19.564		Garmadon! Garmadon!
+Speech	Speech	19.784	20.644		Garmadon!
+Speech	Speech	20.9	26.939		"So when you guys got together, was dad always an evil {LG} war lord?"
+Speech	Speech	27.009	28.279		"Ok well, here it is."
+Speech	Speech	28.909	30.129		I got swept up.
+Speech	Speech	30.794	33.314		He had so many plans he was so ambitious. 
+Speech	Speech	33.579	35.719		e said he wanted to conquer the world. 
+Speech	Speech	38.049	39.539		"I thought it was a figure of speech,"
+Speech	Speech	40.009	41.279		Ah
+Speech	Speech	41.329	44.409		"but if  I had never met Garmadon, I would have never had you!"
+Speech	Speech	47.374	48.424		Hey.
+Speech	Speech	50.944	52.454		His dad ruins everything.
+Speech	Speech	55.194	57.194		Uh oh! It's Garmadon!
+Speech	Speech	58.184	59.594		Can I have a bathroom pass?
+Speech	Speech	60.094	60.814		Coast is clear.
+Speech	Speech	61.059	65.399		"Students, a true ninja knows when to fight, and when to blend in the shadows."
+Speech	Speech	66.484	68.394		"Cuh caw, cuh caw."
+Speech	Speech	68.564	69.824		Unbelievable.
+Speech	Speech	70.439	73.199		"All right guys, let's get Garmadon."
+Speech	Speech	76.539	78.169		You can't catch me green ninja!
+Speech	Speech	78.269	79.229		Watch this!
+Speech	Speech	79.924	80.334		Ow!
+Speech	Speech	80.544	81.614		Where'd that come from?
+Speech	Speech	81.714	83.254		"Hello, dad."
+Speech	Speech	83.659	84.829		Luh Lloyd?
+Speech	Speech	85.009	87.319		"That's right, and it's Lloyd dad!"
+Speech	Speech	92.794	95.364		"It's ok Lloyd, nobody's parents are perfect."
+Speech	Speech	95.364	98.304		"eah, but I feel like there's more to Garmadon that I need to know. "
+Speech	Speech	98.789	103.109		"To understand your future, you must go back to your ninja roots. Your dad"
+Speech	Speech	103.784	104.884		was a ninja too.
+Speech	Speech	105.559	106.399		Ha! Oh!
+Speech	Speech	108.984	113.064		"Luh Lloyd, {NS} you hear that? {NS} We've awaken the unstoppable beast!"
+Speech	Speech	114.789	117.629		Meowthra! Aw!
+Speech	Speech	119.029	120.529		ah!
+Speech	Speech	121.644	123.904		Are you ready to risk your life for Ninjago?
+Speech	Speech	123.994	125.194		Ninja go!
+Speech	Speech	139.299	141.799		I haven't felt this good in a long ti- {NS} ah!
+Speech	Speech	143	153.224		"Luh Lloyd are you ok? Yeah yeah I think I think it was my arm. Is is it bad! Is it bad? Whoa! I don't wanna look! Scale of one to ten, how bad is it? Oh I'd say it's about a seven point arm ripped off. "
+Speech	Speech	158.034	159.224		this film is not yet rated.
+Music	Music	0	8.44		"Baby now we got bad blood, so take a look what you've done. Cause baby now we got bad blood, hey."
+Music	Music	35.854	37.9		It must've been love
+Music	Music	45.064	50.714		Whoa oh oh
+Music	Music	53.589	54.529		Doors on 'em
+Music	Music	73.204	76.524		History is ours tonight the people are chanten'.
+Music	Music	87.329	92.889		Cause baby now we got bad blood. Ya know it used to be mad love.
+Music	Music	98.494	103.994		"Hey, now we got problems, and I don't think we can solve 'em."
+Music	Music	127.179	138.609		"Hey ya I wanna go out, I wanna go out. I wanna-na, hey ya I wanna go out. Out of my mind. Hey ya I wanna go out."
+Music	Music	156.004	157.994		Step off of my cloud 

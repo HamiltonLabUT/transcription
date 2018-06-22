@@ -1,35 +1,35 @@
-Speech	JH	14.4	23.06	Alright let me get this straight. A man in a Kabuki mask attacked you with an army of miniature flying robots.
-Speech	JH	23.065	25.06	Eh micro bots. Baymax, tell him.
-Speech	JH	26.607	27.417	Ah!
-Speech	JH	27.877	29.372	Micro bots.
-Speech	JH	29.372	33.312	Yeah. He was controlling them telepathically with a neuro cranial transmitter.
-Speech	JH	35.29	36.33	Come on!
-Speech	JH	36.335	37.455	I am not fast.
-Speech	JH	37.455	39.785	Yeah no kidding. Go go go go!
-Speech	JH	43.21	50.13	So mister Kabuki was using E S P to attack you and balloon man?
-Speech	JH	70.08	71.51	I know it sounds crazy
-Speech	JH	71.51	75.48	Kid, how bout we call your parents and get them down here?
-Speech	JH	75.865	79.925	Write your name and number down on this piece of paper and we can ho?
-Speech	JH	84.79	87.6	We gotta catch that guy. But first
-Speech	JH	90.03	91.65	You're gonna need some upgrades.
-Speech	JH	96.265	97.285	Ah
-Speech	JH	100.07	101.889	Ah, yes
-Speech	JH	103.454	106.574	A lunatic in a mask just tried to kill us.
-Speech	JH	106.579	110.319	How cool is that? I mean it's scary obviously but how cool. Ah!
-Speech	JH	110.864	112.374	Whoa
-Speech	JH	112.374	113.524	What's wrong with you?
-Speech	JH	113.524	115.774	Low battery
-Speech	JH	115.774	116.774	You home, sweetie?
-Speech	JH	116.779	119.58	We jumped out a window
-Speech	JH	119.584	120.034	Sh
-Speech	JH	120.034	122.674	We jumped out a window
-Speech	JH	125.414	126.714	Sh
-Speech	JH	130.064	134.364	Hairy baby. Hairy baby.
-Speech 2	JH	24.897	26.267	Yes, officer.
-Speech 2	JH	75.18	75.86	What?
-Speech 2	JH	118.769	119.629	What was that?
-Music	JH	83.7	88.97	Oh whoa, oh whoa, oh whoa, oh
-Music	JH	93.745	98.97	So light em up up up, light em up up up, light em up up up
-Music	JH	98.97	100.72	I'm on fire
-Music	JH	122.454	126.054	Oh whoa oh whoa oh
-Music	JH	128.439	130.039	In the dark dark
+Speech	Speech	14.4	23.06	Alright let me get this straight. A man in a Kabuki mask attacked you with an army of miniature flying robots.
+Speech	Speech	23.065	25.06	"Eh micro bots. Baymax, tell him."
+Speech	Speech	26.607	27.417	Ah!
+Speech	Speech	27.877	29.372	Micro bots.
+Speech	Speech	29.372	33.312	Yeah. He was controlling them telepathically with a neuro cranial transmitter.
+Speech	Speech	35.29	36.33	Come on!
+Speech	Speech	36.335	37.455	I am not fast.
+Speech	Speech	37.455	39.785	Yeah no kidding. Go go go go!
+Speech	Speech	43.21	50.13	So mister Kabuki was using E S P to attack you and balloon man?
+Speech	Speech	70.08	71.51	I know it sounds crazy
+Speech	Speech	71.51	75.48	"Kid, how bout we call your parents and get them down here?"
+Speech	Speech	75.865	79.925	Write your name and number down on this piece of paper and we can ho?
+Speech	Speech	84.79	87.6	We gotta catch that guy. But first
+Speech	Speech	90.03	91.65	You're gonna need some upgrades.
+Speech	Speech	96.265	97.285	Ah
+Speech	Speech	100.07	101.889	"Ah, yes"
+Speech	Speech	103.454	106.574	A lunatic in a mask just tried to kill us.
+Speech	Speech	106.579	110.319	How cool is that? I mean it's scary obviously but how cool. Ah!
+Speech	Speech	110.864	112.374	Whoa
+Speech	Speech	112.374	113.524	What's wrong with you?
+Speech	Speech	113.524	115.774	Low battery
+Speech	Speech	115.774	116.774	"You home, sweetie?"
+Speech	Speech	116.779	119.58	We jumped out a window
+Speech	Speech	119.584	120.034	Sh
+Speech	Speech	120.034	122.674	We jumped out a window
+Speech	Speech	125.414	126.714	Sh
+Speech	Speech	130.064	134.364	Hairy baby. Hairy baby.
+Speech 2	Speech 2	24.897	26.267	"Yes, officer."
+Speech 2	Speech 2	75.18	75.86	What?
+Speech 2	Speech 2	118.769	119.629	What was that?
+Music	Music	83.7	88.97	"Oh whoa, oh whoa, oh whoa, oh"
+Music	Music	93.745	98.97	"So light em up up up, light em up up up, light em up up up"
+Music	Music	98.97	100.72	I'm on fire
+Music	Music	122.454	126.054	Oh whoa oh whoa oh
+Music	Music	128.439	130.039	In the dark dark

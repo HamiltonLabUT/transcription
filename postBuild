@@ -10,6 +10,7 @@ export CPPFLAGS=-UPHNALG
 #echo $host_cpu
 #export CFLAGS="-m32 -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH=\"$host_cpu\"' $CFLAGS"
 #./configure CC=gcc-3.4 --prefix=$HOME/htk --disable-hslab --disable-hlmtools
+export CC=gcc-3.4
 ./configure --prefix=$HOME/htk --disable-hslab --disable-hlmtools --without-x
 
 make all

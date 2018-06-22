@@ -1,5 +1,6 @@
 #/bin/bash
 
+linux32
 cd htk
 #export CPPFLAGS=-UPHNALG
 #export CFLAGS="-m32 -ansi -D_SVID_SOURCE -DOSS_AUDIO -D'ARCH=\"$host_cpu\"' $CFLAGS"

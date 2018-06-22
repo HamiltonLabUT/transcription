@@ -1,0 +1,82 @@
+Speech 1	JH	3.45	5.98	So Riley, how was the first day of school?
+Speech 1	JH	5.98	7.12	Fine, I guess.
+Speech 1	JH	10.7	11.94	Did you guys pick up on that?
+Speech 1	JH	11.94	13.16	Sure did.
+Speech 1	JH	13.16	13.94	Something's wrong.
+Speech 1	JH	13.94	15.08	Signal the husband.
+Speech 1	JH	15.08	15.94	Ahem.
+Speech 1	JH	18.465	19.835	Uh oh, she's looking at us.
+Speech 1	JH	19.835	20.625	What did she say?
+Speech 1	JH	20.625	22.405	Uh sorry sir, no one was listenin'.
+Speech 1	JH	22.405	25.86	Is it garbage night? Uh, we left the toilet seat up. What is it, woman?! What?!
+Speech 1	JH	29.8	32.474	I'm Joy. This is Sadness. That's Anger.
+Speech 1	JH	32.474	32.954	What?
+Speech 1	JH	32.954	34.044	This is disgust.
+Speech 1	JH	34.274	35.164	And that's Fear.
+Speech 1	JH	35.164	35.914	Ah!
+Speech 1	JH	35.914	37.534	We're Riley's emotions.
+Speech 1	JH	37.534	38.319	Woo hoo!
+Speech 1	JH	38.634	39.934	Yay!
+Speech 1	JH	39.934	42.229	These are Riley's memories.
+Speech 1	JH	42.229	44.299	They're mostly happy, you'll notice, not to brag.
+Speech 1	JH	44.299	46.564	I wanted to maybe hold one.
+Speech 1	JH	46.564	47.669	What happened? Sadness.
+Speech 1	JH	47.669	48.914	She did something to the memory.
+Speech 1	JH	48.914	50.069	Is everything okay?
+Speech 1	JH	50.069	50.909	I don't know.
+Speech 1	JH	50.909	51.814	Change it back, Joy.
+Speech 1	JH	52.269	53.872	Joy, no, wait.
+Speech 1	JH	53.971	55.074	The core memories.
+Speech 1	JH	55.074	55.517	Ah!
+Speech 1	JH	55.576	56.456	No, no no no!
+Speech 1	JH	56.459	59.361	Ah! Whoa! Whoa!
+Speech 1	JH	59.999	61.482	Can I say that curse word now?
+Speech 1	JH	63.273	64.4	Ah!
+Speech 1	JH	64.4	65.608	Ah!
+Speech 1	JH	65.992	66.829	What do we do now?
+Speech 1	JH	66.829	68.593	Nothing's working, why isn't it working?
+Speech 1	JH	69.049	70.283	We have a major problem.
+Speech 1	JH	70.283	71.783	Oh I wish Joy was here.
+Speech 1	JH	71.783	74.447	We can fix this. We just have to get back to headquarters.
+Speech 1	JH	74.447	77.574	That's long term memory. You could get lost in there.
+Speech 1	JH	77.574	78.771	Think positive.
+Speech 1	JH	78.771	82.505	Okay. I'm positive you will get lost in there.
+Speech 1	JH	84.093	85.279	What was that? Was it a bear?
+Speech 1	JH	85.28	87.093	There are no bears in San Francisco.
+Speech 1	JH	87.093	89.077	I saw a really hairy guy. He looked like a bear.
+Speech 1	JH	92.698	94.729	This place is huge.
+Speech 1	JH	94.729	97.654	Imagination land? No way, dream productions?
+Speech 1	JH	97.654	99.278	Rainbow unicorn, she's right there.
+Speech 1	JH	99.278	102.478	I loved you in fairy dream adventure part seven. Okay bye, I love you.
+Speech 1	JH	105.548	109.525	We can't focus on what's going wrong. There's always a way to turn things around.
+Speech 1	JH	114.021	115.027	It's broccoli
+Speech 1	JH	115.028	118.163	Congratulations, San Francisco. You've ruined pizza.
+Speech 1	JH	123.328	125.727	Who's the birthday girl?
+Speech 1	JH	128.672	129.714	Ah!
+Speech 1	JH	129.714	130.83	Brain freeze
+Speech 1	JH	133.451	134.129	Hang on
+Speech 1	JH	134.129	135.361	Woo hoo!
+Speech 1	JH	136.322	136.873	Mm.
+Speech 1	JH	137.324	138.472	Ah!
+Speech 1	JH	138.473	139.753	Er.
+Speech 1	JH	139.754	141.111	Aha, aha.
+Speech 1	JH	142.457	144.283	Riley, here we come.
+Speech 2	JH	12.326	13.06	Totally.
+Speech 2	JH	33.553	34.179	Uh.
+Speech 2	JH	51.574	52.609	I'm trying.
+Speech 2	JH	52.994	53.688	Let go!
+Speech 2	JH	124.605	125.055	Ah!
+Speech 2	JH	130.776	131.84	Ah!
+Speech 2	JH	132.293	133.453	Ah!
+Speech 2	JH	141.703	142.674	Ah!
+Speech 3	JH	11.94	13.16	Mhm.
+Speech 3	JH	131.526	132.38	Oh!
+Music 1	JH	82.501	86.285	I woke up this morning and the sun was gone.
+Music 1	JH	87.085	90.8	Turned on some music to start my day.
+Music 1	JH	90.8	97.799	I closed my eyes, I slipped away.
+Music 1	JH	109.443	113.831	More than a feelin', more than a feelin'
+Music 1	JH	116.393	118.129	More than a feelin'
+Music 1	JH	118.129	121.129	I begin dreamin'
+Music 1	JH	121.575	135.74	Till I see Marianne walk away
+Music 2	JH	113.122	116.62	When I hear that old song they used to play
+Music 2	JH	120.186	122.91	More than a feelin'

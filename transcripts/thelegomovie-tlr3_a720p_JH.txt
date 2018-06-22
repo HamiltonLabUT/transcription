@@ -1,0 +1,61 @@
+Speech 1	JH	6.05	15.82	Good morning, apartment. Ready to start the day. Jumping jacks, hit 'em. One, two, three.
+Speech 1	JH	15.82	17.26	I am so pumped up!
+Speech 1	JH	18.734	20.785	Yes, over priced coffee.
+Speech 1	JH	20.785	22.415	That's thirty seven dollars.
+Speech 1	JH	22.415	23.575	Awesome!
+Speech 1	JH	26.13	27.77	Oh my gosh I love this song.
+Speech 1	JH	31.42	33.32	Ah, no, guys wait up.
+Speech 1	JH	33.325	34.735	Ah ah ah ah
+Speech 1	JH	34.735	36.585	Ah!
+Speech 1	JH	37.195	38.065	Where am I?
+Speech 1	JH	38.065	39.965	Come with me if you wanna not die.
+Speech 1	JH	40.95	42.04	What is happening?
+Speech 1	JH	42.04	47.54	You're the special and the prophecy states that you are the most important person in the universe.
+Speech 1	JH	47.545	49.1	That's you, right?
+Speech 1	JH	49.1	52.55	Uh, yes. That's me.
+Speech 1	JH	53.14	54.66	Relax everybody, I'm here.
+Speech 1	JH	54.665	56.805	Batman? Awesome!
+Speech 1	JH	57.04	58.41	Who are you here to see?
+Speech 1	JH	58.41	60.12	I'm here to see your butt.
+Speech 1	JH	60.121	61.406	Oh my gosh.
+Speech 1	JH	61.874	63.537	Pow! Wham!
+Speech 1	JH	65.057	66.399	First try
+Speech 1	JH	66.859	68.64	My fellow master builders.
+Speech 1	JH	68.64	69.158	Hello!
+Speech 1	JH	69.158	73.022	Lord Business plans to end the world as we know it.
+Speech 1	JH	73.022	75.959	There is yet one hope. The special has arisen.
+Speech 1	JH	75.959	80.636	I know what you're thinking. He is the least qualified person to lead us.
+Speech 1	JH	80.832	82.295	And you are right.
+Speech 1	JH	83.252	87.224	A house divided against itself, would be better than this!
+Speech 1	JH	88.073	89.155	Abraham Lincoln!
+Speech 1	JH	89.962	92.851	I'm not the special. I'm just a regular, normal guy.
+Speech 1	JH	92.851	95.821	You have the ability to be the special, because I believe in you.
+Speech 1	JH	96.449	97.995	Ah!
+Speech 1	JH	98.704	100.201	Ah!
+Speech 1	JH	100.541	102.855	Robots, destroy him.
+Speech 1	JH	104.179	106.061	Aloha, loser.
+Speech 1	JH	107.713	109.14	We'll wing it.
+Speech 1	JH	109.585	110.981	It's a bat pun.
+Speech 1	JH	111.503	113.418	Take 'em to the melding chamber.
+Speech 1	JH	113.418	115.368	Isn't there supposed to also be a good cop?
+Speech 1	JH	115.368	117.584	Hi buddy. Would you like a glass of water?
+Speech 1	JH	117.584	118.489	Yeah, actually.
+Speech 1	JH	118.489	119.307	Too bad.
+Speech 1	JH	119.723	121.754	We are entering your mind.
+Speech 1	JH	121.754	122.251	What?
+Speech 1	JH	122.251	123.997	I don't think he's ever had an original thought.
+Speech 1	JH	123.999	127.176	That's not true. Introducing the double decker couch
+Speech 1	JH	127.177	129.94	So everyone can watch T V together and be buddies
+Speech 1	JH	130.363	132.56	That is literally the dumbest thing I've ever heard.
+Speech 1	JH	132.56	136.499	Let me handle this. That idea is just the worst.
+Speech 1	JH	138.75	140.153	To the bat mobile.
+Speech 1	JH	141.332	142.226	Dang it.
+Speech 1	JH	142.226	143.554	To the invisible jet.
+Speech 1	JH	145.215	145.892	Dang it.
+Music 1	JH	23.55	25.91	Everything is awesome
+Music 1	JH	26.525	32.245	Everything is cool when your'e part of a team. Everything is awesome
+Music 1	JH	96.007	99.628	Whoa
+Music 1	JH	99.781	103.289	I just wanna feel this moment.
+Music 1	JH	103.463	106.292	Whoa
+Music 1	JH	106.292	109.467	I I I just wanna feel this
+Music 1	JH	145.954	147.59	Feel this moment.

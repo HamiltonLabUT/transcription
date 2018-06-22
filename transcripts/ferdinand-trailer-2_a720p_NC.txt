@@ -1,0 +1,96 @@
+speech		4.7	5.89	{NS}
+speech		5.89	7.3	People think they gotcha all figured out.
+speech		7.3	9.1	{NS}
+speech		9.11	10.3	Based on how you look,
+speech		12.3	13.3	but it's not that simple.
+speech		14.005	15.0	ah!
+speech		15.595	16.9	 Especially when it comes to me.
+speech		17.45	21.04	Uh. ah!
+speech		24.11	25.0	Dah! Uh! {NS}
+speech		25.01	26.4	Sorry I almost killed you! 
+speech		26.42	26.9	{NS}
+speech		26.915	27.345	ow
+speech		28.81	29.91	Who's my good boy?
+speech		30.505	31.7	I had the perfect life.
+speech		33.71	34.4	{LG}
+speech		34.615	35.295	Until one day,
+speech		35.95	36.79	all yours little guy.
+speech		37.205	38.115	Everything changed.
+speech		38.365	41.0	ah!
+speech		41.09	42.3	There's been a mistake!
+speech		43.22	43.8	Nina!
+speech		43.915	44.605	Ferdinand!
+speech		45.995	46.985	Now I know when you look at me
+speech		46.985	48.015	you think big!
+speech		48.015	48.99	You're ginormous!
+speech		48.99	51.0	I can't wait to show you to the rest of the guys!
+speech		51.01	52.8	They're gonna fertilize the yard!
+speech		52.805	53.795	{NS}
+speech		54.81	55.19	 Who are you?
+speech		55.19	56.29	I'm Una
+speech		56.295	56.99	I'm Dos
+speech		56.99	57.985	and I'm Cuatro
+speech		57.985	59.1	What happened to Tres
+speech		59.7	60.99	We do not speak of tres.
+speech		62.217	63.407	You think someone who can fight.
+speech		63.407	65.0	I am here to select a bull
+speech		65.007	66.0	I'll take that one
+speech		66.007	67.7	Sucks to be you!
+speech		67.702	69.512	I am not a fighting bull.
+speech		69.7	70.99	Can you guys help me out?
+speech		70.99	73.1	This is the beautiful horsey side
+speech		73.1	75.0	and that is the stinky bull side
+speech		75.0	77.43	Have a nice day smelling terrible!
+speech		77.43	78.0	High hoof Klaus,
+speech		78.0	79.0	high hoof Greta.
+speech		81.7	82.62	Nina needs me.
+speech		82.895	83.995	I'm gettin' out of this place
+speech		83.995	85.705	and I'm not leaving anyone behind.
+speech		85.705	87.2	Best plan ever!
+speech		87.2	88.85	Just do exactly what we do.
+speech		89.222	96.692	Eh. hm. Eh. Huh. Eh eh eh eh. Mm. Mm. Uh.
+speech		97.002	99.0	Maybe don't do exactly as we do.
+speech		99.627	100.397	Everybody in!
+speech		100.707	100.987	hit it
+speech		100.987	102.017	Wait for me!
+speech		103.4	105.8	I've been waitin' for this my whole flea bitten life!
+speech		117.509	118.9	We got company!
+speech		123.399	125.0	It's a straight shot through there.
+speech		125.004	126.014	Have you seen these hips?
+speech		126.59	128.199	Ch Get your hoof, out of my
+speech		135.2	136.7	They're coming we gotta do something guys
+speech		143.39	144.99	Look at the cute squirrels!
+speech		144.995	145.515	What?!
+speech		146.0	146.4	ah!
+speech		146.405	147.405	hedgehogs
+speech 2		19.42	20.7	 I'm a little more, 
+speech 2		22.5	23.59	complex
+speech 2		52.805	53.805	((big)) Scary.
+speech 2		69.5	70.52	{LG}
+speech 2		77.42	80.0	{LG}
+speech 2		126.579	127.699	squeeze it, squeeze it
+music		53.7	54.82	 I was younger then.
+music		60.995	62.175	I
+music		62.5	63.99	found my heart and (())
+music		80.0	82.89	And I've not seen the roaring fields
+music		83.43	85.83	in so long I know I've grown. I'm on my way driving at ninety and I miss the way you make me feel, and it's real. We watched the sunset over the castle on the hill. Castle on the hill.    Min so long I know I've grown. 
+music		102.35	104.3	I'm on my way
+music		105.99	108.4	driving at ninety
+music		108.47	111.9	and I miss the way
+music		111.9	112.8	you make
+music		113.495	114.365	 me feel
+music		115.3	116.2	and it's real
+music		116.31	116.69	we
+music		117.005	117.9	watched the
+music		117.907	119.007	sunset
+music		119.801	121.8	over the 
+music		121.812	123.402	castle on the hill.
+music		133.485	135.205	castle on the hill.
+music		137.005	138.5	One, two, three, four
+music		138.515	140.315	uno, doh, tre, cuatro.
+music		141.0	141.8	want me
+music		141.815	143.405	You know I wantcha,
+music		143.415	143.82	wantcha.
+music		143.82	145.52	I know you want me.  
+music		147.4	149.59	{NS}
+music 2		139.9	141.01	I know you want me,

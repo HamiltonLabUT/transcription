@@ -1,0 +1,58 @@
+Speech	JH	22.085	25.205	Yup, that's me. I'm ferdinand
+Speech	JH	28.74	30.85	Ferdinand is like uh very big
+Speech	JH	30.85	33.58	Holy beefaroni you're ginormous
+Speech	JH	33.58	34.6	More of me to love
+Speech	JH	34.6	36.7	Very strong. You ready to put those wings to work?
+Speech	JH	36.705	37.575	Launch
+Speech	JH	38.265	38.705	Oh no
+Speech	JH	38.705	41.055	You shot Maria into the sun
+Speech	JH	41.055	41.685	Sorry
+Speech	JH	41.685	42.615	Family pet
+Speech	JH	44.675	46.165	Who's my good boy?
+Speech	JH	46.165	47.825	Hey I thought I was the good boy
+Speech	JH	49.27	52.38	But the world sees Ferdinand as one thing, a fighter
+Speech	JH	52.38	59.11	I am here to select a bull, my hands are my instruments, as are my arms, legs, chest, and buttocks.
+Speech	JH	59.11	62.01	Uh nope! I'll pass thanks! You guys go ahead!
+Speech	JH	62.015	63.99	I know exactly how Ferdinand feels.
+Speech	JH	63.99	65.9	Let's go out there and give it a hundred and ten percent!
+Speech	JH	65.9	68.44	Woo hoo, mash 'em in the head
+Speech	JH	68.445	70.475	Actually, I'm gonna pass on the violence
+Speech	JH	73.595	75.005	This is unfair.
+Speech	JH	76.735	78.89	You finally ready to fight? Come on!
+Speech	JH	78.89	81.23	I am not a fighting bull
+Speech	JH	81.23	84.33	The movie sends a message that resonates very strongly with me
+Speech	JH	84.955	87.185	Don't judge a bull by its cover
+Speech	JH	88.99	92.63	There are places out there where you don't get pushed around for being yourself
+Speech	JH	92.635	95.385	Hedge for one and hog for all
+Speech	JH	96.92	98.98	Everybody in. Wait for me
+Speech	JH	103.205	106.495	From the creators of Ice Age and Rio
+Speech	JH	111.515	112.795	Epic
+Speech	JH	114.565	116.49	I'm gettin' out of this place
+Speech	JH	116.49	120.54	Oh whoa
+Speech	JH	121.24	124.46	Can you just try to be a little more quiet?
+Speech	JH	127.415	128.845	Eh, sh.
+Speech	JH	131.225	132.4	Ferdinand
+Speech	JH	132.4	135.73	The door to freedom. Just do exactly what we do.
+Speech	JH	136.325	143.74	Eh. hm. Eh. Huh. Eh eh eh eh. Mm. Mm. Uh.
+Speech	JH	143.74	145.68	Maybe don't do exactly as we do
+Music	JH	6.16	10.73	Baby, ow. Da da da da
+Music	JH	11.74	13.15	Watch me
+Music	JH	16.01	17.05	Watch me
+Music	JH	17.865	19.935	Come on, watch me watch me
+Music	JH	25.4	29.93	More hooks than a coat rack. Yeah. Why why would I hold back? Yeah.
+Music	JH	29.93	31.34	Click tight like a Kodak
+Music	JH	31.34	33.56	Just try and stop me, try and stop me, ooh.
+Music	JH	35.45	37.28	I'm on a new trip
+Music	JH	43.205	45.545	A rocket to the moon ship
+Music	JH	86.825	90.825	Now I won't let go
+Music	JH	96.195	100.5	'Cause I'm happy to call this home
+Music	JH	100.5	101.83	No more runnin'
+Music	JH	102.27	104.37	Inside this island
+Music	JH	104.375	109.385	Don't care who knows. happy to call this home
+Music	JH	111.89	113.89	I'm good knowin'
+Music	JH	130.595	133.785	Oh, no more runnin'
+Music	JH	134.295	136.825	I'm good knowin', I'm good knowin'
+Music	JH	146.715	149.6	Home, oh way oh
+Speech 2	JH	79.765	81.325	Whoa, oh
+Speech 2	JH	94.645	96.775	Ah! Oh, don't leave me hangin'
+Speech 2	JH	116.755	120.405	He's coming down, he's coming down. Run!

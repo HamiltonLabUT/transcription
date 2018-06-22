@@ -1,0 +1,19 @@
+Speech	JH	6.92	8.77	How we doin with those flyers miss crawl
+Speech	JH	8.77	10.87	All good to go here
+Speech	JH	23.255	28.155	bye gail bye rory bye mickey bye moe bye nelson bye hannah bye tess bye bye casper
+Speech	JH	28.43	29.2	Phew
+Speech	JH	31.21	33.27	Hey hey hey, what do ya think ya
+Speech	JH	34.785	36.795	A singing competition
+Speech	JH	36.795	41.57	just think your neighbor the the grocery store manager that that that chicken right there
+Speech	JH	41.57	46.93	Everyone in this city gets a shot at being a star live on my stage
+Speech	JH	80.07	81.37	you okay?
+Speech	JH	81.375	84.615	Oh Yes I'm fine thank you. How are you
+Music	JH	11.38	19.39	Whoa caught in a bad romance
+Music	JH	19.39	27.69	Whoa caught in a bad romance
+Music	JH	46.92	54.97	rah rah ah ah ah ro ma ra ma ma gah gah ooh la la want your bad romance
+Music	JH	54.97	59.34	come my lady come come my lady you're my butterfly sugar baby
+Music	JH	59.34	64.76	baby if i compare you to a kiss from a rose
+Music	JH	64.76	70.9	Oh my gosh, look at her butt, oh my gosh look at her
+Music	JH	70.9	74.789	ride like the wheel ride like the
+Music	JH	78.71	79.84	Burnin' like there's wah
+Music	JH	84.6	89.74	Sing oh oh oh oh oh oh oh oh oh oh oh oh oh Sing

@@ -1,0 +1,72 @@
+Speech	Speech	7.6	10.69	The Templetons  were making plans for their newest addition
+Speech	Speech	11.185	11.785	What the
+Speech	Speech	11.88	12.45	Tim
+Speech	Speech	12.69	16.69	Meet your new brother.
+Speech	Speech	17.98	19.39	has other plans.
+Speech	Speech	19.49	21.64	We babies are having a crisis.
+Speech	Speech	21.69	26.4	Babies aren't getting as much love as we use to behold our mortal enemy,
+Speech	Speech	26.698	27.478	Puppies!
+Speech	Speech	27.493	30.263	Aw! No! That's exactly the problem
+Speech	Speech	31.493	32.813	Have you learned anything?
+Speech	Speech	32.838	34.598	A B C D.
+Speech	Speech	34.608	37.008	No, what have you learned about puppies?
+Speech	Speech	37.013	38.013	Yay, puppy!
+Speech	Speech	38.034	41.374	No Jimbo, puppies are evil! Stacy read back the notes.
+Speech	Speech	41.389	42.079	I can't read.
+Speech	Speech	42.589	43.329	What's it say?
+Speech	Speech	45.364	46.524	Boss, parents!
+Speech	Speech	46.686	49.386	Aw, it's like they're having their own little meeting.
+Speech	Speech	50.671	51.561	Who wants dessert?
+Speech	Speech	51.716	53.116	This is so humiliating.
+Speech	Speech	54.001	55.401	You got the right baby for this job 
+Speech	Speech	55.406	57.476	I know how important this mission is to the company
+Speech	Speech	57.586	58.336	Mission?
+Speech	Speech	58.456	59.096	You can talk!
+Speech	Speech	59.096	60.056	Ah! Poop duty!
+Speech	Speech	60.111	61.281	Ah!
+Speech	Speech	61.281	62.681	I've gotta deal with the K I D
+Speech	Speech	63.396	64.706	Who are you?
+Speech	Speech	64.796	65.716	I'm on a mission
+Speech	Speech	65.721	67.481	There's not enough love to go around.
+Speech	Speech	67.486	69.016	My job is to find out why. 
+Speech	Speech	69.096	75.386	Now get me a double espresso and see if there's some place around here with decent sushi I'd kill for a spicy tuna roll right about now
+Speech	Speech	76.506	78.436	Mom, dad! The baby can talk!
+Speech	Speech	79.386	80.706	This is war.
+Speech	Speech	81.601	82.931	No.
+Speech	Speech	83.681	84.901	Ah ha ha ha.
+Speech	Speech	85.456	86.236	Oh yeah!
+Speech	Speech	86.951	88.211	Let go you little!
+Speech	Speech	88.316	91.056	Look the kids are finally getting along. That's nice.
+Speech	Speech	92.191	95.901	If I don't succeed with this mission I will live here forever with you 
+Speech	Speech	95.991	97.201	Okay, I will help you.
+Speech	Speech	97.481	98.921	But just to get rid of you.
+Speech	Speech	99.086	99.636	Deal.
+Speech	Speech	100.886	102.191	Here comes the choo choo train!
+Speech	Speech	102.191	103.071	No, no!
+Speech	Speech	103.076	104.096	They're watching.
+Speech	Speech	104.381	105.181	Choo choo
+Speech	Speech	106.686	107.656	Okay
+Speech	Speech	108.636	109.626	Choo choo on that
+Speech	Speech	109.706	110.496	Mm
+Speech	Speech	111.006	112.506	How do we get passed the guard?
+Speech	Speech	112.901	115.521	I've never been so humiliated in all my life!
+Speech	Speech	116.376	116.996	Oh ah
+Speech	Speech	122.841	124.331	Ah!
+Speech	Speech	126.791	128.576	I don't wear nautical!
+Speech	Speech	128.576	129.651	You're putting this thing on!
+Speech	Speech	129.651	130.411	What have you done to me?
+Speech	Speech	130.996	132.126	What's all the racket?
+Speech	Speech	132.286	133.506	Isn't he adorable?
+Speech	Speech	133.601	136.021	Oh! I've got one for you too!
+Speech	Speech	136.096	136.576	What?!
+Speech	Speech	137.101	137.701	Bummer!
+Speech	Speech	138.796	140.696	Dream works. The boss baby.
+Speech	Speech	140.811	143.311	Put that cookie down!
+Speech	Speech	143.686	145.596	Cookies are for closers.
+Music	Music	30.38	42.18	Welcome to my house baby take control now we can even slow down we don't have to go out welcome to my house
+Music	Music	117.29	130.1	we run this we run this we run this we run this oh oh oh. No matter where ya from its where ya at and if you can a freak a leek betta bring ya hat fool east coast west coast down south represent ya coast
+Music	Music	138.5	140.83	Aw we run this we run this
+Music	Music	147.3	147.77	Oh
+Speech 2	Speech 2	8.2	8.68	{LG}
+Speech 2	Speech 2	16.605	17.535	But this baby,
+Speech 2	Speech 2	49.591	51.491	{LG}

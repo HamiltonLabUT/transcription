@@ -32,7 +32,7 @@ speech	speech	40.3	41.3	"I'll watch the kids, "
 speech	speech	41.305	42	no problem.
 speech	speech	42	43.59	{NS}
 speech	speech	43.59	44.3	That's .
-speech	speech	44.3	46.5	not the way you're supposed to do it dadM
+speech	speech	44.3	46.5	not the way you're supposed to do it dad
 speech	speech	46.7	48.68	They want us to do it this way. 
 speech	speech	51.31	53.06	Uh it's okay dad.
 speech	speech	53.063	53.843	{NS}

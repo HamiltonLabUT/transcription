@@ -1,62 +1,62 @@
-Speech	Speech	7.49	9.87		You're gonna be a Werth academy graduate!
-Speech	Speech	10.105	11.305		"Because I've designed a plan,"
-Speech	Speech	11.88	13.13		Your life plan.
-Speech	Speech	13.27	17.64		"The hour of the day, the day of the week, the week of the month, the month of the year, the year of your life!"
-Speech	Speech	17.65	18.07		Wow.
-Speech	Speech	21.605	23.695		We're not leaving anything to chance.
-Speech	Speech	25.405	27.235		Oh here I am uh up here!
-Speech	Speech	29.405	31.605		You are going to make a wonderful grown up.
-Speech	Speech	32.8	33.6		Thank you mom.
-Speech	Speech	37.295	39.555		I just wanted to give your drawing back.
-Speech	Speech	39.81	40.69		You didn't like it?
-Speech	Speech	40.89	41.91		"No, I did!"
-Speech	Speech	42.495	48.595		Once upon a time there was a little prince who lived on a planet that was scarcely bigger than himself.
-Speech	Speech	51.67	54.89		I thought I'd never find anyone who wanted to hear my story.
-Speech	Speech	56.695	58.405		If you please draw me a sheep.
-Speech	Speech	62.095	66.395		"What was a kid doing there in the desert, there was no mention of life on any other planets."
-Speech	Speech	66.61	69.3		"An asteroid, asteroid B six one two."
-Speech	Speech	71.49	72.01		Wow.
-Speech	Speech	72.205	73.205		"And the little prince,"
-Speech	Speech	74.62	76.58		he was very fond of sunsets.
-Speech	Speech	77.875	78.525		Wow.
-Speech	Speech	79.195	81.695		{LG}
-Speech	Speech	81.87	83.04		Did you finish your study work?
-Speech	Speech	83.05	85.03		Not exactly.
-Speech	Speech	85.055	86.045		I made a friend.
-Speech	Speech	86.065	89.695		"If you study hard, and you stay completely on track with the plan."
-Speech	Speech	90.305	92.085		You can spend some time with your new friend.
-Speech	Speech	92.6	93.22		Next summer.
-Speech	Speech	94.295	95.145		"Look at that,"
-Speech	Speech	95.315	96.705		the stars are out.
-Speech	Speech	99.785	101.415		"Hey, come and play with me."
-Speech	Speech	101.785	102.765		"I cannot play with you,"
-Speech	Speech	103.3	104.2		I'm not tamed.
-Speech	Speech	106.295	107.125		"But if you tame  me,"
-Speech	Speech	107.45	108.43		((Woo a fighter))
-Speech	Speech	108.43	109.42		we shall need each other
-Speech	Speech	109.505	110.445		Wah!
-Speech	Speech	110.605	111.325		{LG}
-Speech	Speech	111.335	113.735		To me you will be unique in all the world.
-Speech	Speech	115.785	118.465		What is essential is invisible to the eye.
-Speech	Speech	118.885	119.855		{LG}
-Speech	Speech	122.1	124.62		"When the moment does come for me to leave,"
-Speech	Speech	125	126.25		I have to go alone.
-Speech	Speech	129.495	131.155		Do you know how to fly a plane?
-Speech	Speech	131.795	132.525		Buckle up!
-Speech	Speech	134.49	136.34		Woo hoo!
-Speech	Speech	140.305	142.305		I'm not so sure I wanna grow up anymore
-Speech	Speech	142.69	145.88		"Growing up is not the problem, forgetting is. "
-Speech	Speech	148.995	151.815		You're gonna make a wonderful grown up.
-Music	Music	69.57	71.8		You are the avalan
-Music	Music	73.106	74.916		One world away
-Music	Music	76.581	79.001		I'm make believin'
-Music	Music	80.005	82.065		While I'm wide away
-Music	Music	83.69	85.63		Just a trick of light
-Music	Music	96.86	100.52		Oh.
-Music	Music	104.3	109.8		"My, my."
-Music	Music	112.685	117.405		Oh whoa.
-Music	Music	119.772	124.266		Oh whoa.
-Music	Music	127.003	132.696		Oh.
-Music	Music	144.841	146.415		Oh.
-Music	Music	152.186	155.813		"My, my."
-Speech 2	Speech 2	109.775	110.135		Woo!
+Speech	Speech	7.49	9.87	You're gonna be a Werth academy graduate!
+Speech	Speech	10.105	11.305	"Because I've designed a plan,"
+Speech	Speech	11.88	13.13	Your life plan.
+Speech	Speech	13.27	17.64	"The hour of the day, the day of the week, the week of the month, the month of the year, the year of your life!"
+Speech	Speech	17.65	18.07	Wow.
+Speech	Speech	21.605	23.695	We're not leaving anything to chance.
+Speech	Speech	25.405	27.235	Oh here I am uh up here!
+Speech	Speech	29.405	31.605	You are going to make a wonderful grown up.
+Speech	Speech	32.8	33.6	Thank you mom.
+Speech	Speech	37.295	39.555	I just wanted to give your drawing back.
+Speech	Speech	39.81	40.69	You didn't like it?
+Speech	Speech	40.89	41.91	"No, I did!"
+Speech	Speech	42.495	48.595	Once upon a time there was a little prince who lived on a planet that was scarcely bigger than himself.
+Speech	Speech	51.67	54.89	I thought I'd never find anyone who wanted to hear my story.
+Speech	Speech	56.695	58.405	If you please draw me a sheep.
+Speech	Speech	62.095	66.395	"What was a kid doing there in the desert, there was no mention of life on any other planets."
+Speech	Speech	66.61	69.3	"An asteroid, asteroid B six one two."
+Speech	Speech	71.49	72.01	Wow.
+Speech	Speech	72.205	73.205	"And the little prince,"
+Speech	Speech	74.62	76.58	he was very fond of sunsets.
+Speech	Speech	77.875	78.525	Wow.
+Speech	Speech	79.195	81.695	{LG}
+Speech	Speech	81.87	83.04	Did you finish your study work?
+Speech	Speech	83.05	85.03	Not exactly.
+Speech	Speech	85.055	86.045	I made a friend.
+Speech	Speech	86.065	89.695	"If you study hard, and you stay completely on track with the plan."
+Speech	Speech	90.305	92.085	You can spend some time with your new friend.
+Speech	Speech	92.6	93.22	Next summer.
+Speech	Speech	94.295	95.145	"Look at that,"
+Speech	Speech	95.315	96.705	the stars are out.
+Speech	Speech	99.785	101.415	"Hey, come and play with me."
+Speech	Speech	101.785	102.765	"I cannot play with you,"
+Speech	Speech	103.3	104.2	I'm not tamed.
+Speech	Speech	106.295	107.125	"But if you tame  me,"
+Speech	Speech	107.45	108.43	((Woo a fighter))
+Speech	Speech	108.43	109.42	we shall need each other
+Speech	Speech	109.505	110.445	Wah!
+Speech	Speech	110.605	111.325	{LG}
+Speech	Speech	111.335	113.735	To me you will be unique in all the world.
+Speech	Speech	115.785	118.465	What is essential is invisible to the eye.
+Speech	Speech	118.885	119.855	{LG}
+Speech	Speech	122.1	124.62	"When the moment does come for me to leave,"
+Speech	Speech	125	126.25	I have to go alone.
+Speech	Speech	129.495	131.155	Do you know how to fly a plane?
+Speech	Speech	131.795	132.525	Buckle up!
+Speech	Speech	134.49	136.34	Woo hoo!
+Speech	Speech	140.305	142.305	I'm not so sure I wanna grow up anymore
+Speech	Speech	142.69	145.88	"Growing up is not the problem, forgetting is. "
+Speech	Speech	148.995	151.815	You're gonna make a wonderful grown up.
+Music	Music	69.57	71.8	You are the avalan
+Music	Music	73.106	74.916	One world away
+Music	Music	76.581	79.001	I'm make believin'
+Music	Music	80.005	82.065	While I'm wide away
+Music	Music	83.69	85.63	Just a trick of light
+Music	Music	96.86	100.52	Oh.
+Music	Music	104.3	109.8	"My, my."
+Music	Music	112.685	117.405	Oh whoa.
+Music	Music	119.772	124.266	Oh whoa.
+Music	Music	127.003	132.696	Oh.
+Music	Music	144.841	146.415	Oh.
+Music	Music	152.186	155.813	"My, my."
+Speech 2	Speech 2	109.775	110.135	Woo!
